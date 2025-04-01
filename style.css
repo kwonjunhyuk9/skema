@@ -1,0 +1,40 @@
+h2 {
+    background-color: gray;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: lightskyblue;
+    opacity: 0.8;
+    width: 100%;
+}
+
+main {
+
+    #education {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    #education > :first-child {
+        grid-column: 1 / -1;
+    }
+
+    #showcase {
+        padding-bottom: 5rem;
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: lightskyblue;
+    opacity: 0.8;
+    width: 100%;
+}
