@@ -6,35 +6,47 @@ img {
     max-width: 100%;
 }
 
+body {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
+}
+
 header {
+    grid-area: header;
     position: sticky;
     top: 0;
     background-color: lightskyblue;
     opacity: 0.8;
     width: 100%;
 }
-
 main {
+    grid-area: main;
+}
 
-    #education {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-    }
-
-    #education > :first-child {
-        grid-column: 1 / -1;
-    }
-
-    #showcase {
-        padding-bottom: 5rem;
+aside {
+    grid-area: aside;
+    width: 7rem;
+    & a {
+        display: block;
     }
 }
 
 footer {
-    position: fixed;
+    grid-area: footer;
+    position: sticky;
     bottom: 0;
     background-color: lightskyblue;
     opacity: 0.8;
     width: 100%;
+
+    & img {
+        max-height: 2rem;
+        width: auto;
+        margin: 0.5rem;
+    }
 }
