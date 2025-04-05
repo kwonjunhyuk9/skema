@@ -1,11 +1,9 @@
 h2 {
     background-color: gray;
 }
-
 img {
     max-width: 100%;
 }
-
 body {
     display: grid;
     grid-template-columns: 10rem 1fr;
@@ -15,7 +13,6 @@ body {
         "aside main"
         "footer footer";
 }
-
 header {
     grid-area: header;
     position: sticky;
@@ -26,8 +23,13 @@ header {
 }
 main {
     grid-area: main;
+    & #article-container {
+        & article {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 }
-
 aside {
     grid-area: aside;
     width: 7rem;
@@ -35,7 +37,6 @@ aside {
         display: block;
     }
 }
-
 footer {
     grid-area: footer;
     position: sticky;
