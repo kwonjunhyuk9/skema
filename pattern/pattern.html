@@ -1,22 +1,139 @@
 <div id="article-container">
-    <h2>Audio</h2>
-    <article></article>
+    <h2>링크</h2>
+    <article>
+        <section></section>
+        <code>
+            &lt;a href="https://www.mozilla.org/en-US/"&gt;the Mozilla homepage&lt;/a&gt;&lt;br&gt;<br>
+            &lt;a href="https://www.mozilla.org/en-US/" title="The best place to find more information about Mozilla's mission and how to contribute"&gt;the Mozilla homepage&lt;/a&gt;&lt;br&gt;<br>
+            &lt;a href="https://www.mozilla.org/en-US/" target="_blank"&gt;Mozilla Foundation&lt;/a&gt;&lt;br&gt;<br>
+            &lt;a href="mailto:nowhere@mozilla.org"&gt;Send email to nowhere&lt;/a&gt;&lt;br&gt;<br>
+            &lt;p&gt; I'm creating a link to &lt;a href="https://www.mozilla.org/en-US/"&gt;the Mozilla homepage&lt;/a&gt;. &lt;/p&gt;&lt;br&gt;<br>
+            &lt;a href="https://developer.mozilla.org/en-US/"&gt; &lt;h1&gt;MDN Web Docs&lt;/h1&gt; &lt;/a&gt;&lt;br&gt;<br>
+            &lt;a href="https://developer.mozilla.org/en-US/"&gt; &lt;img src="mdn_logo.svg" alt="MDN Web Docs" /&gt; &lt;/a&gt;
+        </code>
+    </article>
 
-    <h2>Video</h2>
-    <article></article>
+    <h2>리스트</h2>
+    <h3>순서없는 리스트</h3>
+    <article>
+        <section>
+            <ul>
+                <li>milk</li>
+                <li>eggs</li>
+                <li>bread</li>
+                <li>hummus</li>
+            </ul>
+        </section>
+        <code>
+            &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;milk&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;eggs&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;bread&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;hummus&lt;/li&gt;<br>
+            &lt;/ul&gt;
+        </code>
+    </article>
+    <h3>순서있는 리스트</h3>
+    <article>
+        <section>
+            <ol>
+                <li>Drive to the end of the road</li>
+                <li>Turn right</li>
+                <li>Go straight across the first two roundabouts</li>
+                <li>Turn left at the third roundabout</li>
+                <li>The school is on your right</li>
+            </ol>
+        </section>
+        <code>
+            &lt;ol&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Drive to the end of the road&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Turn right&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Go straight across the first two roundabouts&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Turn left at the third roundabout&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;The school is on your right&lt;/li&gt;<br>
+            &lt;/ol&gt;
+        </code>
+    </article>
+    <h3>설명 리스트</h3>
+    <article>
+        <section>
+            <dl>
+                <dt>soliloquy</dt>
+                <dd> In drama, where a character speaks to themselves. </dd>
+                <dt>monologue</dt>
+                <dd> In drama, where a character speaks their thoughts out loud. </dd>
+                <dt>aside</dt>
+                <dd> In drama, where a character shares a comment only with the audience. </dd>
+            </dl>
+        </section>
+        <code>
+            &lt;dl&gt;<br>
+            &nbsp;&nbsp;&lt;dt&gt;soliloquy&lt;/dt&gt;<br>
+            &nbsp;&nbsp;&lt;dd&gt; In drama, where a character speaks to themselves. &lt;/dd&gt;<br>
+            &nbsp;&nbsp;&lt;dt&gt;monologue&lt;/dt&gt;<br>
+            &nbsp;&nbsp;&lt;dd&gt; In drama, where a character speaks their thoughts out loud. &lt;/dd&gt;<br>
+            &nbsp;&nbsp;&lt;dt&gt;aside&lt;/dt&gt;<br>
+            &nbsp;&nbsp;&lt;dd&gt; In drama, where a character shares a comment only with the audience. &lt;/dd&gt;<br>
+            &lt;/dl&gt;
+        </code>
+    </article>
 
-    <h2>2D Graphics</h2>
+    <h2>테이블</h2>
+    <article>
+        <section></section>
+        <code></code>
+    </article>
+
+    <h2>이미지</h2>
+    <article>
+        <section></section>
+        <code>
+            &lt;img <br>
+            &nbsp;&nbsp;src="images/dinosaur.jpg" <br>
+            &nbsp;&nbsp;alt="The head and torso of a dinosaur skeleton" <br>
+            &nbsp;&nbsp;width="400" <br>
+            &nbsp;&nbsp;height="341" <br>
+            &nbsp;&nbsp;title="A T-Rex on display in the Manchester University Museum" <br>
+            /&gt;
+        </code>
+    </article>
+
+    <h2>오디오</h2>
+    <article>
+        <section></section>
+        <code>
+            &lt;audio controls&gt;<br>
+            &nbsp;&nbsp;&lt;source src="viper.mp3" type="audio/mp3" /&gt;<br>
+            &nbsp;&nbsp;&lt;source src="viper.ogg" type="audio/ogg" /&gt;<br>
+            &nbsp;&nbsp;&lt;p&gt;Your browser doesn't support this audio file.&lt;/p&gt;<br>
+            &lt;/audio&gt;
+        </code>
+    </article>
+
+    <h2>비디오</h2>
+    <article>
+        <section></section>
+        <code>
+            &lt;video controls&gt;<br>
+            &nbsp;&nbsp;&lt;source src="rabbit320.mp4" type="video/mp4" /&gt;<br>
+            &nbsp;&nbsp;&lt;source src="rabbit320.webm" type="video/webm" /&gt;<br>
+            &nbsp;&nbsp;&lt;p&gt; Your browser doesn't support this video. &lt;/p&gt;<br>
+            &lt;/video&gt;
+        </code>
+    </article>
+
+    <h2>2D 그래픽</h2>
     <article>
         <h3>Canvas API</h3>
     </article>
 
-    <h2>3D Graphics</h2>
+    <h2>3D 그래픽</h2>
     <article>
         <h3>Web GL API</h3>
         <h3>Three.js</h3>
     </article>
 
-    <h2>Form</h2>
+    <h2>폼</h2>
     <article>
         <h3>Forms</h3>
         <p>https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form</p>
