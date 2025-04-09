@@ -4,12 +4,15 @@
         <section></section>
         <code>
             &lt;a href="https://www.mozilla.org/en-US/"&gt;the Mozilla homepage&lt;/a&gt;&lt;br&gt;<br>
-            &lt;a href="https://www.mozilla.org/en-US/" title="The best place to find more information about Mozilla's mission and how to contribute"&gt;the Mozilla homepage&lt;/a&gt;&lt;br&gt;<br>
+            &lt;a href="https://www.mozilla.org/en-US/" title="The best place to find more information about Mozilla's
+            mission and how to contribute"&gt;the Mozilla homepage&lt;/a&gt;&lt;br&gt;<br>
             &lt;a href="https://www.mozilla.org/en-US/" target="_blank"&gt;Mozilla Foundation&lt;/a&gt;&lt;br&gt;<br>
             &lt;a href="mailto:nowhere@mozilla.org"&gt;Send email to nowhere&lt;/a&gt;&lt;br&gt;<br>
-            &lt;p&gt; I'm creating a link to &lt;a href="https://www.mozilla.org/en-US/"&gt;the Mozilla homepage&lt;/a&gt;. &lt;/p&gt;&lt;br&gt;<br>
+            &lt;p&gt; I'm creating a link to &lt;a href="https://www.mozilla.org/en-US/"&gt;the Mozilla homepage&lt;/a&gt;.
+            &lt;/p&gt;&lt;br&gt;<br>
             &lt;a href="https://developer.mozilla.org/en-US/"&gt; &lt;h1&gt;MDN Web Docs&lt;/h1&gt; &lt;/a&gt;&lt;br&gt;<br>
-            &lt;a href="https://developer.mozilla.org/en-US/"&gt; &lt;img src="mdn_logo.svg" alt="MDN Web Docs" /&gt; &lt;/a&gt;
+            &lt;a href="https://developer.mozilla.org/en-US/"&gt; &lt;img src="mdn_logo.svg" alt="MDN Web Docs" /&gt;
+            &lt;/a&gt;
         </code>
     </article>
 
@@ -59,11 +62,11 @@
         <section>
             <dl>
                 <dt>soliloquy</dt>
-                <dd> In drama, where a character speaks to themselves. </dd>
+                <dd> In drama, where a character speaks to themselves.</dd>
                 <dt>monologue</dt>
-                <dd> In drama, where a character speaks their thoughts out loud. </dd>
+                <dd> In drama, where a character speaks their thoughts out loud.</dd>
                 <dt>aside</dt>
-                <dd> In drama, where a character shares a comment only with the audience. </dd>
+                <dd> In drama, where a character shares a comment only with the audience.</dd>
             </dl>
         </section>
         <code>
@@ -79,9 +82,133 @@
     </article>
 
     <h2>테이블</h2>
+    <h3>단순 테이블</h3>
     <article>
-        <section></section>
-        <code></code>
+        <section>
+            <table>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                </tr>
+                <tr>
+                    <td>Laptop</td>
+                    <td>1500</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Smartphone</td>
+                    <td>900</td>
+                    <td>10</td>
+                </tr>
+            </table>
+        </section>
+        <code>
+            &lt;tr&gt;<br>
+            &nbsp;&nbsp;&lt;th&gt;Product Name&lt;/th&gt;<br>
+            &nbsp;&nbsp;&lt;th&gt;Price&lt;/th&gt;<br>
+            &nbsp;&nbsp;&lt;th&gt;Stock&lt;/th&gt;<br>
+            &lt;/tr&gt;<br>
+            &lt;tr&gt;<br>
+            &nbsp;&nbsp;&lt;td&gt;Laptop&lt;/td&gt;<br>
+            &nbsp;&nbsp;&lt;td&gt;1500&lt;/td&gt;<br>
+            &nbsp;&nbsp;&lt;td&gt;5&lt;/td&gt;<br>
+            &lt;/tr&gt;<br>
+            &lt;tr&gt;<br>
+            &nbsp;&nbsp;&lt;td&gt;Smartphone&lt;/td&gt;<br>
+            &nbsp;&nbsp;&lt;td&gt;900&lt;/td&gt;<br>
+            &nbsp;&nbsp;&lt;td&gt;10&lt;/td&gt;<br>
+            &lt;/tr&gt;
+        </code>
+    </article>
+    <h3>구성 테이블</h3>
+    <article>
+        <section>
+            <table>
+                <caption>Monthly Employee Salary Report</caption>
+                <thead>
+                <tr>
+                    <th id="name">Employee Name</th>
+                    <th id="department">Department</th>
+                    <th id="salary">Monthly Salary</th>
+                    <th id="bonus">Bonus</th>
+                    <th id="total">Total Payment</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td headers="name">Alice Johnson</td>
+                    <td headers="department">Marketing</td>
+                    <td headers="salary">$3,500</td>
+                    <td headers="bonus">$500</td>
+                    <td headers="total">$4,000</td>
+                </tr>
+                <tr>
+                    <td headers="name">Bob Smith</td>
+                    <td headers="department">Engineering</td>
+                    <td headers="salary">$4,200</td>
+                    <td headers="bonus">$700</td>
+                    <td headers="total">$4,900</td>
+                </tr>
+                <tr>
+                    <td headers="name">Charlie Lee</td>
+                    <td headers="department">HR</td>
+                    <td headers="salary">$3,800</td>
+                    <td headers="bonus">$400</td>
+                    <td headers="total">$4,200</td>
+                </tr>
+                </tbody>
+                <tfoot>
+                <tr>
+                    <td colspan="4">Total Payroll Cost</td>
+                    <td>$13,100</td>
+                </tr>
+                </tfoot>
+            </table>
+        </section>
+        <pre><code>
+&lt;table&gt;
+    &lt;caption&gt;Monthly Employee Salary Report&lt;/caption&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th id="name"&gt;Employee Name&lt;/th&gt;
+            &lt;th id="department"&gt;Department&lt;/th&gt;
+            &lt;th id="salary"&gt;Monthly Salary&lt;/th&gt;
+            &lt;th id="bonus"&gt;Bonus&lt;/th&gt;
+            &lt;th id="total"&gt;Total Payment&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td headers="name"&gt;Alice Johnson&lt;/td&gt;
+            &lt;td headers="department"&gt;Marketing&lt;/td&gt;
+            &lt;td headers="salary"&gt;$3,500&lt;/td&gt;
+            &lt;td headers="bonus"&gt;$500&lt;/td&gt;
+            &lt;td headers="total"&gt;$4,000&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td headers="name"&gt;Bob Smith&lt;/td&gt;
+            &lt;td headers="department"&gt;Engineering&lt;/td&gt;
+            &lt;td headers="salary"&gt;$4,200&lt;/td&gt;
+            &lt;td headers="bonus"&gt;$700&lt;/td&gt;
+            &lt;td headers="total"&gt;$4,900&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td headers="name"&gt;Charlie Lee&lt;/td&gt;
+            &lt;td headers="department"&gt;HR&lt;/td&gt;
+            &lt;td headers="salary"&gt;$3,800&lt;/td&gt;
+            &lt;td headers="bonus"&gt;$400&lt;/td&gt;
+            &lt;td headers="total"&gt;$4,200&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;td colspan="4"&gt;Total Payroll Cost&lt;/td&gt;
+            &lt;td&gt;$13,100&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+&lt;/table&gt;
+        </code></pre>
     </article>
 
     <h2>이미지</h2>
@@ -121,22 +248,172 @@
             &lt;/video&gt;
         </code>
     </article>
-
-    <h2>2D 그래픽</h2>
-    <article>
-        <h3>Canvas API</h3>
-    </article>
-
-    <h2>3D 그래픽</h2>
-    <article>
-        <h3>Web GL API</h3>
-        <h3>Three.js</h3>
-    </article>
-
     <h2>폼</h2>
+    <h3>기본 폼</h3>
     <article>
-        <h3>Forms</h3>
-        <p>https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form</p>
+        <section>
+            <form action="./submit_page" method="get">
+                <h3>Subscribe to our newsletter</h3>
+                <p>
+                    <label for="name">Name (required):</label>
+                    <input type="text" name="name" id="name" required/>
+                </p>
+                <p>
+                    <label for="email">Email (required):</label>
+                    <input type="email" name="email" id="email" required/>
+                </p>
+                <p>
+                    <button>Sign me up!</button>
+                </p>
+            </form>
+            <form action="./payment_page" method="get">
+                <h3>Register for the meetup</h3>
+                <p>
+                <fieldset>
+                    <legend>Choose hotel room type (required):</legend>
+                    <div>
+                        <input type="radio" id="hotelChoice1" name="hotel" value="economy" checked/>
+                        <label for="hotelChoice1">Economy (+$0)</label>
+
+                        <input type="radio" id="hotelChoice2" name="hotel" value="superior"/>
+                        <label for="hotelChoice2">Superior (+$50)</label>
+
+                        <input type="radio" id="hotelChoice3" name="hotel" value="penthouse" disabled/>
+                        <label for="hotelChoice3">Penthouse (+$150)</label>
+                    </div>
+                </fieldset>
+                </p>
+                <p>
+                <fieldset>
+                    <legend>Choose classes to attend:</legend>
+                    <div>
+                        <input type="checkbox" id="yoga" name="yoga"/>
+                        <label for="yoga">Yoga (+$10)</label>
+
+                        <input type="checkbox" id="coffee" name="coffee"/>
+                        <label for="coffee">Coffee roasting (+$20)</label>
+
+                        <input type="checkbox" id="balloon" name="balloon"/>
+                        <label for="balloon">Balloon animal art (+$5)</label>
+                    </div>
+                </fieldset>
+                </p>
+                <p>
+                    <label for="transport">How are you getting here:</label>
+                    <select name="transport" id="transport">
+                        <option value="">--Please choose an option--</option>
+                        <option value="plane">Plane</option>
+                        <option value="bike">Bike</option>
+                        <option value="walk">Walk</option>
+                        <option value="bus">Bus</option>
+                        <option value="train">Train</option>
+                        <option value="jetPack">Jet pack</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="comments">Any other comments:</label>
+                    <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
+                </p>
+                <p>
+                    <button>Continue to payment</button>
+                </p>
+            </form>
+        </section>
+        <pre><code>
+&lt;form action=&quot;./submit_page&quot; method=&quot;get&quot;&gt;
+    &lt;h3&gt;Subscribe to our newsletter&lt;/h3&gt;
+    &lt;p&gt;
+        &lt;label for=&quot;name&quot;&gt;Name (required):&lt;/label&gt;
+        &lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; required/&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;label for=&quot;email&quot;&gt;Email (required):&lt;/label&gt;
+        &lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; required/&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;button&gt;Sign me up!&lt;/button&gt;
+    &lt;/p&gt;
+&lt;/form&gt;
+
+&lt;form action=&quot;./payment_page&quot; method=&quot;get&quot;&gt;
+    &lt;h3&gt;Register for the meetup&lt;/h3&gt;
+    &lt;p&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;Choose hotel room type (required):&lt;/legend&gt;
+        &lt;div&gt;
+            &lt;input type=&quot;radio&quot; id=&quot;hotelChoice1&quot; name=&quot;hotel&quot; value=&quot;economy&quot; checked/&gt;
+            &lt;label for=&quot;hotelChoice1&quot;&gt;Economy (+$0)&lt;/label&gt;
+
+            &lt;input type=&quot;radio&quot; id=&quot;hotelChoice2&quot; name=&quot;hotel&quot; value=&quot;superior&quot;/&gt;
+            &lt;label for=&quot;hotelChoice2&quot;&gt;Superior (+$50)&lt;/label&gt;
+
+            &lt;input type=&quot;radio&quot; id=&quot;hotelChoice3&quot; name=&quot;hotel&quot; value=&quot;penthouse&quot; disabled/&gt;
+            &lt;label for=&quot;hotelChoice3&quot;&gt;Penthouse (+$150)&lt;/label&gt;
+        &lt;/div&gt;
+    &lt;/fieldset&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;Choose classes to attend:&lt;/legend&gt;
+        &lt;div&gt;
+            &lt;input type=&quot;checkbox&quot; id=&quot;yoga&quot; name=&quot;yoga&quot;/&gt;
+            &lt;label for=&quot;yoga&quot;&gt;Yoga (+$10)&lt;/label&gt;
+
+            &lt;input type=&quot;checkbox&quot; id=&quot;coffee&quot; name=&quot;coffee&quot;/&gt;
+            &lt;label for=&quot;coffee&quot;&gt;Coffee roasting (+$20)&lt;/label&gt;
+
+            &lt;input type=&quot;checkbox&quot; id=&quot;balloon&quot; name=&quot;balloon&quot;/&gt;
+            &lt;label for=&quot;balloon&quot;&gt;Balloon animal art (+$5)&lt;/label&gt;
+        &lt;/div&gt;
+    &lt;/fieldset&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        &lt;label for=&quot;transport&quot;&gt;How are you getting here:&lt;/label&gt;
+        &lt;select name=&quot;transport&quot; id=&quot;transport&quot;&gt;
+            &lt;option value=&quot;&quot;&gt;--Please choose an option--&lt;/option&gt;
+            &lt;option value=&quot;plane&quot;&gt;Plane&lt;/option&gt;
+            &lt;option value=&quot;bike&quot;&gt;Bike&lt;/option&gt;
+            &lt;option value=&quot;walk&quot;&gt;Walk&lt;/option&gt;
+            &lt;option value=&quot;bus&quot;&gt;Bus&lt;/option&gt;
+            &lt;option value=&quot;train&quot;&gt;Train&lt;/option&gt;
+            &lt;option value=&quot;jetPack&quot;&gt;Jet pack&lt;/option&gt;
+        &lt;/select&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        &lt;label for=&quot;comments&quot;&gt;Any other comments:&lt;/label&gt;
+        &lt;textarea id=&quot;comments&quot; name=&quot;comments&quot; rows=&quot;5&quot; cols=&quot;33&quot;&gt;&lt;/textarea&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+        &lt;button&gt;Continue to payment&lt;/button&gt;
+    &lt;/p&gt;
+&lt;/form&gt;
+        </code></pre>
     </article>
+    <h3>고급 폼</h3>
+    <article>
+        <section>
+            <p>https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form</p>
+        </section>
+        <code>
+
+        </code>
+    </article>
+
+    <h2>기타</h2>
+    <h3>Canvas API</h3>
+    <h3>Web GL API</h3>
+    <h3>Dark mode</h3>
+    <h3>Breadcrumbs</h3>
+    <h3>Cards</h3>
+    <h3>Deferred/Lazy registration</h3>
+    <h3>Infinite scroll</h3>
+    <h3>Modal dialogs</h3>
+    <h3>Progressive disclosure</h3>
+    <h3>Progress indication on forms/registration/setup</h3>
+    <h3>Shopping cart</h3>
 </div>
 
