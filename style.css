@@ -1,4 +1,5 @@
 body {
+    font-family: 'Malgun Gothic', sans-serif;
     display: grid;
     grid-template-columns: 10rem 1fr;
     grid-template-rows: auto 1fr auto;
@@ -6,7 +7,6 @@ body {
         "header header"
         "aside main"
         "footer footer";
-    font-family: 'Malgun Gothic', sans-serif;
     overflow: auto;
     & h2 {
         background-color: gray;
@@ -17,6 +17,7 @@ body {
         line-height: 2;
         padding: 0.5rem;
         background-color: lightgray;
+        border-radius: 1rem;
     }
     & img {
         max-width: 100%;
