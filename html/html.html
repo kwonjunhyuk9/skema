@@ -19,14 +19,11 @@
         </section>
         <code>
             &lt;title&gt;&lt;/title&gt;<br>
-            &lt;meta charset="utf-8" /&gt;<br>
-            &lt;meta name="author" content="Kwon Jun Hyuk" /&gt;<br>
-            &lt;meta property="og:image" content="https://developer.mozilla.org/mdn-social-share.png" /&gt;<br>
-            &lt;meta name="viewport" content="width=device-width,initial-scale=1" /&gt;<br>
-            &lt;link rel="icon" href="favicon.ico" /&gt;<br>
-            &lt;link rel="stylesheet" href="styles.css" /&gt;<br>
-            &lt;style&gt;css&lt;/style&gt;<br>
-            &lt;script&gt;javascript&lt;/script&gt;<br>
+            &lt;meta charset="utf-8"/&gt;<br>
+            &lt;meta name="author" content="Kwon Jun Hyuk"/&gt;<br>
+            &lt;meta name="viewport" content="width=device-width,initial-scale=1"/&gt;<br>
+            &lt;link rel="icon" href="favicon.ico"/&gt;<br>
+            &lt;link rel="stylesheet" href="styles.css"/&gt;<br>
             &lt;script src="script.js" defer&gt;&lt;/script&gt;<br>
             &lt;script src="script.js" async&gt;&lt;/script&gt;<br>
         </code>
@@ -72,26 +69,24 @@
             &lt;mark&gt;mark&lt;/mark&gt;<br>
             &lt;sup&gt;superscript&lt;/sup&gt;<br>
             &lt;sub&gt;subscript&lt;/sub&gt;<br>
-            &lt;br&gt;<br>
-            &lt;hr&gt;
         </code>
     </article>
     <h3>시간</h3>
     <article>
         <section>
-            <time datetime="2020-01-01">2020-01-01</time>
+            <time>2020-01-01</time>
         </section>
         <code>
-            &lt;time datetime=&quot;2020-01-01&quot;&gt;2020-01-01&lt;/time&gt;
+            &lt;time&gt;time&lt;/time&gt;
         </code>
     </article>
     <h3>축약</h3>
     <article>
         <section>
-            <abbr title="abbreviation">abbreviation</abbr>
+            <abbr>abbreviation</abbr>
         </section>
         <code>
-            &lt;abbr title=&quot;abbreviation&quot;&gt;abbreviation&lt;/abbr&gt;
+            &lt;abbr&gt;abbreviation&lt;/abbr&gt;
         </code>
     </article>
     <h3>인용</h3>
@@ -110,7 +105,8 @@
     <h3>코드</h3>
     <article>
         <section>
-            <code>code</code><br>
+            <!--앞선 code 태그 스타일링과 겹쳐 원본으로 변경-->
+            <code style="all: initial;">code</code><br>
             <pre>preformatted</pre><br>
             <var>variable</var><br>
             <kbd>keyboard</kbd><br>
@@ -134,7 +130,7 @@
             &lt;div&gt;division&lt;/div&gt;
         </code>
     </article>
-    <h3>제목과 본문</h3>
+    <h3>제목</h3>
     <article>
         <section>
             <!--<article>과 <section>은 네스팅 될 경우 h 태그의 크기를 제한하는 기능이 있어서 이를 수정함-->
@@ -144,7 +140,6 @@
             <h4>heading</h4>
             <h5>heading</h5>
             <h6>heading</h6>
-            <p>paragraph</p>
         </section>
         <code>
             &lt;h1&gt;heading&lt;/h1&gt;<br>
@@ -152,21 +147,25 @@
             &lt;h3&gt;heading&lt;/h3&gt;<br>
             &lt;h4&gt;heading&lt;/h4&gt;<br>
             &lt;h5&gt;heading&lt;/h5&gt;<br>
-            &lt;h6&gt;heading&lt;/h6&gt;<br>
+            &lt;h6&gt;heading&lt;/h6&gt;
+        </code>
+    </article>
+    <h3>본문</h3>
+    <article>
+        <section>
+            <p>paragraph</p>
+        </section>
+        <code>
             &lt;p&gt;paragraph&lt;/p&gt;
         </code>
     </article>
     <h3>주소</h3>
     <article>
         <section>
-            <address>
-                Seoul, South Korea
-            </address>
+            <address>address</address>
         </section>
         <code>
-            &lt;address&gt;
-            Seoul, South Korea
-            &lt;/address&gt;
+            &lt;address&gt;address&lt;/address&gt;
         </code>
     </article>
 </div>
