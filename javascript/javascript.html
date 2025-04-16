@@ -29,4 +29,114 @@
             let character = “a”;
         </code>
     </article>
+
+    <h2>배열</h2>
+    <h3>선언</h3>
+    <article>
+        <section></section>
+        <code>
+            let array = [1, 2, 3, 4, 5];<br>
+            let array = new Array(1, 2, 3, 4, 5);
+        </code>
+    </article>
+    <h3>탐색</h3>
+    <article>
+        <section></section>
+        <code>
+            array.includes(20);<br>
+            array.indexOf(20);<br>
+            array.lastIndexOf(20);<br>
+            array.find(num => num > 25);
+        </code>
+    </article>
+    <h3>삽입</h3>
+    <article>
+        <section></section>
+        <code>
+            array.push(5);<br>
+            array.unshift(5);<br>
+            array.slice(1, 4);<br>
+            array.splice(2, 2, 99, 100);<br>
+            array.concat([7, 8, 9]);
+        </code>
+    </article>
+    <h3>삭제</h3>
+    <article>
+        <section></section>
+        <code>
+            array.pop( );<br>
+            array.shift( );<br>
+            array.slice(1, 4);<br>
+            array.splice(2, 2, 99, 100);<br>
+            array.filter(num => num > 25);
+        </code>
+    </article>
+    <h3>기타</h3>
+    <article>
+        <section></section>
+        <code>
+            array.length<br>
+            array.sort( );<br>
+            array.reverse( );<br>
+            array.split(”,“);<br>
+            array.join(”,“);<br>
+            array.map(num => num * 2);<br>
+            array.forEach(num => console.log(num * 2));<br>
+            […array]<br>
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+        </code>
+    </article>
+
+    <h2>문자열</h2>
+    <h3>선언</h3>
+    <article>
+        <section></section>
+        <code>
+            let string = “string”;<br>
+            let string = new String(“Hello”);
+        </code>
+    </article>
+    <h3>탐색</h3>
+    <article>
+        <section></section>
+        <code>
+            string.includes("Hello");<br>
+            string.indexOf("Hello");<br>
+            string.lastIndexOf("Hello");<br>
+            string.startsWith("Hello");<br>
+            string.endsWith("Hello");<br>
+            string.charAt(1);
+        </code>
+    </article>
+    <h3>삽입</h3>
+    <article>
+        <section></section>
+        <code>
+            string.slice(0, 5);<br>
+            string.concat(”Hello”, “World”);
+        </code>
+    </article>
+    <h3>삭제</h3>
+    <article>
+        <section></section>
+        <code>
+            string.slice(0, 5);<br>
+            string.replace("Hello", "Hi");<br>
+            string.replaceAll("Hello", "Hi");
+        </code>
+    </article>
+    <h3>기타</h3>
+    <article>
+        <section></section>
+        <code>
+            string.length<br>
+            string.split(”,“);<br>
+            string.join(”,“);<br>
+            string.repeat(3);<br>
+            string.toLowerCase( );<br>
+            string.toUpperCase( );<br>
+            […string]<br>
+            string1 + string2;
+        </code>
+    </article>
 </div>
