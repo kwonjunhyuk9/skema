@@ -11,8 +11,7 @@
 ### TODO
 
 - Redesign aside bar
-- Fix \<pre\> affecting the size of boxs 
-- Change language to English
+- Apply React to website
 - Make website language switchable
 - Make website theme switchable
 - Deploy on server

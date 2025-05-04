@@ -1,90 +1,71 @@
 <div id="article-container">
     <h2>Event</h2>
-    <h3>이벤트 생성 및 제거</h3>
+    <h3>Creating and Removing Events</h3>
     <article>
         <section></section>
-        <pre><code>
-addEventListener
-removeEventListener
-        </code></pre>
+        <pre><code>addEventListener
+removeEventListener</code></pre>
     </article>
-    <h3>마우스 이벤트</h3>
+    <h3>Mouse Events</h3>
     <article>
         <section></section>
-        <pre><code>
-click
+        <pre><code>click
 mouseover
-mouseout
-        </code></pre>
+mouseout</code></pre>
     </article>
-    <h3>이벤트 속성</h3>
+    <h3>Event Properties</h3>
     <article>
         <section></section>
-        <pre><code>
-onclick
+        <pre><code>onclick
 onmouseover
-onmouseout
-        </code></pre>
+onmouseout</code></pre>
     </article>
-    <h3>이벤트 객체</h3>
+    <h3>Event Object</h3>
     <article>
         <section></section>
-        <pre><code>
-e
+        <pre><code>e
 evt
-event
-        </code></pre>
+event</code></pre>
     </article>
-    <h3>이벤트 위임</h3>
+    <h3>Event Delegation</h3>
     <article>
         <section></section>
-        <pre><code>
-하위 요소들에 연결
-        </code></pre>
+        <pre><code>Connect to child elements</code></pre>
     </article>
-    <h3>이벤트 버블링</h3>
+    <h3>Event Bubbling</h3>
     <article>
         <section></section>
-        <pre><code>
-stopPropagation
-        </code></pre>
+        <pre><code>stopPropagation</code></pre>
     </article>
-    <h3>이벤트 캡처링</h3>
+    <h3>Event Capturing</h3>
     <article>
         <section></section>
-        <pre><code>
-버블링과 역순
-        </code></pre>
+        <pre><code>Reverse order of bubbling</code></pre>
     </article>
-    <h3>기타 이벤트 관련</h3>
+    <h3>Other Event Related</h3>
     <article>
         <section></section>
-        <pre><code>
-preventDefault
+        <pre><code>preventDefault
 stopPropagation
 stopImmediatePropagation
 target
 currentTarget
 bubblingPhase
-capturePhase
-        </code></pre>
+capturePhase</code></pre>
     </article>
 
     <h2>Promise</h2>
     <h3>state</h3>
     <article>
         <section></section>
-        <pre><code>
-Pending
+        <pre><code>Pending
 Fulfilled
-Rejected
-        </code></pre>
+Rejected</code></pre>
     </article>
     <h3>then</h3>
     <article>
         <section></section>
-        <pre><code>
-function fetchData() {
+        <pre><code>function fetchData() {
     return fetch('https://jsonplaceholder.typicode.com/todos/1')
         .then(response => response.json())
         .then(data => {
@@ -99,14 +80,12 @@ function fetchData() {
         console.error('Error:', error);
     });
 }
-fetchData();
-        </code></pre>
+fetchData();</code></pre>
     </article>
     <h3>async</h3>
     <article>
         <section></section>
-        <pre><code>
-async function fetchData() {
+        <pre><code>async function fetchData() {
     try {
         let response1 = await fetch('https://jsonplaceholder.typicode.com/todos/1');
         let data1 = await response1.json();
@@ -119,63 +98,52 @@ async function fetchData() {
         console.error('Error:', error);
     }
 }
-fetchData();
-        </code></pre>
+fetchData();</code></pre>
     </article>
     <h3>promise</h3>
     <article>
         <section></section>
-        <pre><code>
-New Promise -> resolve reject
-        </code></pre>
+        <pre><code>New Promise -> resolve reject</code></pre>
     </article>
 
     <h2>Fetch API</h2>
-    <h3>조작하기</h3>
+    <h3>Manipulation</h3>
     <article>
         <section></section>
-        <pre><code>
-GET
+        <pre><code>GET
 POST
 PUT
-DELETE
-        </code></pre>
+DELETE</code></pre>
     </article>
-    <h3>응답</h3>
+    <h3>Response</h3>
     <article>
         <section></section>
-        <pre><code>
-response.ok
+        <pre><code>response.ok
 response.status
 response.json()
 response.text()
-response.blob()
-        </code></pre>
+response.blob()</code></pre>
     </article>
 
     <h2>Document API</h2>
-    <h3>탐색하기</h3>
+    <h3>Navigation</h3>
     <article>
         <section></section>
-        <pre><code>
-parentNode
+        <pre><code>parentNode
 childNode
 firstChild
 lastChild
 previousSibling
-nextSibling
-        </code></pre>
+nextSibling</code></pre>
     </article>
-    <h3>선택하기</h3>
+    <h3>Selection</h3>
     <article>
         <section></section>
-        <pre><code>
-getElementById
+        <pre><code>getElementById
 getElementsByClassName
 getElementsByTagName
 querySelector
-querySelectorAll
-        </code></pre>
+querySelectorAll</code></pre>
     </article>
 
     <h2>Web Storage API</h2>

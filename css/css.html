@@ -1,136 +1,113 @@
 <div id="article-container">
-    <h2>선택자</h2>
-    <h3>일반 선택자</h3>
+    <h2>Selectors</h2>
+    <h3>General Selectors</h3>
     <article>
         <section></section>
-        <pre><code>
-type { }
+        <pre><code>type { }
 .class { }
 #id { }
-* { }
-        </code></pre>
+* { }</code></pre>
     </article>
-    <h3>속성 선택자</h3>
+    <h3>Attribute Selectors</h3>
     <article>
         <section></section>
-        <pre><code>
-[attribute]
+        <pre><code>[attribute]
 [attribute=value]
 [attribute~=value]
 [attribute|=value]
 [attribute^=value]
 [attribute$=value]
-[attribute*=value]
-        </code></pre>
+[attribute*=value]</code></pre>
     </article>
 
-    <h2>조합자</h2>
-    <h3>후손 조합자</h3>
+    <h2>Combinators</h2>
+    <h3>Descendant Combinator</h3>
     <article>
         <section></section>
-        <pre><code>
-parent descendent
-        </code></pre>
+        <pre><code>parent descendent</code></pre>
     </article>
-    <h3>자손 조합자</h3>
+    <h3>Child Combinator</h3>
     <article>
         <section></section>
-        <pre><code>
-parent > child
+        <pre><code>parent > child
 parent + child
-parent ~ child
-        </code></pre>
+parent ~ child</code></pre>
     </article>
 
-    <h2>가상클래스</h2>
-    <h3>가상클래스</h3>
+    <h2>Pseudo-classes</h2>
+    <h3>Pseudo-classes</h3>
     <article>
         <section></section>
-        <pre><code>
-:last-child
+        <pre><code>:last-child
 :only-child
 :invalid
 :hover
-:focus
-        </code></pre>
+:focus</code></pre>
     </article>
 
-    <h2>가상요소</h2>
-    <h3>가상요소</h3>
+    <h2>Pseudo-elements</h2>
+    <h3>Pseudo-elements</h3>
     <article>
         <section></section>
-        <pre><code>
-::first-line
+        <pre><code>::first-line
 ::before
-::after
-        </code></pre>
+::after</code></pre>
     </article>
 
-    <h2>우선순위</h2>
-    <h3>상속</h3>
+    <h2>Priority</h2>
+    <h3>Inheritance</h3>
     <article>
         <section></section>
-        <pre><code>
-inherit
+        <pre><code>inherit
 initial
 revert
 revert-layer
-unset
-        </code></pre>
+unset</code></pre>
     </article>
-    <h3>연쇄</h3>
+    <h3>Cascade</h3>
     <article>
         <section></section>
-        <pre><code>
-Source order
+        <pre><code>Source order
 Specificity
-Importance
-        </code></pre>
+Importance</code></pre>
     </article>
 
-    <h2>단위</h2>
-    <h3>절대단위</h3>
+    <h2>Units</h2>
+    <h3>Absolute Units</h3>
     <article>
         <section></section>
-        <pre><code>
-cm
+        <pre><code>cm
 mm
 Q
 in
 pc
 pt
-px
-        </code></pre>
+px</code></pre>
     </article>
-    <h3>상대단위</h3>
+    <h3>Relative Units</h3>
     <article>
         <section></section>
-        <pre><code>
-em
+        <pre><code>em
 rem
 vh
 vw
 lh
-rlh
-        </code></pre>
+rlh</code></pre>
     </article>
 
-    <h2>박스모델</h2>
-    <h3>마진</h3>
+    <h2>Box Model</h2>
+    <h3>Margin</h3>
     <article>
         <section></section>
-        <pre><code>
-margin-top
+        <pre><code>margin-top
 margin-right
 margin-bottom
-margin-left
-        </code></pre>
+margin-left</code></pre>
     </article>
-    <h3>보더</h3>
+    <h3>Border</h3>
     <article>
         <section></section>
-        <pre><code>
-border-radius:
+        <pre><code>border-radius:
 border-top-right-radius: 1em 10%;
 border-top
 border-right
@@ -150,24 +127,20 @@ border-bottom-style
 border-bottom-color
 border-left-width
 border-left-style
-border-left-color
-        </code></pre>
+border-left-color</code></pre>
     </article>
-    <h3>패딩</h3>
+    <h3>Padding</h3>
     <article>
         <section></section>
-        <pre><code>
-padding-top
+        <pre><code>padding-top
 padding-right
 padding-bottom
-padding-left
-        </code></pre>
+padding-left</code></pre>
     </article>
-    <h3>플렉스</h3>
+    <h3>Flexbox</h3>
     <article>
         <section></section>
-        <pre><code>
-display: flex;
+        <pre><code>display: flex;
 flex: 1 1 100px;
 flex-grow
 flex-shrink
@@ -181,14 +154,12 @@ justify-self
 align-content
 align-items
 align-self
-order
-        </code></pre>
+order</code></pre>
     </article>
-    <h3>그리드</h3>
+    <h3>Grid</h3>
     <article>
         <section></section>
-        <pre><code>
-display: grid;
+        <pre><code>display: grid;
 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 grid-auto-rows: minmax(50px, auto);
 column-gap
@@ -199,56 +170,45 @@ grid-column-end
 grid-row
 grid-row-start
 grid-row-end
-grid-template-areas
-        </code></pre>
+grid-template-areas</code></pre>
     </article>
-    <h3>디스플레이</h3>
+    <h3>Display</h3>
     <article>
         <section></section>
-        <pre><code>
-display: inline;
+        <pre><code>display: inline;
 display: block;
-display: inline-block;
-        </code></pre>
+display: inline-block;</code></pre>
     </article>
-    <h3>사이징</h3>
+    <h3>Sizing</h3>
     <article>
         <section></section>
-        <pre><code>
-box-sizing: content-box;
-box-sizing: border-box;
-        </code></pre>
+        <pre><code>box-sizing: content-box;
+box-sizing: border-box;</code></pre>
     </article>
-    <h3>플로우트</h3>
+    <h3>Float</h3>
     <article>
         <section></section>
-        <pre><code>
-float: left;
+        <pre><code>float: left;
 clear: left;
-display: flow-root
-        </code></pre>
+display: flow-root</code></pre>
     </article>
-    <h3>포지션</h3>
+    <h3>Position</h3>
     <article>
         <section></section>
-        <pre><code>
-position: static;
+        <pre><code>position: static;
 position: relative;
 position: absolute;
 position: fixed;
 position: sticky;
-z-index:
-        </code></pre>
+z-index:</code></pre>
     </article>
-    <h3>오버플로우</h3>
+    <h3>Overflow</h3>
     <article>
         <section></section>
-        <pre><code>
-overflow: hidden
+        <pre><code>overflow: hidden
 overflow: scroll
 overflow-x
 overflow-y
-overflow: auto
-        </code></pre>
+overflow: auto</code></pre>
     </article>
 </div>

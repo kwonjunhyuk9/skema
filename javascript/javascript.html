@@ -1,232 +1,191 @@
 <div id="article-container">
-    <h2>식별자</h2>
-    <h3>상수 식별자</h3>
+    <h2>Identifiers</h2>
+    <h3>Constant Identifiers</h3>
     <article>
         <section></section>
-        <pre><code>
-const
-        </code></pre>
+        <pre><code>const</code></pre>
     </article>
-    <h3>변수 식별자</h3>
+    <h3>Variable Identifiers</h3>
     <article>
         <section></section>
-        <pre><code>
-let
-        </code></pre>
+        <pre><code>let</code></pre>
     </article>
 
-    <h2>연산자</h2>
-    <h3>비트 연산자</h3>
+    <h2>Operators</h2>
+    <h3>Bitwise Operators</h3>
     <article>
         <section></section>
-        <pre><code>
-&
+        <pre><code>&
 |
 ^
 ~
 <<
->>
-        </code></pre>
+>></code></pre>
     </article>
-    <h3>논리 연산자</h3>
+    <h3>Logical Operators</h3>
     <article>
         <section></section>
-        <pre><code>
-&&
+        <pre><code>&&
 ||
-!
-        </code></pre>
+!</code></pre>
     </article>
-    <h3>산술 연산자</h3>
+    <h3>Arithmetic Operators</h3>
     <article>
         <section></section>
-        <pre><code>
-+
+        <pre><code>+
 -
 *
 /
 %
 ++
---
-        </code></pre>
+--</code></pre>
     </article>
-    <h3>할당 연산자</h3>
+    <h3>Assignment Operators</h3>
     <article>
         <section></section>
-        <pre><code>
-=
+        <pre><code>=
 +=
 -=
 *=
 /=
-%=
-        </code></pre>
+%=</code></pre>
     </article>
-    <h3>비교 연산자</h3>
+    <h3>Comparison Operators</h3>
     <article>
         <section></section>
-        <pre><code>
-===
+        <pre><code>===
 !==
 <
 >
 <=
->=
-        </code></pre>
+>=</code></pre>
     </article>
 
-    <h2>불리안</h2>
-    <h3>선언</h3>
+    <h2>Boolean</h2>
+    <h3>Declaration</h3>
     <article>
         <section></section>
-        <pre><code>
-let boolean = true;
-let boolean = Boolean(1);
-        </code></pre>
+        <pre><code>let boolean = true;
+let boolean = Boolean(1);</code></pre>
     </article>
 
-    <h2>숫자</h2>
-    <h3>선언</h3>
+    <h2>Numbers</h2>
+    <h3>Declaration</h3>
     <article>
         <section></section>
-        <pre><code>
-let number = 1;
+        <pre><code>let number = 1;
 let number = Number(true);
 let number = parseInt("42");
-let number = parseFloat("3.14");
-        </code></pre>
+let number = parseFloat("3.14");</code></pre>
     </article>
 
-    <h2>문자</h2>
-    <h3>선언</h3>
+    <h2>Characters</h2>
+    <h3>Declaration</h3>
     <article>
         <section></section>
-        <pre><code>
-let character = “a”;
-        </code></pre>
+        <pre><code>let character = "a";</code></pre>
     </article>
 
-    <h2>배열</h2>
-    <h3>선언</h3>
+    <h2>Arrays</h2>
+    <h3>Declaration</h3>
     <article>
         <section></section>
-        <pre><code>
-let array = [1, 2, 3, 4, 5];
-let array = new Array(1, 2, 3, 4, 5);
-        </code></pre>
+        <pre><code>let array = [1, 2, 3, 4, 5];
+let array = new Array(1, 2, 3, 4, 5);</code></pre>
     </article>
-    <h3>탐색</h3>
+    <h3>Search</h3>
     <article>
         <section></section>
-        <pre><code>
-array.includes(20);
+        <pre><code>array.includes(20);
 array.indexOf(20);
 array.lastIndexOf(20);
-array.find(num => num > 25);
-        </code></pre>
+array.find(num => num > 25);</code></pre>
     </article>
-    <h3>삽입</h3>
+    <h3>Insertion</h3>
     <article>
         <section></section>
-        <pre><code>
-array.push(5);
+        <pre><code>array.push(5);
 array.unshift(5);
 array.slice(1, 4);
 array.splice(2, 2, 99, 100);
-array.concat([7, 8, 9]);
-        </code></pre>
+array.concat([7, 8, 9]);</code></pre>
     </article>
-    <h3>삭제</h3>
+    <h3>Deletion</h3>
     <article>
         <section></section>
-        <pre><code>
-array.pop( );
-array.shift( );
+        <pre><code>array.pop();
+array.shift();
 array.slice(1, 4);
 array.splice(2, 2, 99, 100);
-array.filter(num => num > 25);
-        </code></pre>
+array.filter(num => num > 25);</code></pre>
     </article>
-    <h3>기타</h3>
+    <h3>Others</h3>
     <article>
         <section></section>
-        <pre><code>
-array.length
-array.sort( );
-array.reverse( );
-array.split(”,“);
-array.join(”,“);
+        <pre><code>array.length
+array.sort();
+array.reverse();
+array.split(",");
+array.join(",");
 array.map(num => num * 2);
 array.forEach(num => console.log(num * 2));
-[…array]
-[arr[i], arr[j]] = [arr[j], arr[i]];
-        </code></pre>
+[...array]
+[arr[i], arr[j]] = [arr[j], arr[i]];</code></pre>
     </article>
 
-    <h2>문자열</h2>
-    <h3>선언</h3>
+    <h2>Strings</h2>
+    <h3>Declaration</h3>
     <article>
         <section></section>
-        <pre><code>
-let string = “string”;
-let string = new String(“Hello”);
-        </code></pre>
+        <pre><code>let string = "string";
+let string = new String("Hello");</code></pre>
     </article>
-    <h3>탐색</h3>
+    <h3>Search</h3>
     <article>
         <section></section>
-        <pre><code>
-string.includes("Hello");
+        <pre><code>string.includes("Hello");
 string.indexOf("Hello");
 string.lastIndexOf("Hello");
 string.startsWith("Hello");
 string.endsWith("Hello");
-string.charAt(1);
-        </code></pre>
+string.charAt(1);</code></pre>
     </article>
-    <h3>삽입</h3>
+    <h3>Insertion</h3>
     <article>
         <section></section>
-        <pre><code>
-string.slice(0, 5);
-string.concat(”Hello”, “World”);
-        </code></pre>
+        <pre><code>string.slice(0, 5);
+string.concat("Hello", “World”);</code></pre>
     </article>
-    <h3>삭제</h3>
+    <h3>Deletion</h3>
     <article>
         <section></section>
-        <pre><code>
-string.slice(0, 5);
+        <pre><code>string.slice(0, 5);
 string.replace("Hello", "Hi");
-string.replaceAll("Hello", "Hi");
-        </code></pre>
+string.replaceAll("Hello", "Hi");</code></pre>
     </article>
-    <h3>기타</h3>
+    <h3>Others</h3>
     <article>
         <section></section>
-        <pre><code>
-string.length
-string.split(”,“);
-string.join(”,“);
+        <pre><code>string.length;
+string.split(",");
+string.join(",");
 string.repeat(3);
-string.toLowerCase( );
-string.toUpperCase( );
-[…string]
-string1 + string2;
-        </code></pre>
+string.toLowerCase();
+string.toUpperCase();
+[...string]
+string1 + string2;</code></pre>
     </article>
 
-    <h2>객체</h2>
-    <h3>선언</h3>
+    <h2>Objects</h2>
+    <h3>Declaration</h3>
     <article>
         <section></section>
-        <pre><code>
-const object = {
-    name: "Kwon"
-    age: 25;
+        <pre><code>const object = {
+    name: "Kwon",
+    age: 25
 };
 
-const object = new Object( );
+const object = new Object();
 object.name = "Kwon";
 object.age = 25;
 
@@ -237,58 +196,48 @@ function Object(name, age) {
 const object = new Object("Kwon", 25);
 
 class Object {
-    constructor(name) {
+    constructor(name, age) {
         this.name = name;
         this.age = age;
     }
 }
-const object = new Object("Kwon", 25);
-        </code></pre>
+const object = new Object("Kwon", 25);</code></pre>
     </article>
-    <h3>탐색</h3>
+    <h3>Search</h3>
     <article>
         <section></section>
-        <pre><code>
-object.name
-object[name]
+        <pre><code>object.name;
+object[name];
 Object.keys(object);
 Object.values(object);
 Object.entries(object);
-"name" in object;
-        </code></pre>
+"name" in object;</code></pre>
     </article>
-    <h3>삽입</h3>
+    <h3>Insertion</h3>
     <article>
         <section></section>
-        <pre><code>
-object.profession = "Student";
-object[profession] = "Student";
-        </code></pre>
+        <pre><code>object.profession = "Student";
+object[profession] = "Student";</code></pre>
     </article>
-    <h3>삭제</h3>
+    <h3>Deletion</h3>
     <article>
         <section></section>
-        <pre><code>
-delete object.profession;
-delete object[profession];
-        </code></pre>
+        <pre><code>delete object.profession;
+delete object[profession];</code></pre>
     </article>
-    <h3>기타</h3>
+    <h3>Others</h3>
     <article>
         <section></section>
-        <pre><code>
-this
-stringify
-parse
-        </code></pre>
+        <pre><code>this;
+stringify;
+parse;</code></pre>
     </article>
 
-    <h2>조건문</h2>
-    <h3>분기 조건문</h3>
+    <h2>Conditional Statements</h2>
+    <h3>Branching Conditional Statements</h3>
     <article>
         <section></section>
-        <pre><code>
-let result = (number % 2 == 0) ? "Even" : "Odd";
+        <pre><code>let result = (number % 2 === 0) ? "Even" : "Odd";
 
 if (number > 0) {
     console.log("The number is positive!");
@@ -307,31 +256,27 @@ switch (number) {
         break;
     default:
         console.log("Invalid number!");
-}
-        </code></pre>
+}</code></pre>
     </article>
-    <h3>오류 조건문</h3>
+    <h3>Error Conditional Statements</h3>
     <article>
         <section></section>
-        <pre><code>
-try {
+        <pre><code>try {
     console.log("Accessing element 5: " + numbers[5]);
 } catch (e) {
-    console.log("An error occurred: " + e.getMessage( ));
+    console.log("An error occurred: " + e.message);
 } finally {
     console.log("This will always execute");
-}
-        </code></pre>
+}</code></pre>
     </article>
 
-    <h2>반복문</h2>
-    <h3>유한 반복문</h3>
+    <h2>Loops</h2>
+    <h3>Finite Loops</h3>
     <article>
         <section></section>
-        <pre><code>
-for (let i = 0; I <= 10; i++) {
-    if (i == 5) {break;}
-    if (i % 2 == 0) {continue;}
+        <pre><code>for (let i = 0; i <= 10; i++) {
+    if (i == 5) { break; }
+    if (i % 2 == 0) { continue; }
     console.log(i);
 }
 
@@ -339,55 +284,47 @@ for (let number of array) {
     console.log(number);
 }
 
-for (let key of object) {
+for (let key in object) {
     console.log(key);
-}
-        </code></pre>
+}</code></pre>
     </article>
-    <h3>무한 반복문</h3>
+    <h3>Infinite Loops</h3>
     <article>
         <section></section>
-        <pre><code>
-while (i <= 10) {
-    if (i == 5) {break;}
-    if (i % 2 == 0) {continue;}
+        <pre><code>while (i <= 10) {
+    if (i == 5) { break; }
+    if (i % 2 == 0) { continue; }
     console.log(i);
     i++;
 }
 
 do {
-    if (i == 5) {break;}
-    if (i % 2 == 0) {i++; continue;}
+    if (i == 5) { break; }
+    if (i % 2 == 0) { i++; continue; }
     console.log(i);
     i++;
-} while (i <= 10);
-        </code></pre>
+} while (i <= 10);</code></pre>
     </article>
 
-    <h2>입출력</h2>
-    <h3>입력</h3>
+    <h2>Input/Output</h2>
+    <h3>Input</h3>
     <article>
         <section></section>
-        <pre><code>
-let input = prompt( );
+        <pre><code>let input = prompt();
 let input = require('fs').readFileSync(0, 'utf-8').toString().trim().split('\n');
-let input = require('fs').readFileSync('input', 'utf-8').toString().trim().split('\n');
-        </code></pre>
+let input = require('fs').readFileSync('input', 'utf-8').toString().trim().split('\n');</code></pre>
     </article>
-    <h3>출력</h3>
+    <h3>Output</h3>
     <article>
         <section></section>
-        <pre><code>
-alert("My name is ${name}");
-console.log("My name is ${name}");
-        </code></pre>
+        <pre><code>alert(`My name is ${name}`);
+console.log(`My name is ${name}`);</code></pre>
     </article>
 
-    <h3>특수문자</h3>
+    <h3>Special Characters</h3>
     <article>
         <section></section>
-        <pre><code>
-\0
+        <pre><code>\0
 \'
 \"
 \\
@@ -396,7 +333,6 @@ console.log("My name is ${name}");
 \t
 \b
 \f
-\v
-        </code></pre>
+\v</code></pre>
     </article>
 </div>

@@ -48,6 +48,10 @@ main {
         & article {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            & pre {
+                word-wrap: break-word;
+                white-space: pre-wrap;
+            }
         }
     }
 }
