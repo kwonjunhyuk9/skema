@@ -21,12 +21,12 @@
     </article>
 
     <h2>Combinators</h2>
-    <h3>Descendant Combinator</h3>
+    <h3>Descendant Combinators</h3>
     <article>
         <section></section>
         <pre><code>parent descendent</code></pre>
     </article>
-    <h3>Child Combinator</h3>
+    <h3>Child Combinators</h3>
     <article>
         <section></section>
         <pre><code>parent > child
@@ -34,28 +34,58 @@ parent + child
 parent ~ child</code></pre>
     </article>
 
-    <h2>Pseudo-classes</h2>
-    <h3>Pseudo-classes</h3>
+    <h2>Pseudo Classes</h2>
+    <h3>Interactive Pseudo Classes</h3>
     <article>
         <section></section>
-        <pre><code>:last-child
+        <pre><code>:hover
+:active
+:focus
+:link
+:visited</code></pre>
+    </article>
+    <h3>Structural Pseudo Classes</h3>
+    <article>
+        <section></section>
+        <pre><code>:first-child
+:last-child
 :only-child
-:invalid
-:hover
-:focus</code></pre>
+:nth-child(n)
+:nth-last-child(n)
+:first-of-type
+:last-of-type
+:only-of-type
+:nth-of-type(n)
+:nth-last-of-type(n)</code></pre>
     </article>
 
-    <h2>Pseudo-elements</h2>
-    <h3>Pseudo-elements</h3>
+    <h2>Pseudo Elements</h2>
+    <h3>Positional Pseudo Elements</h3>
     <article>
         <section></section>
-        <pre><code>::first-line
-::before
-::after</code></pre>
+        <pre><code>::before
+::after
+::first-line
+::first-letter
+::selection</code></pre>
+    </article>
+    <h3>Functional Pseudo Elements</h3>
+    <article>
+        <section></section>
+        <pre><code>::placeholder
+::marker
+::backdrop</code></pre>
     </article>
 
-    <h2>Priority</h2>
-    <h3>Inheritance</h3>
+    <h2>Inheritance</h2>
+    <h3>Cascade Rules</h3>
+    <article>
+        <section></section>
+        <pre><code>Source order
+Specificity
+Importance</code></pre>
+    </article>
+    <h3>Set and Reset</h3>
     <article>
         <section></section>
         <pre><code>inherit
@@ -63,13 +93,6 @@ initial
 revert
 revert-layer
 unset</code></pre>
-    </article>
-    <h3>Cascade</h3>
-    <article>
-        <section></section>
-        <pre><code>Source order
-Specificity
-Importance</code></pre>
     </article>
 
     <h2>Units</h2>
@@ -93,6 +116,58 @@ vh
 vw
 lh
 rlh</code></pre>
+    </article>
+
+    <h2>Text</h2>
+    <h3>Text Styling</h3>
+    <article>
+        <section></section>
+        <pre><code>color: red;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 16px;
+font-style: italic;
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: underline;
+text-shadow: 2px 2px 2px #000;
+text-align: center;
+line-height: 1.5;
+letter-spacing: 2px;
+word-spacing: 4px;</code></pre>
+    </article>
+
+    <h2>Background</h2>
+    <h3>Image Fitting</h3>
+    <article>
+        <section></section>
+        <pre><code>object-fit: cover;
+object-fit: contain;
+object-fit: fill;</code></pre>
+    </article>
+    <h3>Background Attributes</h3>
+    <article>
+        <section></section>
+        <pre><code>background-color: black;
+background-image: url(image1.png);
+background-image: url(image1.png), url(image2.png);
+background-image: linear-gradient(to right, red, blue);
+
+background-repeat: no-repeat;
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+background-repeat: repeat;
+background-repeat: space;
+background-repeat: round;
+
+background-size: 80px 10em;
+background-size: cover;
+background-size: contain;
+background-position: top center;
+background-attachment: scroll;
+background-attachment: fixed;
+background-attachment: local;
+
+background: #000 url(image.jpg) no-repeat center/cover;</code></pre>
     </article>
 
     <h2>Box Model</h2>
