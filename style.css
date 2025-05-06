@@ -57,11 +57,29 @@ main {
 }
 
 aside {
+    position: fixed;
+    padding-top: 7rem;
     grid-area: aside;
     width: 7rem;
     & a {
         display: block;
+        text-decoration: none;
+        color: black;
+        padding: 0.8rem 1rem;
+        margin: 0.3rem 0;
+        border-radius: 0.5rem;
+        transition: all 0.3s ease;
+        font-weight: 500;
+        &:hover {
+            background-color: lightskyblue;
+            color: white;
+            transform: translateX(5px);
+        }
+        &:active {
+            background-color: #007bff;
+        }
     }
+
 }
 
 footer {

@@ -1,4 +1,22 @@
 <div id="article-container">
+    <h2>Inheritance</h2>
+    <h3>Cascade Rules</h3>
+    <article>
+        <section></section>
+        <pre><code>Order
+Specificity
+Importance</code></pre>
+    </article>
+    <h3>Set and Reset</h3>
+    <article>
+        <section></section>
+        <pre><code>inherit
+initial
+revert
+revert-layer
+unset</code></pre>
+    </article>
+
     <h2>Selectors</h2>
     <h3>General Selectors</h3>
     <article>
@@ -77,49 +95,29 @@ parent ~ child</code></pre>
 ::backdrop</code></pre>
     </article>
 
-    <h2>Inheritance</h2>
-    <h3>Cascade Rules</h3>
+    <h2>At Rules</h2>
+    <h3>Feature Queries</h3>
     <article>
         <section></section>
-        <pre><code>Source order
-Specificity
-Importance</code></pre>
+        <pre><code>@supports
+@import</code></pre>
     </article>
-    <h3>Set and Reset</h3>
+    <h3>Media Queries</h3>
     <article>
         <section></section>
-        <pre><code>inherit
-initial
-revert
-revert-layer
-unset</code></pre>
-    </article>
-
-    <h2>Units</h2>
-    <h3>Absolute Units</h3>
-    <article>
-        <section></section>
-        <pre><code>cm
-mm
-Q
-in
-pc
-pt
-px</code></pre>
-    </article>
-    <h3>Relative Units</h3>
-    <article>
-        <section></section>
-        <pre><code>em
-rem
-vh
-vw
-lh
-rlh</code></pre>
+        <pre><code>@media
+@container</code></pre>
     </article>
 
     <h2>Text</h2>
-    <h3>Text Styling</h3>
+    <h3>Font Properties</h3>
+    <article>
+        <section></section>
+        <pre><code>
+
+        </code></pre>
+    </article>
+    <h3>Styling Properties</h3>
     <article>
         <section></section>
         <pre><code>color: red;
@@ -133,10 +131,17 @@ text-shadow: 2px 2px 2px #000;
 text-align: center;
 line-height: 1.5;
 letter-spacing: 2px;
-word-spacing: 4px;</code></pre>
+word-spacing: 4px;
+word-wrap: break-word;</code></pre>
     </article>
 
     <h2>Background</h2>
+    <h3>Shorthand Properties</h3>
+    <article>
+        <section></section>
+        <pre><code>background: #000 url(image.jpg) no-repeat center/cover;</code></pre>
+    </article>
+    <h3></h3>
     <h3>Image Fitting</h3>
     <article>
         <section></section>
@@ -165,9 +170,7 @@ background-size: contain;
 background-position: top center;
 background-attachment: scroll;
 background-attachment: fixed;
-background-attachment: local;
-
-background: #000 url(image.jpg) no-repeat center/cover;</code></pre>
+background-attachment: local;</code></pre>
     </article>
 
     <h2>Box Model</h2>
@@ -252,20 +255,10 @@ grid-template-areas</code></pre>
         <section></section>
         <pre><code>display: inline;
 display: block;
-display: inline-block;</code></pre>
-    </article>
-    <h3>Sizing</h3>
-    <article>
-        <section></section>
-        <pre><code>box-sizing: content-box;
-box-sizing: border-box;</code></pre>
-    </article>
-    <h3>Float</h3>
-    <article>
-        <section></section>
-        <pre><code>float: left;
-clear: left;
-display: flow-root</code></pre>
+display: inline-block;
+display: flow-root
+float: left;
+clear: left;</code></pre>
     </article>
     <h3>Position</h3>
     <article>
@@ -285,5 +278,102 @@ overflow: scroll
 overflow-x
 overflow-y
 overflow: auto</code></pre>
+    </article>
+    <h3>Sizing</h3>
+    <article>
+        <section></section>
+        <pre><code>box-sizing: content-box;
+box-sizing: border-box;</code></pre>
+    </article>
+
+    <h2>Transform</h2>
+    <h3>Translate Properties</h3>
+    <article>
+        <section id="translate">
+            <img src="../assets/css.png" alt="CSS logo"/>
+        </section>
+        <pre><code>transform: translate(5rem, 50%);
+transform-origin: center center;</code></pre>
+    </article>
+    <h3>Scale Properties</h3>
+    <article>
+        <section id="scale">
+            <img src="../assets/css.png" alt="CSS logo"/>
+        </section>
+        <pre><code>transform: scale(2, 0.5);
+transform-origin: center center;</code></pre>
+    </article>
+    <h3>Skew Properties</h3>
+    <article>
+        <section id="skew">
+            <img src="../assets/css.png" alt="CSS logo"/>
+        </section>
+        <pre><code>transform: skewX(10deg) skewY(10deg);
+transform-origin: center center;</code></pre>
+    </article>
+    <h3>Rotate Properties</h3>
+    <article>
+        <section id="rotate">
+            <img src="../assets/css.png" alt="CSS logo"/>
+        </section>
+        <pre><code>transform: rotate(10deg);
+transform-origin: bottom left;</code></pre>
+    </article>
+
+    <h2>Transition</h2>
+    <h3>Shorthand Properties</h3>
+    <article>
+        <section id="transitionShorthand">
+            <img src="../assets/css.png" alt="CSS logo"/>
+        </section>
+        <pre><code>transition: all 1s ease-in-out 0s;</code></pre>
+    </article>
+    <h3>Longhand Properties</h3>
+    <article>
+        <section id="transitionLonghand">
+            <img src="../assets/css.png" alt="CSS logo"/>
+        </section>
+        <pre><code>transition-property: all;
+transition-duration: 1s;
+transition-timing-function: ease-in-out;
+transition-delay: 0s;</code></pre>
+    </article>
+
+    <h2>Animations</h2>
+    <h3>Shorthand Properties</h3>
+    <article>
+        <section id="animationShorthand">
+            <img src="../assets/css.png" alt="CSS logo"/>
+        </section>
+        <pre><code>animation: slideIn 3s ease-in-out 1s infinite alternate forwards;</code></pre>
+    </article>
+    <h3>Longhand Properties</h3>
+    <article>
+        <section id="animationLonghand">
+            <img src="../assets/css.png" alt="CSS logo"/>
+        </section>
+        <pre><code>animation-name: slideIn;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+animation-delay: 1s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-fill-mode: forwards;</code></pre>
+    </article>
+    <h3>Keyframe At Rules</h3>
+    <article>
+        <section id="keyframe">
+            <img src="../assets/css.png" alt="CSS logo"/>
+        </section>
+        <pre><code>@keyframes slideIn {
+    from {
+        translate: 100vw 0;
+        scale: 200% 1;
+    }
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}</code></pre>
     </article>
 </div>

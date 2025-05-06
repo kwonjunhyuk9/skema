@@ -8,24 +8,20 @@ Built in objects, API integrations, React, and more.
 
 ### TODO
 
-- Redesign aside bar
-- Make website language switchable
-- Make website theme switchable
-- Deploy on server
-
-- 클론코딩으로 각각 구현과제해보기
-<h2>Languages</h2>
-<h2>Themes</h2>
-<h2>Breadcrumbs</h2>
-<h2>Cards</h2>
-<h2>Lazy registration</h2>
-<h2>Infinite scroll</h2>
-<h2>Modal dialogs</h2>
-<h2>Progressive disclosure</h2>
-<h2>Progress indication</h2>
-<h2>Shopping cart</h2>
+- Use React
+- Use Next
+- Languages
+- Themes
+- Breadcrumb navigation
 - Split navigation
 - Pagination
+- Cards
+- Lazy registration
+- Infinite scroll
+- Modal dialogs
+- Progressive disclosure
+- Progress indication
+- Shopping cart
 
 ### Author
 
