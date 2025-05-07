@@ -1,3 +1,34 @@
+#textShorthand p {
+    font: italic small-caps bold 16px/1.5 'Arial', sans-serif;
+}
+
+#textLonghand p {
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+}
+
+#backgroundShorthand {
+    background: black url('../assets/css.png') repeat center/10% local padding-box;
+    width: 100%;
+    height: 100%;
+}
+
+#backgroundLonghand {
+    background-color: black;
+    background-image: url('../assets/css.png');
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 10%;
+    background-attachment: local;
+    background-origin: padding-box;
+    width: 100%;
+    height: 100%;
+}
+
 #translate {
     & img {
         transform: translate(5rem, 50%);
@@ -35,6 +66,7 @@
         transition: all 1s ease-in-out 0s;
         width: 3rem;
     }
+
     & img:hover {
         rotate: 180deg;
     }
@@ -48,6 +80,7 @@
         transition-delay: 0s;
         width: 3rem;
     }
+
     & img:hover {
         rotate: 180deg;
     }
@@ -55,6 +88,7 @@
 
 #animationShorthand {
     overflow: hidden;
+
     & img {
         animation: slideIn 5s ease-in-out 1s infinite alternate forwards;
         width: 3rem;
@@ -63,20 +97,7 @@
 
 #animationLonghand {
     overflow: hidden;
-    & img {
-        animation-name: slideIn;
-        animation-duration: 5s;
-        animation-timing-function: ease-in-out;
-        animation-delay: 1s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-        animation-fill-mode: forwards;
-        width: 3rem;
-    }
-}
 
-#keyframe {
-    overflow: hidden;
     & img {
         animation-name: slideIn;
         animation-duration: 5s;

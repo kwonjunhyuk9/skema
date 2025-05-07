@@ -165,57 +165,57 @@
     <article>
         <section>
             <ul>
-                <li>milk</li>
-                <li>eggs</li>
-                <li>bread</li>
-                <li>hummus</li>
+                <li>gaming mouse</li>
+                <li>mechanical keyboard</li>
+                <li>gaming headset</li>
+                <li>mousepad</li>
             </ul>
         </section>
         <pre><code>&lt;ul&gt;
-    &lt;li&gt;milk&lt;/li&gt;
-    &lt;li&gt;eggs&lt;/li&gt;
-    &lt;li&gt;bread&lt;/li&gt;
-    &lt;li&gt;hummus&lt;/li&gt;
+    &lt;li&gt;gaming mouse&lt;/li&gt;
+    &lt;li&gt;mechanical keyboard&lt;/li&gt;
+    &lt;li&gt;gaming headset&lt;/li&gt;
+    &lt;li&gt;mousepad&lt;/li&gt;
 &lt;/ul&gt;</code></pre>
     </article>
     <h3>Ordered List</h3>
     <article>
         <section>
             <ol>
-                <li>Drive to the end of the road</li>
-                <li>Turn right</li>
-                <li>Go straight across the first two roundabouts</li>
-                <li>Turn left at the third roundabout</li>
-                <li>The school is on your right</li>
+                <li>Boil fresh water</li>
+                <li>Grind coffee beans</li>
+                <li>Place filter in dripper</li>
+                <li>Add ground coffee to filter</li>
+                <li>Pour hot water slowly</li>
             </ol>
         </section>
         <pre><code>&lt;ol&gt;
-    &lt;li&gt;Drive to the end of the road&lt;/li&gt;
-    &lt;li&gt;Turn right&lt;/li&gt;
-    &lt;li&gt;Go straight across the first two roundabouts&lt;/li&gt;
-    &lt;li&gt;Turn left at the third roundabout&lt;/li&gt;
-    &lt;li&gt;The school is on your right&lt;/li&gt;
+    &lt;li&gt;Boil fresh water&lt;/li&gt;
+    &lt;li&gt;Grind coffee beans&lt;/li&gt;
+    &lt;li&gt;Place filter in dripper&lt;/li&gt;
+    &lt;li&gt;Add ground coffee to filter&lt;/li&gt;
+    &lt;li&gt;Pour hot water slowly&lt;/li&gt;
 &lt;/ol&gt;</code></pre>
     </article>
     <h3>Description List</h3>
     <article>
         <section>
             <dl>
-                <dt>soliloquy</dt>
-                <dd> In drama, where a character speaks to themselves.</dd>
-                <dt>monologue</dt>
-                <dd> In drama, where a character speaks their thoughts out loud.</dd>
-                <dt>aside</dt>
-                <dd> In drama, where a character shares a comment only with the audience.</dd>
+                <dt>Jazz</dt>
+                <dd>A music genre characterized by improvisation, syncopation, and swing notes, originated in New Orleans.</dd>
+                <dt>Rock</dt>
+                <dd>A genre centered on electric guitars, strong beats, and often rebellious or anti-establishment themes.</dd>
+                <dt>Classical</dt>
+                <dd>Traditional Western music typically performed by orchestras, following complex written compositions.</dd>
             </dl>
         </section>
         <pre><code>&lt;dl&gt;
-    &lt;dt&gt;soliloquy&lt;/dt&gt;
-    &lt;dd&gt; In drama, where a character speaks to themselves. &lt;/dd&gt;
-    &lt;dt&gt;monologue&lt;/dt&gt;
-    &lt;dd&gt; In drama, where a character speaks their thoughts out loud. &lt;/dd&gt;
-    &lt;dt&gt;aside&lt;/dt&gt;
-    &lt;dd&gt; In drama, where a character shares a comment only with the audience. &lt;/dd&gt;
+    &lt;dt&gt;Jazz&lt;/dt&gt;
+    &lt;dd&gt;A music genre characterized by improvisation, syncopation, and swing notes, originated in New Orleans.&lt;/dd&gt;
+    &lt;dt&gt;Rock&lt;/dt&gt;
+    &lt;dd&gt;A genre centered on electric guitars, strong beats, and often rebellious or anti-establishment themes.&lt;/dd&gt;
+    &lt;dt&gt;Classical&lt;/dt&gt;
+    &lt;dd&gt;Traditional Western music typically performed by orchestras, following complex written compositions.&lt;/dd&gt;
 &lt;/dl&gt;</code></pre>
     </article>
 
@@ -336,7 +336,7 @@
             &lt;td headers="total"&gt;$4,200&lt;/td&gt;
         &lt;/tr&gt;
     &lt;/tbody&gt;
-    &lt;tfoot&gt;
+    &lt;/tfoot&gt;
         &lt;tr&gt;
             &lt;td colspan="4"&gt;Total Payroll Cost&lt;/td&gt;
             &lt;td&gt;$13,100&lt;/td&gt;
@@ -348,23 +348,27 @@
     <h2>Images</h2>
     <h3>Basic Image</h3>
     <article>
-        <section></section>
+        <section>
+            <img src="../assets/html.png" alt="HTML logo" width="100"  title="Image of a HTML logo"/>
+        </section>
         <pre><code>&lt;img
-    src="images/dinosaur.jpg"
-    alt="The head and torso of a dinosaur skeleton"
-    width="400"
-    height="341"
-    title="A T-Rex on display in the Manchester University Museum"
+    src="../assets/html.png"
+    alt="HTML logo"
+    title="Image of a HTML logo"
 /&gt;</code></pre>
     </article>
 
     <h2>Audios</h2>
     <h3>Basic Audio</h3>
     <article>
-        <section></section>
+        <section>
+            <audio controls>
+                <source src="../assets/cyberpunk.mp3" type="audio/mp3" />
+                <p>Your browser doesn't support this audio file.</p>
+            </audio>
+        </section>
         <pre><code>&lt;audio controls&gt;
-    &lt;source src="viper.mp3" type="audio/mp3" /&gt;
-    &lt;source src="viper.ogg" type="audio/ogg" /&gt;
+    &lt;source src="../assets/cyberpunk.mp3" type="audio/mp3" /&gt;
     &lt;p&gt;Your browser doesn't support this audio file.&lt;/p&gt;
 &lt;/audio&gt;</code></pre>
     </article>
@@ -372,10 +376,14 @@
     <h2>Videos</h2>
     <h3>Basic Video</h3>
     <article>
-        <section></section>
+        <section>
+            <video controls width="300">
+                <source src="../assets/cyberpunk.mp4" type="video/mp4" />
+                <p>Your browser doesn't support this video.</p>
+            </video>
+        </section>
         <pre><code>&lt;video controls&gt;
-    &lt;source src="rabbit320.mp4" type="video/mp4" /&gt;
-    &lt;source src="rabbit320.webm" type="video/webm" /&gt;
+    &lt;source src="../assets/cyberpunk.mp4" type="video/mp4" /&gt;
     &lt;p&gt; Your browser doesn't support this video. &lt;/p&gt;
 &lt;/video&gt;</code></pre>
     </article>
@@ -384,133 +392,147 @@
     <h3>Basic Form</h3>
     <article>
         <section>
-            <form action="./submit_page" method="get">
-                <h3>Subscribe to our newsletter</h3>
+            <form action="./survey_submit" method="post">
+                <h3>Take our survey</h3>
                 <p>
-                    <label for="username">Name (required):</label>
-                    <input type="text" name="name" id="username" required/>
+                    <label for="fullName">Full Name (required):</label>
+                    <input type="text" name="fullName" id="fullName" required/>
                 </p>
                 <p>
-                    <label for="email">Email (required):</label>
-                    <input type="email" name="email" id="email" required/>
+                    <label for="userEmail">Email (required):</label>
+                    <input type="email" name="userEmail" id="userEmail" required/>
                 </p>
                 <p>
-                    <button>Sign me up!</button>
-                </p>
-            </form>
-            <form action="./payment_page" method="get">
-                <h3>Register for the meetup</h3>
-                <fieldset>
-                    <legend>Choose hotel room type (required):</legend>
-                    <div>
-                        <input type="radio" id="hotelChoice1" name="hotel" value="economy" checked/>
-                        <label for="hotelChoice1">Economy (+$0)</label>
-
-                        <input type="radio" id="hotelChoice2" name="hotel" value="superior"/>
-                        <label for="hotelChoice2">Superior (+$50)</label>
-
-                        <input type="radio" id="hotelChoice3" name="hotel" value="penthouse" disabled/>
-                        <label for="hotelChoice3">Penthouse (+$150)</label>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <legend>Choose classes to attend:</legend>
-                    <div>
-                        <input type="checkbox" id="yoga" name="yoga"/>
-                        <label for="yoga">Yoga (+$10)</label>
-
-                        <input type="checkbox" id="coffee" name="coffee"/>
-                        <label for="coffee">Coffee roasting (+$20)</label>
-
-                        <input type="checkbox" id="balloon" name="balloon"/>
-                        <label for="balloon">Balloon animal art (+$5)</label>
-                    </div>
-                </fieldset>
-                <p>
-                    <label for="transport">How are you getting here:</label>
-                    <select name="transport" id="transport">
-                        <option value="">--Please choose an option--</option>
-                        <option value="plane">Plane</option>
-                        <option value="bike">Bike</option>
-                        <option value="walk">Walk</option>
-                        <option value="bus">Bus</option>
-                        <option value="train">Train</option>
-                        <option value="jetPack">Jet pack</option>
+                    <label for="ageRange">Age Group:</label>
+                    <select name="ageRange" id="ageRange">
+                        <option value="">--Select age group--</option>
+                        <option value="teen">13-19</option>
+                        <option value="youngAdult">20-35</option>
+                        <option value="adult">36-50</option>
+                        <option value="senior">51+</option>
                     </select>
                 </p>
                 <p>
-                    <label for="comments">Any other comments:</label>
-                    <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
+                    <button>Submit Survey</button>
+                </p>
+            </form>
+
+            <form action="./event_register" method="post">
+                <h3>Event Registration</h3>
+                <fieldset>
+                    <legend>Pick your experience package (required):</legend>
+                    <div>
+                        <input type="radio" id="basicPackage" name="package" value="basic" checked/>
+                        <label for="basicPackage">Basic ($50)</label>
+
+                        <input type="radio" id="premiumPackage" name="package" value="premium"/>
+                        <label for="premiumPackage">Premium ($100)</label>
+
+                        <input type="radio" id="vipPackage" name="package" value="vip" disabled/>
+                        <label for="vipPackage">VIP ($200)</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Select extra activities:</legend>
+                    <div>
+                        <input type="checkbox" id="workshop" name="workshop"/>
+                        <label for="workshop">Workshop ($30)</label>
+
+                        <input type="checkbox" id="dinner" name="dinner"/>
+                        <label for="dinner">Networking Dinner ($50)</label>
+
+                        <input type="checkbox" id="tour" name="tour"/>
+                        <label for="tour">City Tour ($20)</label>
+                    </div>
+                </fieldset>
+                <p>
+                    <label for="transportMode">How will you arrive:</label>
+                    <select name="transportMode" id="transportMode">
+                        <option value="">--Select mode of transport--</option>
+                        <option value="car">Car</option>
+                        <option value="train">Train</option>
+                        <option value="plane">Plane</option>
+                        <option value="other">Other</option>
+                    </select>
                 </p>
                 <p>
-                    <button>Continue to payment</button>
+                    <label for="additionalNotes">Additional Notes:</label>
+                    <textarea id="additionalNotes" name="additionalNotes" rows="4" cols="30"></textarea>
+                </p>
+                <p>
+                    <button>Register Now</button>
                 </p>
             </form>
         </section>
-        <pre><code>&lt;form action=&quot;./submit_page&quot; method=&quot;get&quot;&gt;
-    &lt;h3&gt;Subscribe to our newsletter&lt;/h3&gt;
+        <pre><code>&lt;form action=&quot;./survey_submit&quot; method=&quot;post&quot;&gt;
+    &lt;h3&gt;Take our survey&lt;/h3&gt;
     &lt;p&gt;
-        &lt;label for=&quot;name&quot;&gt;Name (required):&lt;/label&gt;
-        &lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; required/&gt;
+        &lt;label for=&quot;fullName&quot;&gt;Full Name (required):&lt;/label&gt;
+        &lt;input type=&quot;text&quot; name=&quot;fullName&quot; id=&quot;fullName&quot; required/&gt;
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;label for=&quot;email&quot;&gt;Email (required):&lt;/label&gt;
-        &lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; required/&gt;
+        &lt;label for=&quot;userEmail&quot;&gt;Email (required):&lt;/label&gt;
+        &lt;input type=&quot;email&quot; name=&quot;userEmail&quot; id=&quot;userEmail&quot; required/&gt;
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;button&gt;Sign me up!&lt;/button&gt;
-    &lt;/p&gt;
-&lt;/form&gt;
-&lt;form action=&quot;./payment_page&quot; method=&quot;get&quot;&gt;
-    &lt;h3&gt;Register for the meetup&lt;/h3&gt;
-    &lt;p&gt;
-    &lt;fieldset&gt;
-        &lt;legend&gt;Choose hotel room type (required):&lt;/legend&gt;
-        &lt;div&gt;
-            &lt;input type=&quot;radio&quot; id=&quot;hotelChoice1&quot; name=&quot;hotel&quot; value=&quot;economy&quot; checked/&gt;
-            &lt;label for=&quot;hotelChoice1&quot;&gt;Economy (+$0)&lt;/label&gt;
-
-            &lt;input type=&quot;radio&quot; id=&quot;hotelChoice2&quot; name=&quot;hotel&quot; value=&quot;superior&quot;/&gt;
-            &lt;label for=&quot;hotelChoice2&quot;&gt;Superior (+$50)&lt;/label&gt;
-
-            &lt;input type=&quot;radio&quot; id=&quot;hotelChoice3&quot; name=&quot;hotel&quot; value=&quot;penthouse&quot; disabled/&gt;
-            &lt;label for=&quot;hotelChoice3&quot;&gt;Penthouse (+$150)&lt;/label&gt;
-        &lt;/div&gt;
-    &lt;/fieldset&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-    &lt;fieldset&gt;
-        &lt;legend&gt;Choose classes to attend:&lt;/legend&gt;
-        &lt;div&gt;
-            &lt;input type=&quot;checkbox&quot; id=&quot;yoga&quot; name=&quot;yoga&quot;/&gt;
-            &lt;label for=&quot;yoga&quot;&gt;Yoga (+$10)&lt;/label&gt;
-
-            &lt;input type=&quot;checkbox&quot; id=&quot;coffee&quot; name=&quot;coffee&quot;/&gt;
-            &lt;label for=&quot;coffee&quot;&gt;Coffee roasting (+$20)&lt;/label&gt;
-
-            &lt;input type=&quot;checkbox&quot; id=&quot;balloon&quot; name=&quot;balloon&quot;/&gt;
-            &lt;label for=&quot;balloon&quot;&gt;Balloon animal art (+$5)&lt;/label&gt;
-        &lt;/div&gt;
-    &lt;/fieldset&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-        &lt;label for=&quot;transport&quot;&gt;How are you getting here:&lt;/label&gt;
-        &lt;select name=&quot;transport&quot; id=&quot;transport&quot;&gt;
-            &lt;option value=&quot;&quot;&gt;--Please choose an option--&lt;/option&gt;
-            &lt;option value=&quot;plane&quot;&gt;Plane&lt;/option&gt;
-            &lt;option value=&quot;bike&quot;&gt;Bike&lt;/option&gt;
-            &lt;option value=&quot;walk&quot;&gt;Walk&lt;/option&gt;
-            &lt;option value=&quot;bus&quot;&gt;Bus&lt;/option&gt;
-            &lt;option value=&quot;train&quot;&gt;Train&lt;/option&gt;
-            &lt;option value=&quot;jetPack&quot;&gt;Jet pack&lt;/option&gt;
+        &lt;label for=&quot;ageRange&quot;&gt;Age Group:&lt;/label&gt;
+        &lt;select name=&quot;ageRange&quot; id=&quot;ageRange&quot;&gt;
+            &lt;option value=&quot;&quot;&gt;--Select age group--&lt;/option&gt;
+            &lt;option value=&quot;teen&quot;&gt;13-19&lt;/option&gt;
+            &lt;option value=&quot;youngAdult&quot;&gt;20-35&lt;/option&gt;
+            &lt;option value=&quot;adult&quot;&gt;36-50&lt;/option&gt;
+            &lt;option value=&quot;senior&quot;&gt;51+&lt;/option&gt;
         &lt;/select&gt;
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;label for=&quot;comments&quot;&gt;Any other comments:&lt;/label&gt;
-        &lt;textarea id=&quot;comments&quot; name=&quot;comments&quot; rows=&quot;5&quot; cols=&quot;33&quot;&gt;&lt;/textarea&gt;
+        &lt;button&gt;Submit Survey&lt;/button&gt;
+    &lt;/p&gt;
+&lt;/form&gt;
+
+&lt;form action=&quot;./event_register&quot; method=&quot;post&quot;&gt;
+    &lt;h3&gt;Event Registration&lt;/h3&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;Pick your experience package (required):&lt;/legend&gt;
+        &lt;div&gt;
+            &lt;input type=&quot;radio&quot; id=&quot;basicPackage&quot; name=&quot;package&quot; value=&quot;basic&quot; checked/&gt;
+            &lt;label for=&quot;basicPackage&quot;&gt;Basic ($50)&lt;/label&gt;
+
+            &lt;input type=&quot;radio&quot; id=&quot;premiumPackage&quot; name=&quot;package&quot; value=&quot;premium&quot;/&gt;
+            &lt;label for=&quot;premiumPackage&quot;&gt;Premium ($100)&lt;/label&gt;
+
+            &lt;input type=&quot;radio&quot; id=&quot;vipPackage&quot; name=&quot;package&quot; value=&quot;vip&quot; disabled/&gt;
+            &lt;label for=&quot;vipPackage&quot;&gt;VIP ($200)&lt;/label&gt;
+        &lt;/div&gt;
+    &lt;/fieldset&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;Select extra activities:&lt;/legend&gt;
+        &lt;div&gt;
+            &lt;input type=&quot;checkbox&quot; id=&quot;workshop&quot; name=&quot;workshop&quot;/&gt;
+            &lt;label for=&quot;workshop&quot;&gt;Workshop ($30)&lt;/label&gt;
+
+            &lt;input type=&quot;checkbox&quot; id=&quot;dinner&quot; name=&quot;dinner&quot;/&gt;
+            &lt;label for=&quot;dinner&quot;&gt;Networking Dinner ($50)&lt;/label&gt;
+
+            &lt;input type=&quot;checkbox&quot; id=&quot;tour&quot; name=&quot;tour&quot;/&gt;
+            &lt;label for=&quot;tour&quot;&gt;City Tour ($20)&lt;/label&gt;
+        &lt;/div&gt;
+    &lt;/fieldset&gt;
+    &lt;p&gt;
+        &lt;label for=&quot;transportMode&quot;&gt;How will you arrive:&lt;/label&gt;
+        &lt;select name=&quot;transportMode&quot; id=&quot;transportMode&quot;&gt;
+            &lt;option value=&quot;&quot;&gt;--Select mode of transport--&lt;/option&gt;
+            &lt;option value=&quot;car&quot;&gt;Car&lt;/option&gt;
+            &lt;option value=&quot;train&quot;&gt;Train&lt;/option&gt;
+            &lt;option value=&quot;plane&quot;&gt;Plane&lt;/option&gt;
+            &lt;option value=&quot;other&quot;&gt;Other&lt;/option&gt;
+        &lt;/select&gt;
     &lt;/p&gt;
     &lt;p&gt;
-        &lt;button&gt;Continue to payment&lt;/button&gt;
+        &lt;label for=&quot;additionalNotes&quot;&gt;Additional Notes:&lt;/label&gt;
+        &lt;textarea id=&quot;additionalNotes&quot; name=&quot;additionalNotes&quot; rows=&quot;4&quot; cols=&quot;30&quot;&gt;&lt;/textarea&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;button&gt;Register Now&lt;/button&gt;
     &lt;/p&gt;
 &lt;/form&gt;</code></pre>
     </article>
