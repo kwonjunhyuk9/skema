@@ -7,8 +7,6 @@ The project includes sections such as HTML, CSS, JavaScript, React, Next, Built 
 
 ### TODO
 
-- @font-family
-- @keyframes
 - Use React
 - Use Next
 - Use JSON database

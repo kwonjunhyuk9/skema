@@ -29,6 +29,150 @@
     height: 100%;
 }
 
+#inlineStatic {
+    & span {
+        display: inline;
+        margin: 10px 20px 15px 25px;
+        border: 1px solid #000;
+        padding: 10px 20px 15px 25px;
+        box-sizing: border-box;
+        overflow: scroll;
+        position: static;
+        z-index: 1;
+    }
+}
+
+#inlineRelative {
+    & span {
+        display: inline;
+        margin: 10px 20px 15px 25px;
+        border: 1px solid #000;
+        padding: 10px 20px 15px 25px;
+        box-sizing: border-box;
+        overflow: scroll;
+        position: relative;
+        z-index: 1;
+        top: 30px;
+    }
+}
+
+#inlineAbsolute {
+    position: relative;
+    & span {
+        display: inline;
+        margin: 10px 20px 15px 25px;
+        border: 1px solid #000;
+        padding: 10px 20px 15px 25px;
+        box-sizing: border-box;
+        overflow: scroll;
+        position: absolute;
+        z-index: 1;
+        top: 30px;
+    }
+}
+
+#inlineFixed {
+    & span {
+        display: inline;
+        margin: 10px 20px 15px 25px;
+        border: 1px solid #000;
+        padding: 10px 20px 15px 25px;
+        box-sizing: border-box;
+        overflow: scroll;
+        position: fixed;
+        z-index: 1;
+        top: 100px;
+        left: 170px;
+    }
+}
+
+#inlineSticky {
+    & span {
+        display: inline;
+        margin: 10px 20px 15px 25px;
+        border: 1px solid #000;
+        padding: 10px 20px 15px 25px;
+        box-sizing: border-box;
+        overflow: scroll;
+        position: sticky;
+        z-index: 1;
+        top: 0;
+    }
+}
+
+#blockStatic {
+    & div {
+        display: block;
+        margin: 10px 20px 15px 25px;
+        border: 1px solid #000;
+        padding: 10px 20px 15px 25px;
+        box-sizing: border-box;
+        overflow: scroll;
+        position: static;
+        z-index: 1;
+    }
+}
+
+#blockRelative {
+    & div {
+        display: block;
+        margin: 10px 20px 15px 25px;
+        border: 1px solid #000;
+        padding: 10px 20px 15px 25px;
+        box-sizing: border-box;
+        overflow: scroll;
+        position: relative;
+        z-index: 1;
+        top: 30px;
+    }
+}
+
+#blockAbsolute {
+    position: relative; /*In order to achieve the real effect of the absolute position*/
+    & div {
+        display: block;
+        margin: 10px 20px 15px 25px;
+        border: 1px solid #000;
+        padding: 10px 20px 15px 25px;
+        box-sizing: border-box;
+        overflow: scroll;
+        position: absolute;
+        z-index: 1;
+        top: 30px;
+        width: 90%;
+    }
+}
+
+#blockFixed {
+    & div {
+        display: block;
+        margin: 10px 20px 15px 25px;
+        border: 1px solid #000;
+        padding: 10px 20px 15px 25px;
+        box-sizing: border-box;
+        overflow: scroll;
+        position: fixed;
+        z-index: 1;
+        top: 170px;
+        left: 170px;
+    }
+}
+
+#blockSticky {
+    & div {
+        display: block;
+        margin: 10px 20px 15px 25px;
+        border: 1px solid #000;
+        padding: 10px 20px 15px 25px;
+        box-sizing: border-box;
+        overflow: scroll;
+        position: sticky;
+        z-index: 1;
+        top: 0;
+    }
+}
+
+
 #translate {
     & img {
         transform: translate(5rem, 50%);
