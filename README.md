@@ -11,6 +11,7 @@ The project includes sections such as HTML, CSS, JavaScript, React, Next, Built 
 - @keyframes
 - Use React
 - Use Next
+- Use JSON database
 - Languages
 - Themes
 - Breadcrumb navigation

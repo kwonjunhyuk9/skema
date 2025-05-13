@@ -53,6 +53,15 @@ main {
                 white-space: pre-wrap;
             }
         }
+        & a {
+            float: right;
+            margin: 1rem;
+            text-decoration: none;
+            color: black;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
 }
 
