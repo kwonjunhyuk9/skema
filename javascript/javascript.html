@@ -62,131 +62,195 @@
     </article>
 
     <h2>Boolean</h2>
-    <h3>Declaration</h3>
+    <h3>Constructor</h3>
     <article>
         <section></section>
-        <pre><code>let boolean = true;
-let boolean = Boolean(1);</code></pre>
+        <pre><code>Boolean()</code></pre>
+    </article>
+    <h3>Instance Properties</h3>
+    <article>
+        <section></section>
+        <pre><code>Boolean.prototype.constructor</code></pre>
+    </article>
+    <h3>Instance Methods</h3>
+    <article>
+        <section></section>
+        <pre><code>Boolean.prototype.toString()
+Boolean.prototype.valueOf()</code></pre>
     </article>
 
     <h2>Numbers</h2>
-    <h3>Declaration</h3>
+    <h3>Constructor</h3>
     <article>
         <section></section>
-        <pre><code>let number = 1;
-let number = Number(true);
-let number = parseInt("42");
-let number = parseFloat("3.14");</code></pre>
+        <pre><code>Number()</code></pre>
     </article>
-    <h3>Other</h3>
+    <h3>Static Properties</h3>
     <article>
         <section></section>
-        <pre><code>parseInt(“11111”, 2);
-number.toString(2);
-number.toFixed(3);</code></pre>
+        <pre><code>Number.EPSILON
+Number.MAX_SAFE_INTEGER
+Number.MAX_VALUE
+Number.MIN_SAFE_INTEGER
+Number.MIN_VALUE
+Number.NaN
+Number.NEGATIVE_INFINITY
+Number.POSITIVE_INFINITY</code></pre>
     </article>
-
-    <h2>Characters</h2>
-    <h3>Declaration</h3>
+    <h3>Static Methods</h3>
     <article>
         <section></section>
-        <pre><code>let character = "a";</code></pre>
+        <pre><code>Number.isFinite()
+Number.isInteger()
+Number.isNaN()
+Number.isSafeInteger()
+Number.parseFloat()
+Number.parseInt()</code></pre>
     </article>
-    <h3>Other</h3>
+    <h3>Instance Properties</h3>
     <article>
         <section></section>
-        <pre><code>let char = 'A'; console.log(char.charCodeAt(0));
-let ascii = 65; console.log(String.fromCharCode(ascii));</code></pre>
+        <pre><code>Number.prototype.constructor</code></pre>
     </article>
-
-    <h2>Arrays</h2>
-    <h3>Declaration</h3>
+    <h3>Instance Methods</h3>
     <article>
         <section></section>
-        <pre><code>let array = [1, 2, 3, 4, 5];
-let array = new Array(1, 2, 3, 4, 5);</code></pre>
-    </article>
-    <h3>Search</h3>
-    <article>
-        <section></section>
-        <pre><code>array.includes(20);
-array.indexOf(20);
-array.lastIndexOf(20);
-array.find(num => num > 25);</code></pre>
-    </article>
-    <h3>Insertion</h3>
-    <article>
-        <section></section>
-        <pre><code>array.push(5);
-array.unshift(5);
-array.slice(1, 4);
-array.splice(2, 2, 99, 100);
-array.concat([7, 8, 9]);</code></pre>
-    </article>
-    <h3>Deletion</h3>
-    <article>
-        <section></section>
-        <pre><code>array.pop();
-array.shift();
-array.slice(1, 4);
-array.splice(2, 2, 99, 100);
-array.filter(num => num > 25);</code></pre>
-    </article>
-    <h3>Others</h3>
-    <article>
-        <section></section>
-        <pre><code>array.length
-array.sort();
-array.reverse();
-array.split(",");
-array.join(",");
-array.map(num => num * 2);
-array.forEach(num => console.log(num * 2));
-[...array]
-[arr[i], arr[j]] = [arr[j], arr[i]];</code></pre>
+        <pre><code>Number.prototype.toExponential()
+Number.prototype.toFixed()
+Number.prototype.toLocaleString()
+Number.prototype.toPrecision()
+Number.prototype.toString()
+Number.prototype.valueOf()</code></pre>
     </article>
 
-    <h2>Strings</h2>
-    <h3>Declaration</h3>
+    <h2>String</h2>
+    <h3>Constructor</h3>
     <article>
         <section></section>
-        <pre><code>let string = "string";
-let string = new String("Hello");</code></pre>
+        <pre><code>String()</code></pre>
     </article>
-    <h3>Search</h3>
+    <h3>Static Methods</h3>
     <article>
         <section></section>
-        <pre><code>string.includes("Hello");
-string.indexOf("Hello");
-string.lastIndexOf("Hello");
-string.startsWith("Hello");
-string.endsWith("Hello");
-string.charAt(1);</code></pre>
+        <pre><code>String.fromCharCode()
+String.fromCodePoint()
+String.raw()</code></pre>
     </article>
-    <h3>Insertion</h3>
+    <h3>Instance Properties</h3>
     <article>
         <section></section>
-        <pre><code>string.slice(0, 5);
-string.concat("Hello", “World”);</code></pre>
+        <pre><code>String.prototype.constructor
+length</code></pre>
     </article>
-    <h3>Deletion</h3>
+    <h3>Instance Methods</h3>
     <article>
         <section></section>
-        <pre><code>string.slice(0, 5);
-string.replace("Hello", "Hi");
-string.replaceAll("Hello", "Hi");</code></pre>
+        <pre><code>String.prototype.at()
+String.prototype.charAt()
+String.prototype.charCodeAt()
+String.prototype.codePointAt()
+String.prototype.concat()
+String.prototype.endsWith()
+String.prototype.includes()
+String.prototype.indexOf()
+String.prototype.isWellFormed()
+String.prototype.lastIndexOf()
+String.prototype.localeCompare()
+String.prototype.match()
+String.prototype.matchAll()
+String.prototype.normalize()
+String.prototype.padEnd()
+String.prototype.padStart()
+String.prototype.repeat()
+String.prototype.replace()
+String.prototype.replaceAll()
+String.prototype.search()
+String.prototype.slice()
+String.prototype.split()
+String.prototype.startsWith()
+String.prototype.substr()
+String.prototype.substring()
+String.prototype.toLocaleLowerCase()
+String.prototype.toLocaleUpperCase()
+String.prototype.toLowerCase()
+String.prototype.toString()
+String.prototype.toUpperCase()
+String.prototype.toWellFormed()
+String.prototype.trim()
+String.prototype.trimEnd()
+String.prototype.trimStart()
+String.prototype.valueOf()
+String.prototype[Symbol.iterator]()</code></pre>
     </article>
-    <h3>Others</h3>
+
+    <h2>Array</h2>
+    <h3>Constructor</h3>
     <article>
         <section></section>
-        <pre><code>string.length;
-string.split(",");
-string.join(",");
-string.repeat(3);
-string.toLowerCase();
-string.toUpperCase();
-[...string]
-string1 + string2;</code></pre>
+        <pre><code>Array()</code></pre>
+    </article>
+    <h3>Static Properties</h3>
+    <article>
+        <section></section>
+        <pre><code>Array[Symbol.species]</code></pre>
+    </article>
+    <h3>Static Methods</h3>
+    <article>
+        <section></section>
+        <pre><code>Array.from()
+Array.fromAsync()
+Array.isArray()
+Array.of()</code></pre>
+    </article>
+    <h3>Instance Properties</h3>
+    <article>
+        <section></section>
+        <pre><code>Array.prototype.constructor
+Array.prototype[Symbol.unscopables]
+length</code></pre>
+    </article>
+    <h3>Instance Methods</h3>
+    <article>
+        <section></section>
+        <pre><code>Array.prototype.at()
+Array.prototype.concat()
+Array.prototype.copyWithin()
+Array.prototype.entries()
+Array.prototype.every()
+Array.prototype.fill()
+Array.prototype.filter()
+Array.prototype.find()
+Array.prototype.findIndex()
+Array.prototype.findLast()
+Array.prototype.findLastIndex()
+Array.prototype.flat()
+Array.prototype.flatMap()
+Array.prototype.forEach()
+Array.prototype.includes()
+Array.prototype.indexOf()
+Array.prototype.join()
+Array.prototype.keys()
+Array.prototype.lastIndexOf()
+Array.prototype.map()
+Array.prototype.pop()
+Array.prototype.push()
+Array.prototype.reduce()
+Array.prototype.reduceRight()
+Array.prototype.reverse()
+Array.prototype.shift()
+Array.prototype.slice()
+Array.prototype.some()
+Array.prototype.sort()
+Array.prototype.splice()
+Array.prototype.toLocaleString()
+Array.prototype.toReversed()
+Array.prototype.toSorted()
+Array.prototype.toSpliced()
+Array.prototype.toString()
+Array.prototype.unshift()
+Array.prototype.values()
+Array.prototype.with()
+Array.prototype[Symbol.iterator]()</code></pre>
     </article>
 
     <h2>Objects</h2>
