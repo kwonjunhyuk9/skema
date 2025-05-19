@@ -61,270 +61,27 @@
 >=</code></pre>
     </article>
 
-    <h2>Boolean</h2>
-    <h3>Constructor</h3>
+    <h2>Conditionals</h2>
+    <h3>Ternary Conditionals</h3>
     <article>
         <section></section>
-        <pre><code>Boolean()</code></pre>
+        <pre><code>let result = (number % 2 === 0) ? "Even" : "Odd";</code></pre>
     </article>
-    <h3>Instance Properties</h3>
+    <h3>If Conditionals</h3>
     <article>
         <section></section>
-        <pre><code>Boolean.prototype.constructor</code></pre>
-    </article>
-    <h3>Instance Methods</h3>
-    <article>
-        <section></section>
-        <pre><code>Boolean.prototype.toString()
-Boolean.prototype.valueOf()</code></pre>
-    </article>
-
-    <h2>Numbers</h2>
-    <h3>Constructor</h3>
-    <article>
-        <section></section>
-        <pre><code>Number()</code></pre>
-    </article>
-    <h3>Static Properties</h3>
-    <article>
-        <section></section>
-        <pre><code>Number.EPSILON
-Number.MAX_SAFE_INTEGER
-Number.MAX_VALUE
-Number.MIN_SAFE_INTEGER
-Number.MIN_VALUE
-Number.NaN
-Number.NEGATIVE_INFINITY
-Number.POSITIVE_INFINITY</code></pre>
-    </article>
-    <h3>Static Methods</h3>
-    <article>
-        <section></section>
-        <pre><code>Number.isFinite()
-Number.isInteger()
-Number.isNaN()
-Number.isSafeInteger()
-Number.parseFloat()
-Number.parseInt()</code></pre>
-    </article>
-    <h3>Instance Properties</h3>
-    <article>
-        <section></section>
-        <pre><code>Number.prototype.constructor</code></pre>
-    </article>
-    <h3>Instance Methods</h3>
-    <article>
-        <section></section>
-        <pre><code>Number.prototype.toExponential()
-Number.prototype.toFixed()
-Number.prototype.toLocaleString()
-Number.prototype.toPrecision()
-Number.prototype.toString()
-Number.prototype.valueOf()</code></pre>
-    </article>
-
-    <h2>String</h2>
-    <h3>Constructor</h3>
-    <article>
-        <section></section>
-        <pre><code>String()</code></pre>
-    </article>
-    <h3>Static Methods</h3>
-    <article>
-        <section></section>
-        <pre><code>String.fromCharCode()
-String.fromCodePoint()
-String.raw()</code></pre>
-    </article>
-    <h3>Instance Properties</h3>
-    <article>
-        <section></section>
-        <pre><code>String.prototype.constructor
-length</code></pre>
-    </article>
-    <h3>Instance Methods</h3>
-    <article>
-        <section></section>
-        <pre><code>String.prototype.at()
-String.prototype.charAt()
-String.prototype.charCodeAt()
-String.prototype.codePointAt()
-String.prototype.concat()
-String.prototype.endsWith()
-String.prototype.includes()
-String.prototype.indexOf()
-String.prototype.isWellFormed()
-String.prototype.lastIndexOf()
-String.prototype.localeCompare()
-String.prototype.match()
-String.prototype.matchAll()
-String.prototype.normalize()
-String.prototype.padEnd()
-String.prototype.padStart()
-String.prototype.repeat()
-String.prototype.replace()
-String.prototype.replaceAll()
-String.prototype.search()
-String.prototype.slice()
-String.prototype.split()
-String.prototype.startsWith()
-String.prototype.substr()
-String.prototype.substring()
-String.prototype.toLocaleLowerCase()
-String.prototype.toLocaleUpperCase()
-String.prototype.toLowerCase()
-String.prototype.toString()
-String.prototype.toUpperCase()
-String.prototype.toWellFormed()
-String.prototype.trim()
-String.prototype.trimEnd()
-String.prototype.trimStart()
-String.prototype.valueOf()
-String.prototype[Symbol.iterator]()</code></pre>
-    </article>
-
-    <h2>Array</h2>
-    <h3>Constructor</h3>
-    <article>
-        <section></section>
-        <pre><code>Array()</code></pre>
-    </article>
-    <h3>Static Properties</h3>
-    <article>
-        <section></section>
-        <pre><code>Array[Symbol.species]</code></pre>
-    </article>
-    <h3>Static Methods</h3>
-    <article>
-        <section></section>
-        <pre><code>Array.from()
-Array.fromAsync()
-Array.isArray()
-Array.of()</code></pre>
-    </article>
-    <h3>Instance Properties</h3>
-    <article>
-        <section></section>
-        <pre><code>Array.prototype.constructor
-Array.prototype[Symbol.unscopables]
-length</code></pre>
-    </article>
-    <h3>Instance Methods</h3>
-    <article>
-        <section></section>
-        <pre><code>Array.prototype.at()
-Array.prototype.concat()
-Array.prototype.copyWithin()
-Array.prototype.entries()
-Array.prototype.every()
-Array.prototype.fill()
-Array.prototype.filter()
-Array.prototype.find()
-Array.prototype.findIndex()
-Array.prototype.findLast()
-Array.prototype.findLastIndex()
-Array.prototype.flat()
-Array.prototype.flatMap()
-Array.prototype.forEach()
-Array.prototype.includes()
-Array.prototype.indexOf()
-Array.prototype.join()
-Array.prototype.keys()
-Array.prototype.lastIndexOf()
-Array.prototype.map()
-Array.prototype.pop()
-Array.prototype.push()
-Array.prototype.reduce()
-Array.prototype.reduceRight()
-Array.prototype.reverse()
-Array.prototype.shift()
-Array.prototype.slice()
-Array.prototype.some()
-Array.prototype.sort()
-Array.prototype.splice()
-Array.prototype.toLocaleString()
-Array.prototype.toReversed()
-Array.prototype.toSorted()
-Array.prototype.toSpliced()
-Array.prototype.toString()
-Array.prototype.unshift()
-Array.prototype.values()
-Array.prototype.with()
-Array.prototype[Symbol.iterator]()</code></pre>
-    </article>
-
-    <h2>Objects</h2>
-    <h3>Declaration</h3>
-    <article>
-        <section></section>
-        <pre><code>const object = {
-    name: "Kwon",
-    age: 25
-};
-
-const object = new Object();
-object.name = "Kwon";
-object.age = 25;
-
-function Object(name, age) {
-    this.name = name;
-    this.age = age;
-}
-const object = new Object("Kwon", 25);
-
-class Object {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    }
-}
-const object = new Object("Kwon", 25);</code></pre>
-    </article>
-    <h3>Search</h3>
-    <article>
-        <section></section>
-        <pre><code>object.name;
-object[name];
-Object.keys(object);
-Object.values(object);
-Object.entries(object);
-"name" in object;</code></pre>
-    </article>
-    <h3>Insertion</h3>
-    <article>
-        <section></section>
-        <pre><code>object.profession = "Student";
-object[profession] = "Student";</code></pre>
-    </article>
-    <h3>Deletion</h3>
-    <article>
-        <section></section>
-        <pre><code>delete object.profession;
-delete object[profession];</code></pre>
-    </article>
-    <h3>Others</h3>
-    <article>
-        <section></section>
-        <pre><code>this;
-stringify;
-parse;</code></pre>
-    </article>
-
-    <h2>Conditional Statements</h2>
-    <h3>Branching Conditional Statements</h3>
-    <article>
-        <section></section>
-        <pre><code>let result = (number % 2 === 0) ? "Even" : "Odd";
-
-if (number > 0) {
+        <pre><code>if (number > 0) {
     console.log("The number is positive!");
 } else if (number < 0) {
     console.log("The number is negative!");
 } else {
     console.log("The number is zero!");
-}
-
-switch (number) {
+}</code></pre>
+    </article>
+    <h3>Switch Conditionals</h3>
+    <article>
+        <section></section>
+        <pre><code>switch (number) {
     case 1:
         console.log("You entered One!");
         break;
@@ -335,7 +92,7 @@ switch (number) {
         console.log("Invalid number!");
 }</code></pre>
     </article>
-    <h3>Error Conditional Statements</h3>
+    <h3>Try Conditionals</h3>
     <article>
         <section></section>
         <pre><code>try {
@@ -348,24 +105,30 @@ switch (number) {
     </article>
 
     <h2>Loops</h2>
-    <h3>Finite Loops</h3>
+    <h3>For Loops</h3>
     <article>
         <section></section>
         <pre><code>for (let i = 0; i <= 10; i++) {
     if (i == 5) { break; }
     if (i % 2 == 0) { continue; }
     console.log(i);
-}
-
-for (let number of array) {
+}</code></pre>
+    </article>
+    <h3>For Of Loops</h3>
+    <article>
+        <section></section>
+        <pre><code>for (let number of array) {
     console.log(number);
-}
-
-for (let key in object) {
+}</code></pre>
+    </article>
+    <h3>For In Loops</h3>
+    <article>
+        <section></section>
+        <pre><code>for (let key in object) {
     console.log(key);
 }</code></pre>
     </article>
-    <h3>Infinite Loops</h3>
+    <h3>While Loops</h3>
     <article>
         <section></section>
         <pre><code>while (i <= 10) {
@@ -373,9 +136,12 @@ for (let key in object) {
     if (i % 2 == 0) { continue; }
     console.log(i);
     i++;
-}
-
-do {
+}</code></pre>
+    </article>
+    <h3>Do While Loops</h3>
+    <article>
+        <section></section>
+        <pre><code>do {
     if (i == 5) { break; }
     if (i % 2 == 0) { i++; continue; }
     console.log(i);
@@ -383,22 +149,47 @@ do {
 } while (i <= 10);</code></pre>
     </article>
 
-    <h2>Input/Output</h2>
-    <h3>Input</h3>
+    <h2>Functions</h2>
+    <h3>Named Functions</h3>
+    <article>
+        <section></section>
+        <pre><code>function add(a, b) {
+    return a + b;
+}</code></pre>
+    </article>
+    <h3>Named Arrow Functions</h3>
+    <article>
+        <section></section>
+        <pre><code>const add = (a, b) => a+b;</code></pre>
+    </article>
+    <h3>Anonymous Functions</h3>
+    <article>
+        <section></section>
+        <pre><code>(function ( ) {
+    console.log(”Hello”);
+})( );</code></pre>
+    </article>
+    <h3>Anonymous Arrow Functions</h3>
+    <article>
+        <section></section>
+        <pre><code>(event => {console.log(”Hello”);})</code></pre>
+    </article>
+
+    <h2>Interactions</h2>
+    <h3>Inputs</h3>
     <article>
         <section></section>
         <pre><code>let input = prompt();
 let input = require('fs').readFileSync(0, 'utf-8').toString().trim().split('\n');
 let input = require('fs').readFileSync('input', 'utf-8').toString().trim().split('\n');</code></pre>
     </article>
-    <h3>Output</h3>
+    <h3>Outputs</h3>
     <article>
         <section></section>
         <pre><code>alert(`My name is ${name}`);
 console.log(`My name is ${name}`);</code></pre>
     </article>
-
-    <h3>Special Characters</h3>
+    <h3>Escape Characters</h3>
     <article>
         <section></section>
         <pre><code>\0
@@ -413,86 +204,5 @@ console.log(`My name is ${name}`);</code></pre>
 \v</code></pre>
     </article>
 
-    <h2>Function</h2>
-    <h3>Named Function</h3>
-    <article>
-        <section></section>
-        <pre><code>function add(a, b) {
-    return a + b;
-}</code></pre>
-    </article>
-    <h3>Named Arrow Function</h3>
-    <article>
-        <section></section>
-        <pre><code>const add = (a, b) => a+b;</code></pre>
-    </article>
-    <h3>Anonymous Function</h3>
-    <article>
-        <section></section>
-        <pre><code>(function ( ) {
-    console.log(”Hello”);
-})( );</code></pre>
-    </article>
-    <h3>Anonymous Arrow Function</h3>
-    <article>
-        <section></section>
-        <pre><code>(event => {console.log(”Hello”);})</code></pre>
-    </article>
-
-    <h2>Class</h2>
-    <h3>Declaration</h3>
-    <article>
-        <section></section>
-        <pre><code>class Person {
-  name;
-  constructor(name) {
-    this.name = name;
-  }
-  introduceSelf() {
-    console.log(`Hi! I'm ${this.name}`);
-  }
-}
-const giles = new Person("Giles");</code></pre>
-    </article>
-    <h3>Inheritance</h3>
-    <article>
-        <section></section>
-        <pre><code>class Professor extends Person {
-  teaches;
-  constructor(name, teaches) {
-    super(name);
-    this.teaches = teaches;
-  }
-  introduceSelf() {
-    console.log(
-      `My name is ${this.name}, and I will be your ${this.teaches} professor.`,
-    );
-  }
-  grade(paper) {
-    const grade = Math.floor(Math.random() * (5 - 1) + 1);
-    console.log(grade);
-  }
-}
-const walsh = new Professor("Walsh", "Psychology");</code></pre>
-    </article>
-    <h3>Encapsulation</h3>
-    <article>
-        <section></section>
-        <pre><code>class Student extends Person {
-  #year;
-  constructor(name, year) {
-    super(name);
-    this.#year = year;
-  }
-  #introduceSelf() {
-    console.log(`Hi! I'm ${this.name}, and I'm in year ${this.#year}.`);
-  }
-  canStudyArchery() {
-    return this.#year > 1;
-  }
-}
-const summers = new Student("Summers", 2);</code></pre>
-    </article>
-
-    <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting" target="_blank">Reference: Learn JavaScript</a>
+    <a class="reference" href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting" target="_blank">Reference: Learn JavaScript</a>
 </div>
