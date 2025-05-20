@@ -7,10 +7,6 @@ The project includes sections such as HTML, CSS, JavaScript, React, Next, Built 
 
 ### TODO
 
-- charCodeAt
-- fromChaCode
-- [...array]
-- [arr[i], arr[j]] = [arr[j], arr[i]]
 - Use React
 - Use Next
 - Use JSON database
@@ -109,12 +105,13 @@ The project includes sections such as HTML, CSS, JavaScript, React, Next, Built 
 <!--}-->
 <!--fetchData();-->
 
+
+
 <!--async function fetchData() {-->
 <!--try {-->
 <!--let response1 = await fetch('https://jsonplaceholder.typicode.com/todos/1');-->
 <!--let data1 = await response1.json();-->
 <!--console.log('First fetch:', data1);-->
-
 <!--let response2 = await fetch('https://jsonplaceholder.typicode.com/todos/2');-->
 <!--let data2 = await response2.json();-->
 <!--console.log('Second fetch:', data2);-->
@@ -123,88 +120,3 @@ The project includes sections such as HTML, CSS, JavaScript, React, Next, Built 
 <!--}-->
 <!--}-->
 <!--fetchData();-->
-
-
-
-
-
-
-
-
-
-
-<!--    <h2>Document</h2>-->
-<!--    <h3>Navigation</h3>-->
-<!--    <article>-->
-<!--        <section></section>-->
-<!--        <pre><code>parentNode-->
-<!--childNode-->
-<!--firstChild-->
-<!--lastChild-->
-<!--previousSibling-->
-<!--nextSibling</code></pre>-->
-<!--    </article>-->
-<!--    <h3>Selection</h3>-->
-<!--    <article>-->
-<!--        <section></section>-->
-<!--        <pre><code>getElementById-->
-<!--getElementsByClassName-->
-<!--getElementsByTagName-->
-<!--querySelector-->
-<!--querySelectorAll</code></pre>-->
-<!--    </article>-->
-
-<!--    <h2>Event</h2>-->
-<!--    <h3>Creating and Removing Events</h3>-->
-<!--    <article>-->
-<!--        <section></section>-->
-<!--        <pre><code>addEventListener-->
-<!--removeEventListener</code></pre>-->
-<!--    </article>-->
-<!--    <h3>Mouse Events</h3>-->
-<!--    <article>-->
-<!--        <section></section>-->
-<!--        <pre><code>click-->
-<!--mouseover-->
-<!--mouseout</code></pre>-->
-<!--    </article>-->
-<!--    <h3>Event Properties</h3>-->
-<!--    <article>-->
-<!--        <section></section>-->
-<!--        <pre><code>onclick-->
-<!--onmouseover-->
-<!--onmouseout</code></pre>-->
-<!--    </article>-->
-<!--    <h3>Event Object</h3>-->
-<!--    <article>-->
-<!--        <section></section>-->
-<!--        <pre><code>e-->
-<!--evt-->
-<!--event</code></pre>-->
-<!--    </article>-->
-<!--    <h3>Event Delegation</h3>-->
-<!--    <article>-->
-<!--        <section></section>-->
-<!--        <pre><code>Connect to child elements</code></pre>-->
-<!--    </article>-->
-<!--    <h3>Event Bubbling</h3>-->
-<!--    <article>-->
-<!--        <section></section>-->
-<!--        <pre><code>stopPropagation</code></pre>-->
-<!--    </article>-->
-<!--    <h3>Event Capturing</h3>-->
-<!--    <article>-->
-<!--        <section></section>-->
-<!--        <pre><code>Reverse order of bubbling</code></pre>-->
-<!--    </article>-->
-<!--    <h3>Other Event Related</h3>-->
-<!--    <article>-->
-<!--        <section></section>-->
-<!--        <pre><code>preventDefault-->
-<!--stopPropagation-->
-<!--stopImmediatePropagation-->
-<!--target-->
-<!--currentTarget-->
-<!--bubblingPhase-->
-<!--capturePhase</code></pre>-->
-<!--    </article>-->
