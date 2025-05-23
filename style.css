@@ -45,6 +45,10 @@ header {
 main {
     grid-area: main;
     & #article-container {
+
+        background-color: white;
+        z-index: 0;
+
         & article {
             display: grid;
             grid-template-columns: 1fr 1fr;

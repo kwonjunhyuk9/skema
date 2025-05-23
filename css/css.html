@@ -212,8 +212,8 @@ box-sizing: border-box;
 overflow: scroll;
 position: fixed;
 z-index: 1;
-top: 100px;
-left: 170px;</code></pre>
+top: 180px;
+left: 180px;</code></pre>
     </article>
     <h3>Inline Sticky</h3>
     <article>
@@ -289,8 +289,8 @@ box-sizing: border-box;
 overflow: scroll;
 position: fixed;
 z-index: 1;
-top: 170px;
-left: 170px;</code></pre>
+top: 180px;
+left: 180px;</code></pre>
     </article>
     <h3>Block Sticky</h3>
     <article>
@@ -311,48 +311,120 @@ top: 0;</code></pre>
     <h2>Flexbox</h2>
     <h3>Flexbox Row</h3>
     <article>
-        <section></section>
+        <section>
+            <div id="flexboxRowContainer">
+                <div class="flexboxRow">Box 1</div>
+                <div class="flexboxRow">Box 2</div>
+                <div class="flexboxRow">Box 3</div>
+            </div>
+        </section>
         <pre><code>display: flex;
 flex: 1 1 100px;
-flex-flow: row wrap;
 justify-content: center;
 justify-items: center;
-justify-self: center;
 align-content: center;
-align-items: center;</code></pre>
+align-items: center;
+
+flex: 1 1 100px;
+justify-self: center;
+align-self: center;
+</code></pre>
     </article>
     <h3>Flexbox Column</h3>
     <article>
-        <section></section>
+        <section>
+            <div id="flexboxColumnContainer">
+                <div class="flexboxColumn">Box 1</div>
+                <div class="flexboxColumn">Box 2</div>
+                <div class="flexboxColumn">Box 3</div>
+            </div>
+        </section>
         <pre><code>display: flex;
-flex: 1 1 100px;
 flex-flow: column wrap;
 justify-content: center;
 justify-items: center;
-justify-self: center;
 align-content: center;
-align-items: center;</code></pre>
+align-items: center;
+
+flex: 1 1 100px;
+justify-self: center;
+align-self: center;
+</code></pre>
     </article>
 
     <h2>Grid</h2>
-    <h3>Grid Template</h3>
+    <h3>Grid AutoRow</h3>
     <article>
-        <section></section>
-        <pre><code>display: grid;
-grid-template-columns: 1fr 2fr;
-gird-template-rows: 1fr 2fr;
-grid-template-areas:
-    "a b b"
-    "c d d"
-    "c d d";</code></pre>
-    </article>
-    <h3>Grid Auto</h3>
-    <article>
-        <section></section>
+        <section>
+            <div id="gridAutoRowContainer">
+                <div class="gridAutoRow">Box 1</div>
+                <div class="gridAutoRow">Box 2</div>
+                <div class="gridAutoRow">Box 3</div>
+                <div class="gridAutoRow">Box 4</div>
+            </div>
+        </section>
         <pre><code>display: grid;
 grid-auto-columns: 1fr;
 grid-auto-rows: 1fr;
-grid-auto-flow: column;</code></pre>
+grid-auto-flow: row;
+justify-content: center;
+justify-items: center;
+align-content: center;
+align-items: center;
+
+justify-self: center;
+align-self: center;</code></pre>
+    </article>
+    <h3>Grid AutoColumn</h3>
+    <article>
+        <section>
+            <div id="gridAutoColumnContainer">
+                <div class="gridAutoColumn">Box 1</div>
+                <div class="gridAutoColumn">Box 2</div>
+                <div class="gridAutoColumn">Box 3</div>
+                <div class="gridAutoColumn">Box 4</div>
+            </div>
+        </section>
+        <pre><code>display: grid;
+grid-auto-columns: 1fr;
+grid-auto-rows: 1fr;
+grid-auto-flow: column;
+justify-content: center;
+justify-items: center;
+align-content: center;
+align-items: center;
+
+justify-self: center;
+align-self: center;</code></pre>
+    </article>
+    <h3>Grid Template</h3>
+    <article>
+        <section>
+            <div id="gridTemplateContainer">
+                <div class="a">Box 1</div>
+                <div class="b">Box 2</div>
+                <div class="c">Box 3</div>
+                <div class="d">Box 4</div>
+            </div>
+        </section>
+        <pre><code>display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gird-template-rows: 1fr 1fr 1fr;
+grid-template-areas:
+    "a b b"
+    "c d d"
+    "c d d";
+justify-content: center;
+justify-items: center;
+align-content: center;
+align-items: center;
+
+grid-area: a;
+grid-area: b;
+grid-area: c;
+grid-area: d;
+justify-self: center;
+align-self: center;</code></pre>
     </article>
 
     <h2>Transform</h2>
