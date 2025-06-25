@@ -3,34 +3,11 @@ body {
     line-height: 1.5;
     display: grid;
     grid-template-columns: 10rem 1fr;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1fr;
     grid-template-areas:
         "header header"
-        "aside main"
-        "footer footer";
+        "aside main";
     overflow: auto;
-
-    & h2 {
-        background-color: gray;
-    }
-    & img {
-        max-width: 100%;
-    }
-    & section {
-        background-color: rgba(10, 239, 211, 0.1);
-        border-radius: 1rem;
-        margin: 0.5rem;
-        padding: 0.5rem;
-    }
-    & code {
-        display: block;
-        font-size: 12px;
-        line-height: 2;
-        margin: 0.5rem;
-        padding: 0.5rem;
-        background-color: lightgray;
-        border-radius: 1rem;
-    }
 }
 
 header {
@@ -42,69 +19,117 @@ header {
     width: 100%;
 }
 
+aside {
+    grid-area: aside;
+    position: fixed;
+    padding-top: 7rem;
+    width: 8rem;
+
+    & > a {
+        display: block;
+        margin: 0.5rem;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        text-decoration: none;
+        color: black;
+        background-color: lightblue;
+    }
+
+    & .dropdown {
+        position: relative;
+        width: 100%;
+
+        & > a {
+            display: block;
+            margin: 0.5rem;
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+            text-decoration: none;
+            color: black;
+            background-color: lightblue;
+        }
+
+        & .menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            width: 100%;
+            background: white;
+            z-index: 999;
+
+            & > a {
+                display: block;
+                margin: 0.5rem;
+                border-radius: 0.5rem;
+                padding: 0.5rem;
+                text-decoration: none;
+                color: black;
+            }
+
+            & > a:hover {
+                background-color: lightgray;
+            }
+        }
+    }
+
+    & .dropdown:hover {
+        & .menu {
+            display: block;
+        }
+    }
+}
+
 main {
     grid-area: main;
-    & #article-container {
 
+    & #article-container {
         background-color: white;
         z-index: 0;
+
+        & h2 {
+            background-color: gray;
+        }
 
         & article {
             display: grid;
             grid-template-columns: 1fr 1fr;
+
+            & section {
+                background-color: rgba(10, 239, 211, 0.1);
+                border-radius: 1rem;
+                margin: 0.5rem;
+                padding: 0.5rem;
+            }
+
             & pre {
                 word-wrap: break-word;
                 white-space: pre-wrap;
             }
+
+            & code {
+                display: block;
+                font-size: 12px;
+                line-height: 2;
+                margin: 0.5rem;
+                padding: 0.5rem;
+                background-color: lightgray;
+                border-radius: 1rem;
+            }
+
+            & img {
+                max-width: 100%;
+            }
         }
+
         & .reference {
             float: right;
             margin: 1rem;
             text-decoration: none;
             color: black;
+
             &:hover {
                 text-decoration: underline;
             }
         }
-    }
-}
-
-aside {
-    position: fixed;
-    padding-top: 7rem;
-    grid-area: aside;
-    width: 7rem;
-    & a {
-        display: block;
-        text-decoration: none;
-        color: black;
-        padding: 0.8rem 1rem;
-        margin: 0.3rem 0;
-        border-radius: 0.5rem;
-        transition: all 0.3s ease;
-        font-weight: 500;
-        &:hover {
-            background-color: lightskyblue;
-            color: white;
-            transform: translateX(5px);
-        }
-        &:active {
-            background-color: #007bff;
-        }
-    }
-
-}
-
-footer {
-    grid-area: footer;
-    position: sticky;
-    bottom: 0;
-    background-color: lightskyblue;
-    opacity: 0.8;
-    width: 100%;
-    & img {
-        max-height: 2rem;
-        width: auto;
-        margin: 0.5rem;
     }
 }

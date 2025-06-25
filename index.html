@@ -3,8 +3,8 @@
 <head>
     <title>Dancing With Life</title>
     <meta charset="utf-8"/>
-    <meta name="author" content="Kwon Jun Hyuk" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="author" content="Kwon Jun Hyuk"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/css.css">
     <script src="script.js" defer></script>
@@ -12,34 +12,70 @@
 <body>
 <header>
     <h1>Dancing With Life</h1>
+    <!--    <a href="tel:+821058551427" target="_blank">-->
+    <!--        <img src="assets/telephone.png" alt="telephone"/>-->
+    <!--    </a>-->
+    <!--    <a href="mailto:kwonjunhyuk9@icloud.com" target="_blank">-->
+    <!--        <img src="assets/email.png" alt="email"/>-->
+    <!--    </a>-->
+    <!--    <a href="https://www.linkedin.com/in/jun-hyuk-kwon-3a9551355/" target="_blank">-->
+    <!--        <img src="assets/linkedin.png" alt="linkedin"/>-->
+    <!--    </a>-->
+    <!--    <a href="https://www.jobkorea.co.kr/User/Mypage" target="_blank">-->
+    <!--        <img src="assets/jobkorea.png" alt="jobkorea"/>-->
+    <!--    </a>-->
 </header>
 <aside>
     <a href="#" onclick="loadPage('profile')">Profile</a>
-    <a href="#" onclick="loadPage('html')">HTML</a>
-    <a href="#" onclick="loadPage('css')">CSS</a>
-    <a href="#" onclick="loadPage('javascript')">JavaScript</a>
-    <a href="#" onclick="loadPage('bio')">BIO</a>
-    <a href="#" onclick="loadPage('dom')">DOM</a>
-    <a href="#" onclick="loadPage('fetch')">Fetch</a>
-    <a href="#" onclick="loadPage('react')">React</a>
-    <a href="#" onclick="loadPage('next')">Next</a>
-    <a href="#" onclick="loadPage('tools')">Tools</a>
+
+    <div class="dropdown">
+        <a>Math</a>
+        <div class="menu">
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a>Science</a>
+        <div class="menu">
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a>Electronics</a>
+        <div class="menu">
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a>FrontEnd</a>
+        <div class="menu">
+            <a href="#" data-page="html">HTML</a>
+            <a href="#" data-page="css">CSS</a>
+            <a href="#" data-page="javascript">JavaScript</a>
+            <a href="#" data-page="typescript">TypeScript</a>
+            <a href="#" data-page="bio">BIO</a>
+            <a href="#" data-page="dom">DOM</a>
+            <a href="#" data-page="fetch">Fetch</a>
+            <a href="#" data-page="react">React</a>
+            <a href="#" data-page="next">Next</a>
+            <a href="#" data-page="tools">Tools</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a>BackEnd</a>
+        <div class="menu">
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a>AI</a>
+        <div class="menu">
+        </div>
+    </div>
+
 </aside>
 <main id="content">
 </main>
-<footer>
-    <a href="tel:+821058551427" target="_blank">
-        <img src="assets/telephone.png" alt="telephone"/>
-    </a>
-    <a href="mailto:kwonjunhyuk9@icloud.com" target="_blank">
-        <img src="assets/email.png" alt="email"/>
-    </a>
-    <a href="https://www.linkedin.com/in/jun-hyuk-kwon-3a9551355/" target="_blank">
-        <img src="assets/linkedin.png" alt="linkedin"/>
-    </a>
-    <a href="https://www.jobkorea.co.kr/User/Mypage" target="_blank">
-        <img src="assets/jobkorea.png" alt="jobkorea"/>
-    </a>
-</footer>
 </body>
 </html>

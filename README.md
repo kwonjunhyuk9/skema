@@ -2,27 +2,15 @@
 
 ### Description
 
-**Dancing With Life** is a web project designed to explore various topics and technologies in web development. 
-The project includes sections such as HTML, CSS, JavaScript, React, Next, Built in objects, API integrations, and more.
+Dancing With Life is a personal blog that contains various topics in Computer Science.
+It summarizes topics such as Math, Science, Electronics, FrontEnd, BackEnd, AI, and more.
 
 ### TODO
 
-- Use React
-- Use Next
-- Use JSON database
-- Use Amazon Web Services
+- Book, Schema, Project
 - Languages
 - Themes
-- Breadcrumb navigation
-- Split navigation
-- Pagination
-- Cards
-- Lazy registration
-- Infinite scroll
-- Modal dialogs
-- Progressive disclosure
-- Progress indication
-- Shopping cart
+- Reactive
 
 ### Author
 
