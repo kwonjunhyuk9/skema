@@ -7,7 +7,9 @@ It summarizes topics such as Math, Science, Electronics, FrontEnd, BackEnd, AI, 
 
 ### TODO
 
-- Book, Schema, Project
+- Book
+- Schema
+- Project
 - Languages
 - Themes
 - Reactive

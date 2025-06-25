@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 function dropDown() {
-    document.querySelectorAll('.menu a').forEach(link => {
+    document.querySelectorAll('aside > a, .menu > a').forEach(link => {
         link.addEventListener('click', function (e) {
             e.preventDefault();
             const page = e.target.dataset.page;
