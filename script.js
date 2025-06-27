@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
     dropDown();
-    loadPage('profile');
+    loadPage('profile/profile');
 });
 
 function dropDown() {
@@ -14,7 +14,7 @@ function dropDown() {
 }
 
 function loadPage(page) {
-    fetch(`${page}/${page}.html`)
+    fetch(`${page}.html`)
         .then(response => response.text())
         .then(html => {
             document.getElementById("content").innerHTML = html;
