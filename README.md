@@ -9,13 +9,14 @@ It summarizes topics such as Math, Science, Electronics, FrontEnd, BackEnd, AI, 
 - Alternatively, you can clone the repository and view it on localhost
 
 ### Upcoming
-- Responsive Design: make aside to the top on mobile view
-- Themes: make light mode and dark mode
-- Languages: select between Korean and English
-- Schemas: add blog data of each topics
+- Fix Image Rerendering
+- Image Sizes with Responsive Design
+- Cyberpunk theme with light mode and dark mode
+- Create Language mode to choose between Korean and English
+- Add blog schemas to each topic with React Flow
 
 ### Author
 - Phone: 010-5855-1427
 - Email: [kwonjunhyuk9@icloud.com](mailto:kwonjunhyuk9@icloud.com)
-- LinkedIn: [Kwon Jun Hyuk](https://www.linkedin.com/in/jun-hyuk-kwon-3a9551355/)
+- LinkedIn: [Kwon Jun Hyuk](https://www.linkedin.com/in/jun-hyuk-kwon-3a9551355)
 - JobKorea: [Kwon Jun Hyuk](https://www.jobkorea.co.kr/user/mypage)

@@ -24,7 +24,7 @@ const sections: SectionItem[] = [
     },
     {
         title: "Education",
-        introduction: "Seoul National University of Science 그and Technology",
+        introduction: "Seoul National University of Science and Technology",
         description:
             "I have majored in Computer Science at Seoul National University of Science and Technology. " +
             "My academic performance shows an overall GPA of 3.99. " +

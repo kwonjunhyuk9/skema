@@ -32,7 +32,7 @@ const dropdown: Subject[] = [
     },
     {
         topic: 'BackEnd',
-        subjects: ['C', 'Java', 'Python', 'Algorithms', 'Database', 'Cloud Computing', 'Operating Systems', 'Computer Architecture']
+        subjects: ['C', 'Java', 'Python', 'SQL', 'AWS', 'Algorithms', 'Operating Systems', 'Computer Architecture']
     },
     {
         topic: 'AI',
