@@ -1,11 +1,10 @@
 "use client";
-
-import React from "react";
+import React, {Fragment} from "react";
 
 export default function Footer(): React.ReactElement {
     return (
-        <footer>
-            <div className="container">
+        <Fragment>
+            <footer className="container">
                 <p className="empty"/>
                 <p className="location">
                     LAT: 37°32'52.6"N<br/>
@@ -19,7 +18,7 @@ export default function Footer(): React.ReactElement {
                     Email<br/>
                     LinkedIn<br/>
                 </p>
-            </div>
+            </footer>
             <style jsx>{`
                 .container {
                     font-size: 0.75rem;
@@ -45,6 +44,6 @@ export default function Footer(): React.ReactElement {
                     }
                 }
             `}</style>
-        </footer>
-    )
+        </Fragment>
+    );
 }

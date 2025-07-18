@@ -1,11 +1,10 @@
 "use client";
-
-import React from "react";
+import React, {Fragment} from "react";
 
 export default function Header(): React.ReactElement {
     return (
-        <header>
-            <div className="container">
+        <Fragment>
+            <header className="container">
                 <p className="status">
                     &gt; SYSTEM STATUS: ONLINE<br/>
                     &gt; CPU LOAD: 42%<br/>
@@ -29,7 +28,7 @@ export default function Header(): React.ReactElement {
                     FRONTEND<br/>
                     BACKEND<br/>
                 </p>
-            </div>
+            </header>
             <style jsx>{`
                 .container {
                     font-size: 0.75rem;
@@ -55,6 +54,6 @@ export default function Header(): React.ReactElement {
                     }
                 }
             `}</style>
-        </header>
-    )
+        </Fragment>
+    );
 }
