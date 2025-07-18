@@ -9,14 +9,9 @@ It summarizes topics such as Math, Science, Electronics, FrontEnd, BackEnd, AI, 
 - Alternatively, you can clone the repository and view it on localhost
 
 ### Upcoming
-- Fix Image Rerendering
-- Image Sizes with Responsive Design
-- Cyberpunk theme with light mode and dark mode
-- Create Language mode to choose between Korean and English
-- Add blog schemas to each topic with React Flow
-
-### Author
-- Phone: 010-5855-1427
-- Email: [kwonjunhyuk9@icloud.com](mailto:kwonjunhyuk9@icloud.com)
-- LinkedIn: [Kwon Jun Hyuk](https://www.linkedin.com/in/jun-hyuk-kwon-3a9551355)
-- JobKorea: [Kwon Jun Hyuk](https://www.jobkorea.co.kr/user/mypage)
+- Use Dynamic Routing
+- Make Compact React Components
+- Design Mouse Pointer
+- Design Scroll Bar
+- Animate Typing Elements
+- Three Animation of a Laptop Breaking Down

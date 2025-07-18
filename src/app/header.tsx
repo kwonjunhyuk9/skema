@@ -1,76 +1,60 @@
 "use client";
 
-import Image from 'next/image';
-import React, {Fragment} from "react";
-
-interface ContactItem {
-    href: string;
-    alt: string;
-    src: string;
-}
-
-const contacts: ContactItem[] = [
-    {
-        href: 'tel:+821058551427',
-        alt: 'telephone',
-        src: '/telephone.png'
-    },
-    {
-        href: 'mailto:kwonjunhyuk9@icloud.com',
-        alt: 'email',
-        src: '/email.png'
-    },
-    {
-        href: 'https://www.linkedin.com/in/jun-hyuk-kwon-3a9551355',
-        alt: 'linkedin',
-        src: '/linkedin.png'
-    },
-    {
-        href: 'https://www.jobkorea.co.kr/User/Mypage',
-        alt: 'jobkorea',
-        src: '/jobkorea.png'
-    },
-];
+import React from "react";
 
 export default function Header(): React.ReactElement {
     return (
-        <Fragment>
-            <header>
-                <h1>Dancing With Life</h1>
-                {contacts.map(({href, alt, src}) => (
-                    <a key={alt} href={href} target="_blank" rel="noopener noreferrer">
-                        <Image src={src} alt={alt} fill={true}/>
-                    </a>
-                ))}
-            </header>
+        <header>
+            <div className="container">
+                <p className="status">
+                    &gt; SYSTEM STATUS: ONLINE<br/>
+                    &gt; CPU LOAD: 42%<br/>
+                    &gt; MEMORY: 16.4 GB / 32 GB<br/>
+                    &gt; PING: 23ms<br/>
+                    &gt; ENCRYPTION: ENABLED<br/>
+                    &gt; SECURITY LEVEL: ALPHA<br/>
+                    &gt; NEURAL LINK: STABLE<br/>
+                </p>
+                <p className="time">
+                    LOCAL TIME: 23:42:17<br/>
+                    SYSTEM TIME: 0x7E2C4B<br/>
+                    UPTIME: 847:23:16<br/>
+                    LAST SYNC: 2025.07.16_04:23<br/>
+                </p>
+                <p className="navigation">
+                    PROFILE<br/>
+                    MATH<br/>
+                    SCIENCE<br/>
+                    ELECTRONICS<br/>
+                    FRONTEND<br/>
+                    BACKEND<br/>
+                </p>
+            </div>
             <style jsx>{`
-                header {
-                    grid-area: header;
+                .container {
+                    font-size: 0.75rem;
+                    width: 100%;
                     display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    padding: 1rem;
-                    background-color: lightskyblue;
-                    position: sticky;
+                    gap: 2rem;
+                    position: fixed;
                     top: 0;
-                    opacity: 0.8;
 
-                    & h1 {
-                        margin: 0;
+                    & .status {
+                        flex: 7;
+                        min-width: 10rem;
                     }
 
-                    & h1 + a {
-                        margin-left: auto;
+                    & .time {
+                        flex: 4;
+                        min-width: 10rem;
                     }
 
-                    & a {
-                        margin: 0.5rem;
-                        position: relative;
-                        width: 1.5rem;
-                        height: 1.5rem;
+                    & .navigation {
+                        flex: 2;
+                        min-width: 10rem;
                     }
                 }
             `}</style>
-        </Fragment>
-    );
+        </header>
+    )
 }

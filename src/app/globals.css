@@ -1,11 +1,15 @@
+:root {
+    --neon-pink: #FF2A6D;
+    --neon-yellow: #DFFF00;
+    --neon-green: #7FFF00;
+    --neon-blue: #01FFF4;
+    --neon-purple: #9D00FF;
+    --cyber-white: #FFFFFF;
+    --cyber-navy: #0B0B2C;
+    --cyber-black: #000000;
+}
+
 body {
-    font-family: sans-serif;
-    line-height: 1.5;
-    display: grid;
-    grid-template-columns: 10rem 1fr;
-    grid-template-rows: 5rem 1fr;
-    grid-template-areas:
-        "header header"
-        "aside main";
-    overflow: auto;
+    background-color: var(--cyber-black);
+    color: var(--cyber-white);
 }
