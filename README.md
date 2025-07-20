@@ -10,8 +10,8 @@ It summarizes topics such as Math, Science, Electronics, FrontEnd, BackEnd and m
 
 ### Upcoming
 - Add Blog Data with Dynamic Routing
-- Add to Server on AWS
 - Add Real Time Data to Header
+- Move Aside into Root Page
 - Add Real Links to Footer
 - Animate Typing Elements
 - Animate Laptop Breaking Down

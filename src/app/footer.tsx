@@ -7,8 +7,8 @@ export default function Footer(): React.ReactElement {
             <footer className="container">
                 <p className="empty"/>
                 <p className="location">
-                    LAT: 37°32'52.6"N<br/>
-                    LONG: 126°55'31.4"E<br/>
+                    LAT: 37°32&apos;52.6&quot;N<br/>
+                    LONG: 126°55&apos;31.4&quot;E<br/>
                     SECTOR: NT-7<br/>
                     ZONE: RED-2<br/>
                     GRID: 255.128.064<br/>
