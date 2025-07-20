@@ -13,34 +13,45 @@ export default function Footer(): React.ReactElement {
                     ZONE: RED-2<br/>
                     GRID: 255.128.064<br/>
                 </p>
-                <p className="contacts">
-                    Phone<br/>
-                    Email<br/>
-                    LinkedIn<br/>
-                </p>
+                <address className="contacts">
+                    <a className="link" href="tel:+821058551427">Phone</a><br/>
+                    <a className="link" href="mailto:kwonjunhyuk9@icloud.com">Email</a><br/>
+                    <a className="link" href="https://www.linkedin.com/in/jun-hyuk-kwon-3a9551355" target="_blank">LinkedIn</a><br/>
+                </address>
             </footer>
             <style jsx>{`
                 .container {
                     font-size: 0.75rem;
                     width: 100%;
                     display: flex;
-                    gap: 2rem;
+                    padding: 1rem;
+                    gap: 1rem;
                     position: fixed;
+                    box-sizing: border-box;
                     bottom: 0;
+                    left: 0;
 
                     & .empty {
                         flex: 6;
-                        min-width: 10rem;
+                        min-width: 12rem;
+                        margin: 0;
                     }
 
                     & .location {
                         flex: 2;
-                        min-width: 10rem;
+                        min-width: 12rem;
+                        margin: 0;
                     }
 
                     & .contacts {
                         flex: 1;
-                        min-width: 10rem;
+                        min-width: 6rem;
+
+                        & .link {
+                            color: inherit;
+                            font-style: normal;
+                            text-decoration: none;
+                        }
                     }
                 }
             `}</style>

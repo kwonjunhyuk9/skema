@@ -1,5 +1,6 @@
 "use client";
-import React, {Fragment} from "react";
+import React, {Fragment, useRef} from "react";
+import Scrollbar from "@/app/scrollbar";
 
 interface PageItem {
     title: string;
@@ -17,15 +18,25 @@ const pages: PageItem[] = [
 ];
 
 export default function Page(): React.ReactElement {
+    const pageRefs = useRef<(HTMLElement | null)[]>([]);
+
     return (
         <Fragment>
             <main>
-                {pages.map(({title, description}: PageItem): React.ReactElement => (
-                    <div key={title} className="container">
+                {pages.map(({title, description}, index) => (
+                    <article
+                        className="container"
+                        key={title}
+                        ref={el => {(pageRefs.current as (HTMLElement | null)[])[index] = el;}}
+                    >
                         <h1 className="title">{title}</h1>
                         <p className="description">{description}</p>
-                    </div>
+                    </article>
                 ))}
+
+                <div className="scrollbar">
+                    <Scrollbar pageRefs={pageRefs} buttonCount={7} direction="column"/>
+                </div>
             </main>
             <style jsx>{`
                 .container {
@@ -44,6 +55,13 @@ export default function Page(): React.ReactElement {
                         margin: 0;
                         top: 80vh;
                     }
+                }
+
+                .scrollbar {
+                    position: fixed;
+                    top: 50%;
+                    left: 95%;
+                    transform: translate(-50%, -50%);
                 }
             `}</style>
         </Fragment>

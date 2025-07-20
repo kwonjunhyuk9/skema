@@ -2,7 +2,6 @@
 import "./globals.css";
 import React from "react";
 import Header from "@/app/header";
-import Aside from "@/app/aside";
 import Footer from "@/app/footer";
 import localFont from 'next/font/local'
 
@@ -17,7 +16,6 @@ export default function Layout({children}: LayoutProps): React.ReactElement {
         <html lang="en" className={myFont.className}>
         <body>
         <Header/>
-        <Aside/>
         {children}
         <Footer/>
         </body>
