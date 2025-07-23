@@ -1,0 +1,104 @@
+[
+  {
+    "chapter": "Basics",
+    "topics": [
+      {
+        "topic": "Routing Files",
+        "concepts": [
+          "layout.tsx",
+          "page.tsx",
+          "loading.tsx",
+          "not-found.tsx",
+          "error.tsx",
+          "global-error.tsx",
+          "route.tsx",
+          "template.tsx",
+          "default.tsx"
+        ]
+      },
+      {
+        "topic": "Metadata Files",
+        "concepts": [
+          "favicon.ico",
+          "icon.jpg",
+          "apple-icon.jpg",
+          "open graph-image.jpg",
+          "twitter-image.jpg",
+          "robots.txt",
+          "sitemap.xml"
+        ]
+      },
+      {
+        "topic": "Rendering Methods",
+        "concepts": [
+          "Server Components",
+          "Client Components",
+          "Static Rendering",
+          "Dynamic Rendering",
+          "Partial Prerendering"
+        ]
+      },
+      {
+        "topic": "Fetching Data",
+        "concepts": [
+          "React Server Components",
+          "fetch",
+          "database",
+          "use"
+        ]
+      },
+      {
+        "topic": "Updating Data",
+        "concepts": [
+          "React Server Functions",
+          "forms",
+          "events"
+        ]
+      },
+      {
+        "topic": "Caching Data",
+        "concepts": [
+          "unstable_cache",
+          "revalidateTag",
+          "revalidatePath"
+        ]
+      },
+      {
+        "topic": "Deploying Website",
+        "concepts": [
+          "node server",
+          "docker container"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "API",
+    "topics": [
+      {
+        "topic": "Components",
+        "concepts": [
+          "Font",
+          "Form",
+          "Image",
+          "Link",
+          "Script"
+        ]
+      },
+      {
+        "topic": "Functions",
+        "concepts": [
+          "useLinkStatus",
+          "useParams",
+          "usePathname",
+          "useReportWebVitals",
+          "useRouter",
+          "useSearchParams",
+          "useSelectedLayoutSegment",
+          "useSelectedLayoutSegments",
+          "userAgent"
+        ]
+      }
+    ]
+  }
+]

@@ -1,39 +1,44 @@
 "use client";
-import React, {Fragment, useRef} from "react";
+import {Course, Subject} from "@/types/curriculum";
+import React, {Fragment, useEffect, useRef, useState} from "react";
+import Link from "next/link";
 import Scrollbar from "@/app/scrollbar";
 
-interface PageItem {
-    title: string;
-    description: string;
-}
-
-const pages: PageItem[] = [
-    {title: "INTRO", description: "A Universe In Your Hands."},
-    {title: "MATH", description: "Where Logic meets Elegance."},
-    {title: "SCIENCE", description: "Unveil the Patterns of the Universe."},
-    {title: "ELECTRONICS", description: "Weave the language of Atoms."},
-    {title: "FRONTEND", description: "Imagination meets Interaction."},
-    {title: "BACKEND", description: "Silently Architect Data Flows."},
-    {title: "OUTRO", description: "May your Curiosity keep you Dancing With Life."}
-];
-
 export default function Page(): React.ReactElement {
-    const pageRefs = useRef<(HTMLElement | null)[]>([]);
+    const [pages, setPages] = useState<Subject[]>([]);
+    const pageRefs: React.RefObject<(HTMLElement | null)[]> = useRef<(HTMLElement | null)[]>([]);
+
+    useEffect((): void => {
+        fetch("/data/pages.json")
+            .then((response: Response): Promise<Subject[]> => response.json())
+            .then((data: Subject[]): void => setPages(data));
+    }, []);
 
     return (
         <Fragment>
             <main>
-                {pages.map(({title, description}, index) => (
+                {pages.map(({subject, courses, description}: Subject, index: number): React.ReactElement => (
                     <article
                         className="container"
-                        key={title}
-                        ref={el => {(pageRefs.current as (HTMLElement | null)[])[index] = el;}}
+                        key={subject}
+                        ref={(el: HTMLElement | null): void => {
+                            (pageRefs.current as (HTMLElement | null)[])[index] = el;
+                        }}
                     >
-                        <h1 className="title">{title}</h1>
+                        <h1 className="title">{subject}</h1>
+                        {courses.map((course: Course): React.ReactElement => (
+                            <span className="link" key={course}>
+                                <Link
+                                    href={`/${course}`}
+                                    style={{color: 'inherit', textDecoration: 'none'}}
+                                >
+                                    {course.toUpperCase()}
+                                </Link>
+                            </span>
+                        ))}
                         <p className="description">{description}</p>
                     </article>
                 ))}
-
                 <div className="scrollbar">
                     <Scrollbar pageRefs={pageRefs} buttonCount={7} direction="column"/>
                 </div>
@@ -41,19 +46,28 @@ export default function Page(): React.ReactElement {
             <style jsx>{`
                 .container {
                     height: 100vh;
+                    padding: 7rem 0;
+                    box-sizing: border-box;
+                    position: relative;
 
                     & .title {
                         font-size: 7rem;
                         position: relative;
                         margin: 0;
-                        top: 10vh;
+                    }
+
+                    & .link {
+                        position: relative;
+                        margin: 0.1rem;
+                        border: 0.05rem solid var(--cyber-white);
+                        padding: 0.5rem;
                     }
 
                     & .description {
                         font-size: 2rem;
-                        position: relative;
+                        position: absolute;
                         margin: 0;
-                        top: 80vh;
+                        bottom: 7rem;
                     }
                 }
 

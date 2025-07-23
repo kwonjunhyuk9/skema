@@ -22,11 +22,14 @@ export default function Footer(): React.ReactElement {
             <style jsx>{`
                 .container {
                     font-size: 0.75rem;
+                    background: linear-gradient(to top, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0));
+                    height: 7rem;
                     width: 100%;
                     display: flex;
                     padding: 1rem;
                     gap: 1rem;
                     position: fixed;
+                    z-index: 100;
                     box-sizing: border-box;
                     bottom: 0;
                     left: 0;

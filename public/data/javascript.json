@@ -1,0 +1,279 @@
+[
+  {
+    "chapter": "Identifiers",
+    "topics": [
+      {
+        "topic": "Constant identifiers",
+        "concepts": ["const"]
+      },
+      {
+        "topic": "Variable identifiers",
+        "concepts": ["let"]
+      }
+    ]
+  },
+  {
+    "chapter": "Operators",
+    "topics": [
+      {
+        "topic": "Bitwise operators",
+        "concepts": ["&", "|", "^", "~", "<<", ">>"]
+      },
+      {
+        "topic": "Logical operators",
+        "concepts": ["&&", "||", "!"]
+      },
+      {
+        "topic": "Arithmetic Operators",
+        "concepts": ["+", "-", "*", "/", "%", "++", "—"]
+      },
+      {
+        "topic": "Assignment Operators",
+        "concepts": ["=", "+=", "-=", "*=", "/=", "%="]
+      },
+      {
+        "topic": "Comparison Operators",
+        "concepts": ["===", "!==", "<", ">", "<=", ">="]
+      }
+    ]
+  },
+  {
+    "chapter": "Conditionals",
+    "topics": [
+      {
+        "topic": "If Conditionals",
+        "concepts": ["if else"]
+      },
+      {
+        "topic": "Switch Conditionals",
+        "concepts": ["switch case"]
+      },
+      {
+        "topic": "Try Conditionals",
+        "concepts": ["try catch finally"]
+      }
+    ]
+  },
+  {
+    "chapter": "Loops",
+    "topics": [
+      {
+        "topic": "For Loops",
+        "concepts": ["for", "for of", "for in"]
+      },
+      {
+        "topic": "While Loops",
+        "concepts": ["while", "do while"]
+      }
+    ]
+  },
+  {
+    "chapter": "Functions",
+    "topics": [
+      {
+        "topic": "Named Functions",
+        "concepts": [
+          "Named Regular Functions",
+          "Named Arrow Functions"
+        ]
+      },
+      {
+        "topic": "Anonymous Functions",
+        "concepts": [
+          "Anonymous Regular Functions",
+          "Anonymous Arrow Functions"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Interactions",
+    "topics": [
+      {
+        "topic": "Inputs",
+        "concepts": ["prompt", "readFile"]
+      },
+      {
+        "topic": "Outputs",
+        "concepts": ["alert", "writeFile"]
+      }
+    ]
+  },
+  {
+    "chapter": "Built In Objects",
+    "topics": [
+      {
+        "topic": "Boolean",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "Number",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "String",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "Array",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "Object",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "Map",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "Set",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "Math",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "Date",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "Promise",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "JSON",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Document Object Model",
+    "topics": [
+      {
+        "topic": "Node",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "Element",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "Document",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "Event",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Fetch API",
+    "topics": [
+      {
+        "topic": "Headers",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "Request",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      },
+      {
+        "topic": "Response",
+        "concepts": [
+          "instance properties",
+          "instance methods",
+          "static properties",
+          "static methods"
+        ]
+      }
+    ]
+  }
+]

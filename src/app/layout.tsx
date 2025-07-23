@@ -1,19 +1,20 @@
 "use client";
-import "./globals.css";
+import {VT323} from "next/font/google";
+import "@/styles/globals.css";
+import {LayoutProps} from "@/types/props";
 import React from "react";
+import {NextFont} from "next/dist/compiled/@next/font";
 import Header from "@/app/header";
 import Footer from "@/app/footer";
-import localFont from 'next/font/local'
 
-const myFont = localFont({src: '../../public/VCR_OSD_MONO.ttf'})
-
-interface LayoutProps {
-    children: React.ReactNode
-}
+const vt323: NextFont = VT323({
+    weight: '400',
+    subsets: ['latin']
+});
 
 export default function Layout({children}: LayoutProps): React.ReactElement {
     return (
-        <html lang="en" className={myFont.className}>
+        <html lang="en" className={vt323.className}>
         <body>
         <Header/>
         {children}

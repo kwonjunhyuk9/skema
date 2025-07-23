@@ -1,0 +1,96 @@
+[
+  {
+    "chapter": "Identifiers",
+    "topics": [
+      {
+        "topic": "Constant identifiers",
+        "concepts": ["final"]
+      },
+      {
+        "topic": "Variable identifiers",
+        "concepts": ["boolean", "byte", "short", "int", "long", "float", "double"]
+      }
+    ]
+  },
+  {
+    "chapter": "Operators",
+    "topics": [
+      {
+        "topic": "Bitwise operators",
+        "concepts": ["&", "|", "^", "~", "<<", ">>"]
+      },
+      {
+        "topic": "Logical operators",
+        "concepts": ["&&", "||", "!"]
+      },
+      {
+        "topic": "Arithmetic Operators",
+        "concepts": ["+", "-", "*", "/", "%", "++", "—"]
+      },
+      {
+        "topic": "Assignment Operators",
+        "concepts": ["=", "+=", "-=", "*=", "/=", "%="]
+      },
+      {
+        "topic": "Comparison Operators",
+        "concepts": ["==", "!=", "<", ">", "<=", ">="]
+      }
+    ]
+  },
+  {
+    "chapter": "Conditionals",
+    "topics": [
+      {
+        "topic": "If Conditionals",
+        "concepts": ["if else"]
+      },
+      {
+        "topic": "Switch Conditionals",
+        "concepts": ["switch case"]
+      },
+      {
+        "topic": "Try Conditionals",
+        "concepts": ["try catch finally"]
+      }
+    ]
+  },
+  {
+    "chapter": "Loops",
+    "topics": [
+      {
+        "topic": "For Loops",
+        "concepts": ["for", "for :"]
+      },
+      {
+        "topic": "While Loops",
+        "concepts": ["while", "do while"]
+      }
+    ]
+  },
+  {
+    "chapter": "Functions",
+    "topics": [
+      {
+        "topic": "Named Functions",
+        "concepts": ["Named Regular Functions", "Named Arrow Functions"]
+      },
+      {
+        "topic": "Anonymous Functions",
+        "concepts": ["Anonymous Regular Functions", "Anonymous Arrow Functions"]
+      }
+    ]
+  },
+  {
+    "chapter": "Interactions",
+    "topics": [
+      {
+        "topic": "Inputs",
+        "concepts": ["System.in"]
+      },
+      {
+        "topic": "Outputs",
+        "concepts": ["System.out"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "subject": "INTRO",
+    "courses": [],
+    "description": "A Universe In Your Hands."
+  },
+  {
+    "subject": "MATH",
+    "courses": ["algebra", "discrete_math", "calculus", "engineering_math"],
+    "description": "Where Logic meets Elegance."
+  },
+  {
+    "subject": "SCIENCE",
+    "courses": ["physics", "chemistry"],
+    "description": "Unveil the Patterns of the Universe."
+  },
+  {
+    "subject": "ELECTRONICS",
+    "courses": ["electro_magnetics", "electrical_circuits", "logical_circuits"],
+    "description": "Weave the language of Atoms."
+  },
+  {
+    "subject": "FRONTEND",
+    "courses": ["javascript", "typescript", "react", "next", "html", "css", "design"],
+    "description": "Imagination meets Interaction."
+  },
+  {
+    "subject": "BACKEND",
+    "courses": ["c", "java", "database", "algorithms"],
+    "description": "Silently Architect Data Flows."
+  },
+  {
+    "subject": "OUTRO",
+    "courses": [],
+    "description": "May your Curiosity keep you Dancing With Life."
+  }
+]

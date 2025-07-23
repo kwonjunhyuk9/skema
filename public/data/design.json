@@ -1,0 +1,134 @@
+[
+  {
+    "chapter": "Graphic Design",
+    "topics": [
+      {
+        "topic": "Elements",
+        "concepts": [
+          "Color",
+          "Texture",
+          "Typography",
+          "Line",
+          "Shape",
+          "Space",
+          "Balance",
+          "Harmony"
+        ]
+      },
+      {
+        "topic": "Principles",
+        "concepts": [
+          "Alignment",
+          "Contrast",
+          "Balance",
+          "Hierarchy",
+          "Color",
+          "White space",
+          "Proportion",
+          "Repetition",
+          "Rhythm",
+          "Movement",
+          "Emphasis",
+          "Proximity",
+          "Unity"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "UI Design",
+    "topics": [
+      {
+        "topic": "Principles",
+        "concepts": [
+          "Hierarchy",
+          "Progressive disclosure",
+          "Consistency",
+          "Contrast",
+          "Accessibility",
+          "Proximity",
+          "Alignment"
+        ]
+      },
+      {
+        "topic": "Website Structure",
+        "concepts": [
+          "Hierarchical/tree model",
+          "Linear/sequential model",
+          "Matrix/web model",
+          "Database/dynamic model",
+          "Hybrid models"
+        ]
+      },
+      {
+        "topic": "Website Layout",
+        "concepts": [
+          "Split-screen layout",
+          "Asymmetrical layout",
+          "Full-screen layout",
+          "Side-scrolling layout",
+          "Card layout",
+          "Magazine layout",
+          "Gallery layout",
+          "Zig-zag layout",
+          "F-pattern layout",
+          "Interactive layout",
+          "Animated layout"
+        ]
+      },
+      {
+        "topic": "Website Components",
+        "concepts": [
+          "Homepage",
+          "Menu navigation",
+          "Categories",
+          "Content pages",
+          "Internal links",
+          "Footers",
+          "Breadcrumbs",
+          "URL structure"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "UX Design",
+    "topics": [
+      {
+        "topic": "Principles",
+        "concepts": [
+          "Define your problem",
+          "Conduct research",
+          "Design prototypes",
+          "Test and gather feedback",
+          "Iterate and refine"
+        ]
+      },
+      {
+        "topic": "Strategy",
+        "concepts": [
+          "User personas",
+          "Interviews",
+          "Card sorting"
+        ]
+      },
+      {
+        "topic": "Design",
+        "concepts": [
+          "Task analysis",
+          "Eye tracking analysis",
+          "Surveys"
+        ]
+      },
+      {
+        "topic": "Launch & Post-launch",
+        "concepts": [
+          "A/B testing",
+          "KPIs",
+          "Usability bug testing",
+          "Diaries"
+        ]
+      }
+    ]
+  }
+]
