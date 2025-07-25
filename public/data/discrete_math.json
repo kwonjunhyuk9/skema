@@ -1,0 +1,267 @@
+[
+  {
+    "chapter": "Linguistics",
+    "topics": [
+      {
+        "topic": "Language",
+        "concepts": [
+          "Regular Language",
+          "Context-Free Language",
+          "Context-Sensitive Language",
+          "Recursively Enumerable Language"
+        ]
+      },
+      {
+        "topic": "Finite Automata",
+        "concepts": [
+          "Regular Language",
+          "Deterministic Finite Automaton",
+          "Nondeterministic Finite Automaton"
+        ]
+      },
+      {
+        "topic": "Pushdown Automata",
+        "concepts": [
+          "Context-Free Language",
+          "Deterministic Pushdown Automaton",
+          "Nondeterministic Pushdown Automaton"
+        ]
+      },
+      {
+        "topic": "Linear Bounded Automata",
+        "concepts": [
+          "Context-Sensitive Language",
+          "Deterministic Linear Bounded Automaton",
+          "Nondeterministic Linear Bounded Automaton"
+        ]
+      },
+      {
+        "topic": "Turing Machine",
+        "concepts": [
+          "Recursively Enumerable Language",
+          "Deterministic Turing Machine",
+          "Nondeterministic Turing Machine"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Logic",
+    "topics": [
+      {
+        "topic": "Logical Operations",
+        "concepts": [
+          "Negation Operation",
+          "Conjunction Operation",
+          "Disjunction Operation",
+          "Implication Operation",
+          "Equivalence Operation",
+          "Universal Quantifier",
+          "Existential Quantifier"
+        ]
+      },
+      {
+        "topic": "Laws of Logic",
+        "concepts": [
+          "Identity Law",
+          "Domination Law",
+          "Idempotent Law",
+          "Absorption Law",
+          "Negation Law",
+          "Associative Law",
+          "Distributive Law",
+          "De Morgan's Laws",
+          "Inverse Law",
+          "Dual Law",
+          "Contrapositive Law",
+          "Conditional Disjunction Law"
+        ]
+      },
+      {
+        "topic": "Inference",
+        "concepts": [
+          "Modus Ponens",
+          "Modus Tollens",
+          "Hypothetical Syllogism",
+          "Disjunctive Syllogism",
+          "Addition",
+          "Simplification",
+          "Conjunction",
+          "Resolution",
+          "Universal Instantiation",
+          "Universal Generalization",
+          "Existential Instantiation",
+          "Existential Generalization"
+        ]
+      },
+      {
+        "topic": "Proof",
+        "concepts": [
+          "Direct Proof",
+          "Proof by Contrapositive",
+          "Proof by Contradiction",
+          "Proof by Exhaustion",
+          "Proof by Cases",
+          "Existence Proof",
+          "Uniqueness Proof",
+          "Mathematical Induction",
+          "Strong Induction",
+          "Structural Induction",
+          "Generalized Induction"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Set Theory",
+    "topics": [
+      {
+        "topic": "Set",
+        "concepts": [
+          "Empty Set",
+          "Universal Set",
+          "Finite Set",
+          "Infinite Set",
+          "Closed Set",
+          "Open Set"
+        ]
+      },
+      {
+        "topic": "Relation",
+        "concepts": [
+          "Reflexivity",
+          "Symmetry",
+          "Antisymmetry",
+          "Transitivity"
+        ]
+      },
+      {
+        "topic": "Equivalence Relation",
+        "concepts": [
+          "Reflexivity",
+          "Symmetry",
+          "Transitivity"
+        ]
+      },
+      {
+        "topic": "Order Relation",
+        "concepts": [
+          "Reflexivity",
+          "Antisymmetry",
+          "Transitivity"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Number Theory",
+    "topics": [
+      {
+        "topic": "Number Systems",
+        "concepts": [
+          "Addition in Number Systems",
+          "Subtraction in Number Systems",
+          "Multiplication in Number Systems",
+          "Division in Number Systems",
+          "Number System Conversion"
+        ]
+      },
+      {
+        "topic": "Prime Numbers",
+        "concepts": [
+          "Direct Division",
+          "Sieve of Eratosthenes",
+          "Prime Number Theorem"
+        ]
+      },
+      {
+        "topic": "Greatest Common Divisor",
+        "concepts": [
+          "Prime Factorization Method",
+          "Euclidean Algorithm",
+          "Bézout's Identity"
+        ]
+      },
+      {
+        "topic": "Least Common Multiple",
+        "concepts": [
+          "Prime Factorization Method",
+          "Euclidean Algorithm",
+          "Bézout's Identity"
+        ]
+      },
+      {
+        "topic": "Congruence",
+        "concepts": [
+          "Chinese Remainder Theorem",
+          "Fermat's Little Theorem",
+          "Euler's Totient Theorem"
+        ]
+      },
+      {
+        "topic": "Cryptography",
+        "concepts": [
+          "Caesar Cipher",
+          "Affine Cipher",
+          "Transposition Cipher",
+          "RSA Encryption"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Probability Theory",
+    "topics": [
+      {
+        "topic": "Counting",
+        "concepts": [
+          "Binomial Theorem",
+          "Pascal's Identity",
+          "Vandermonde's Identity"
+        ]
+      },
+      {
+        "topic": "Permutation",
+        "concepts": [
+          "Permutation with Repetition",
+          "Permutation without Repetition"
+        ]
+      },
+      {
+        "topic": "Combination",
+        "concepts": [
+          "Combination with Repetition",
+          "Combination without Repetition"
+        ]
+      },
+      {
+        "topic": "Partition",
+        "concepts": [
+          "Distributing Distinguishable Objects to Distinguishable Subjects",
+          "Distributing Indistinguishable Objects to Distinguishable Subjects",
+          "Distributing Distinguishable Objects to Indistinguishable Subjects",
+          "Distributing Indistinguishable Objects to Indistinguishable Subjects"
+        ]
+      },
+      {
+        "topic": "Probability",
+        "concepts": [
+          "Random Variable",
+          "Probability Distribution",
+          "Independent Events",
+          "Dependent Events",
+          "Conditional Probability",
+          "Bayes' Theorem"
+        ]
+      },
+      {
+        "topic": "Statistics",
+        "concepts": [
+          "Expected Value",
+          "Variance",
+          "Deviation"
+        ]
+      }
+    ]
+  }
+]

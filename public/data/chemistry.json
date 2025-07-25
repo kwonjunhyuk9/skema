@@ -1,0 +1,60 @@
+[
+  {
+    "chapter": "Atomic Theory",
+    "topics": [
+      {
+        "topic": "Atomic Structure",
+        "concepts": [
+          "Proton",
+          "Neutron",
+          "Electron"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Chemical Bonding",
+    "topics": [
+      {
+        "topic": "Chemical Bond Formulas",
+        "concepts": [
+          "Structural Formula",
+          "Electron Dot Formula",
+          "Molecular Formula",
+          "Condensed Structural Formula",
+          "Empirical Formula",
+          "Ionic Formula"
+        ]
+      },
+      {
+        "topic": "Chemical Bonds",
+        "concepts": [
+          "Covalent Bond",
+          "Metallic Bond",
+          "Coordinate Bond",
+          "Ionic Bond"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Chemical Reactions",
+    "topics": [
+      {
+        "topic": "Chemical Equations",
+        "concepts": [
+          "Reactant",
+          "Product"
+        ]
+      },
+      {
+        "topic": "Chemical Reactions",
+        "concepts": [
+          "Addition Reaction",
+          "Substitution Reaction",
+          "Elimination Reaction"
+        ]
+      }
+    ]
+  }
+]

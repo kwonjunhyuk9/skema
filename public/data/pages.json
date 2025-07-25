@@ -16,7 +16,7 @@
   },
   {
     "subject": "ELECTRONICS",
-    "courses": ["electro_magnetics", "electrical_circuits", "logical_circuits"],
+    "courses": ["electrodynamics", "electrical_circuits", "logical_circuits"],
     "description": "Weave the language of Atoms."
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "subject": "BACKEND",
-    "courses": ["c", "java", "database", "algorithms"],
+    "courses": ["c", "java", "algorithms"],
     "description": "Silently Architect Data Flows."
   },
   {

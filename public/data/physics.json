@@ -1,0 +1,115 @@
+[
+  {
+    "chapter": "Thermodynamics",
+    "topics": [
+      {
+        "topic": "Concepts of Thermodynamics",
+        "concepts": [
+          "Heat",
+          "Temperature",
+          "Pressure",
+          "Density"
+        ]
+      },
+      {
+        "topic": "Laws of Thermodynamics",
+        "concepts": [
+          "Law of Energy Conservation",
+          "Law of Entropy",
+          "Law of Absolute Zero"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Electrodynamics",
+    "topics": [
+      {
+        "topic": "Concepts of Electrodynamics",
+        "concepts": [
+          "Voltage",
+          "Current",
+          "Power"
+        ]
+      },
+      {
+        "topic": "Laws of Electrodynamics",
+        "concepts": [
+          "Coulomb’s Law",
+          "Gauss’s Law for Electric Fields",
+          "Faraday’s Law",
+          "Biot–Savart Law",
+          "Gauss’s Law for Magnetic Fields",
+          "Ampère’s Law"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Deterministic Mechanics",
+    "topics": [
+      {
+        "topic": "Concepts of Deterministic Mechanics",
+        "concepts": [
+          "Energy",
+          "Work",
+          "Momentum",
+          "Impulse"
+        ]
+      },
+      {
+        "topic": "Laws of Deterministic Mechanics",
+        "concepts": [
+          "Law of Inertia",
+          "Law of Acceleration",
+          "Law of Action and Reaction"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Relativistic Mechanics",
+    "topics": [
+      {
+        "topic": "Concepts of Relativistic Mechanics",
+        "concepts": [
+          "Time Dilation",
+          "Length Contraction",
+          "Mass-Energy Equivalence",
+          "Gravitational Lensing",
+          "Gravitational Waves"
+        ]
+      },
+      {
+        "topic": "Laws of Relativistic Mechanics",
+        "concepts": [
+          "Principle of Relativity",
+          "Constancy of the Speed of Light",
+          "Equivalence Principle",
+          "Curvature of Spacetime"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Quantum Mechanics",
+    "topics": [
+      {
+        "topic": "Concepts of Quantum Mechanics",
+        "concepts": [
+          "Quantum Fluctuation",
+          "Quantum Entanglement",
+          "Quantum Tunneling"
+        ]
+      },
+      {
+        "topic": "Laws of Quantum Mechanics",
+        "concepts": [
+          "Quantization",
+          "Wave-Particle Duality",
+          "Uncertainty Principle"
+        ]
+      }
+    ]
+  }
+]

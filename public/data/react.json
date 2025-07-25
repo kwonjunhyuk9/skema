@@ -25,19 +25,19 @@
     "topics": [
       {
         "topic": "Fragment",
-        "concepts": ["lets you group elements without a wrapper node."]
+        "concepts": ["lets you group elements without a wrapper node"]
       },
       {
         "topic": "Profiler",
-        "concepts": ["lets you measure rendering performance of a React tree programmatically."]
+        "concepts": ["lets you measure rendering performance of a React tree programmatically"]
       },
       {
         "topic": "StrictMode",
-        "concepts": ["lets you find common bugs in your components early during development."]
+        "concepts": ["lets you find common bugs in your components early during development"]
       },
       {
         "topic": "Suspense",
-        "concepts": ["lets you display a fallback until its children have finished loading."]
+        "concepts": ["lets you display a fallback until its children have finished loading"]
       }
     ]
   },
@@ -46,23 +46,23 @@
     "topics": [
       {
         "topic": "useState",
-        "concepts": ["useState is a React Hook that lets you add a state variable to your component."]
+        "concepts": ["useState is a React Hook that lets you add a state variable to your component"]
       },
       {
         "topic": "useReducer",
-        "concepts": ["useReducer is a React Hook that lets you add a reducer to your component."]
+        "concepts": ["useReducer is a React Hook that lets you add a reducer to your component"]
       },
       {
         "topic": "useContext",
-        "concepts": ["useContext is a React Hook that lets you read and subscribe to context from your component."]
+        "concepts": ["useContext is a React Hook that lets you read and subscribe to context from your component"]
       },
       {
         "topic": "useRef",
-        "concepts": ["useRef is a React Hook that lets you reference a value that’s not needed for rendering."]
+        "concepts": ["useRef is a React Hook that lets you reference a value that’s not needed for rendering"]
       },
       {
         "topic": "useEffect",
-        "concepts": ["useEffect is a React Hook that lets you synchronize a component with an external system."]
+        "concepts": ["useEffect is a React Hook that lets you synchronize a component with an external system"]
       }
     ]
   }

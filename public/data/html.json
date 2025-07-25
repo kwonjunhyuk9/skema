@@ -4,11 +4,11 @@
     "topics": [
       {
         "topic": "Document Tags",
-        "concepts": ["<title>", "<meta>"]
+        "concepts": ["title", "meta"]
       },
       {
         "topic": "Resources Tags",
-        "concepts": ["<link>", "<script>"]
+        "concepts": ["link", "script"]
       }
     ]
   },
@@ -17,7 +17,7 @@
     "topics": [
       {
         "topic": "Generic Tags",
-        "concepts": ["<div>", "<span>"]
+        "concepts": ["div", "span"]
       }
     ]
   },
@@ -26,11 +26,11 @@
     "topics": [
       {
         "topic": "Layout Tags",
-        "concepts": ["<header>", "<nav>", "<main>", "<aside>", "<footer>"]
+        "concepts": ["header", "nav", "main", "aside", "footer"]
       },
       {
         "topic": "Content Tags",
-        "concepts": ["<article>", "<section>"]
+        "concepts": ["article", "section"]
       }
     ]
   },
@@ -39,15 +39,15 @@
     "topics": [
       {
         "topic": "Styling Tags",
-        "concepts": ["<em>", "<strong>", "<mark>", "<sup>", "<sub>", "<abbr>"]
+        "concepts": ["em", "strong", "mark", "sup", "sub", "abbr"]
       },
       {
         "topic": "Citation Tags",
-        "concepts": ["<cite>", "<q>", "<blockquote>"]
+        "concepts": ["cite", "q", "blockquote"]
       },
       {
         "topic": "Code Tags",
-        "concepts": ["<code>", "<var>", "<kbd>"]
+        "concepts": ["code", "var", "kbd"]
       }
     ]
   },
@@ -56,23 +56,23 @@
     "topics": [
       {
         "topic": "Heading Tags",
-        "concepts": ["<h1>", "<h2>", "<h3>", "<h4>", "<h5>", "<h6>"]
+        "concepts": ["h1", "h2", "h3", "h4", "h5", "h6"]
       },
       {
         "topic": "Paragraph Tags",
-        "concepts": ["<p>"]
+        "concepts": ["p"]
       },
       {
         "topic": "List Tags",
-        "concepts": ["<ul>", "<li>", "<ol>", "<li>", "<dl>", "<dt>", "<dd>"]
+        "concepts": ["ul", "li", "ol", "li", "dl", "dt", "dd"]
       },
       {
         "topic": "Table Tags",
-        "concepts": ["<table>", "<caption>", "<thead>", "<tbody>", "<tfoot>", "<tr>", "<th>", "<td>"]
+        "concepts": ["table", "caption", "thead", "tbody", "tfoot", "tr", "th", "td"]
       },
       {
         "topic": "Figure Tags",
-        "concepts": ["<figure>", "<figcaption>"]
+        "concepts": ["figure", "figcaption"]
       }
     ]
   },
@@ -81,15 +81,15 @@
     "topics": [
       {
         "topic": "Picture Tags",
-        "concepts": ["<picture>", "<source>", "<img>"]
+        "concepts": ["picture", "source", "img"]
       },
       {
         "topic": "Audio Tags",
-        "concepts": ["<audio>", "<source>"]
+        "concepts": ["audio", "source"]
       },
       {
         "topic": "Video Tags",
-        "concepts": ["<video>", "<source>"]
+        "concepts": ["video", "source"]
       }
     ]
   },
@@ -98,11 +98,11 @@
     "topics": [
       {
         "topic": "Control Tags",
-        "concepts": ["<a>", "<button>"]
+        "concepts": ["a", "button"]
       },
       {
         "topic": "Form Tags",
-        "concepts": ["<form>", "<label>", "<input>", "<select>", "<option>", "<fieldset>", "<legend>"]
+        "concepts": ["form", "label", "input", "select", "option", "fieldset", "legend"]
       }
     ]
   }
