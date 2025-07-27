@@ -1,0 +1,140 @@
+[
+  {
+    "chapter": "Electrostatics",
+    "topics": [
+      {
+        "topic": "Electron Charge",
+        "concepts": [
+          "Electron Charge",
+          "Electron Charge Density"
+        ]
+      },
+      {
+        "topic": "Electric Field",
+        "concepts": [
+          "Electric Field",
+          "Electric Force"
+        ]
+      },
+      {
+        "topic": "Electric Flux",
+        "concepts": [
+          "Electric Flux",
+          "Electric Flux",
+          "Electric Flux Density"
+        ]
+      },
+      {
+        "topic": "Electric Potential",
+        "concepts": [
+          "Absolute Electric Potential",
+          "Relative Electric Potential"
+        ]
+      },
+      {
+        "topic": "Electric Energy",
+        "concepts": [
+          "Electric Energy",
+          "Electric Energy",
+          "Electric Energy Density"
+        ]
+      },
+      {
+        "topic": "Electric Laws",
+        "concepts": [
+          "Coulomb’s Law",
+          "Faraday’s Law",
+          "Gauss’s Law for Electric Fields",
+          "Lorentz Equation for Electric Field",
+          "Poisson’s Equation for Electric Field"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Magnetostatics",
+    "topics": [
+      {
+        "topic": "Electron Current",
+        "concepts": [
+          "Electron Current",
+          "Electron Current Density"
+        ]
+      },
+      {
+        "topic": "Magnetic Field",
+        "concepts": [
+          "Magnetic Field",
+          "Magnetic Force"
+        ]
+      },
+      {
+        "topic": "Magnetic Flux",
+        "concepts": [
+          "Magnetic Flux",
+          "Magnetic Flux",
+          "Magnetic Flux Density"
+        ]
+      },
+      {
+        "topic": "Magnetic Potential",
+        "concepts": [
+          "Scalar Magnetic Potential",
+          "Vector Magnetic Potential"
+        ]
+      },
+      {
+        "topic": "Magnetic Energy",
+        "concepts": [
+          "Magnetic Energy",
+          "Magnetic Energy",
+          "Magnetic Energy Density"
+        ]
+      },
+      {
+        "topic": "Magnetic Laws",
+        "concepts": [
+          "Biot Savart Law",
+          "Ampère’s Law",
+          "Gauss’s Law for Magnetic Fields",
+          "Lorentz Equation for Magnetic Field",
+          "Poisson’s Equation for Magnetic Field"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Electromagnetic Wave",
+    "topics": [
+      {
+        "topic": "Transmission Line",
+        "concepts": [
+          "Coaxial Line",
+          "Two-Wire Line",
+          "Parallel-Plate Line",
+          "Strip Line",
+          "Microstrip Line"
+        ]
+      },
+      {
+        "topic": "Waveguide",
+        "concepts": [
+          "Circular Waveguide",
+          "Spherical Waveguide",
+          "Twisted Waveguide",
+          "Bent Waveguide"
+        ]
+      },
+      {
+        "topic": "Antenna",
+        "concepts": [
+          "Dipole Antenna",
+          "Loop Antenna",
+          "Helical Antenna",
+          "Horn Antenna",
+          "Parabolic Antenna"
+        ]
+      }
+    ]
+  }
+]

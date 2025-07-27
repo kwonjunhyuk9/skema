@@ -9,8 +9,8 @@ It summarizes topics such as Math, Science, Electronics, FrontEnd, BackEnd, and 
 - Alternatively, you can clone the repository and view it on localhost
 
 ### Upcoming
+- Consider Mobile View
 - Add Real Time Data to Header
 - Add Real Time Data to Footer
 - Animate Typing Elements
 - Animate Laptop Elements
-- Consider Mobile View

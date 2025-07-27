@@ -1,0 +1,137 @@
+[
+  {
+    "chapter": "Foundations",
+    "topics": [
+      {
+        "topic": "Complexity Notation",
+        "concepts": [
+          "O Notation",
+          "Ω Notation",
+          "Θ Notation"
+        ]
+      },
+      {
+        "topic": "Design Paradigms",
+        "concepts": [
+          "Brute Force Paradigm",
+          "Divide and Conquer Paradigm",
+          "Backtracking Paradigm",
+          "Dynamic Programming Paradigm",
+          "Greedy Paradigm"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Data Structures",
+    "topics": [
+      {
+        "topic": "Linear Data Structure",
+        "concepts": [
+          "List",
+          "Stack",
+          "Queue",
+          "Dequeue",
+          "Singly Linked List",
+          "Doubly Linked List",
+          "Singly Circular Linked List",
+          "Doubly Circular Linked List"
+        ]
+      },
+      {
+        "topic": "Abstract Data Structure",
+        "concepts": [
+          "Tree",
+          "Heap Tree",
+          "Binary Tree",
+          "Binary Search Tree",
+          "Red-Black Tree",
+          "Order-Statistic Tree",
+          "B Tree",
+          "B+ Tree",
+          "Undirected Graph",
+          "Directed Graph",
+          "Weighted Graph"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Algorithms",
+    "topics": [
+      {
+        "topic": "Searching Algorithms",
+        "concepts": [
+          "Sequential Search",
+          "Binary Search",
+          "Preorder Traversal",
+          "Inorder Traversal",
+          "Postorder Traversal",
+          "Depth-First Search",
+          "Breadth-First Search"
+        ]
+      },
+      {
+        "topic": "Sorting Algorithms",
+        "concepts": [
+          "Bubble Sort",
+          "Selection Sort",
+          "Insertion Sort",
+          "Merge Sort",
+          "Quick Sort",
+          "Heap Tree Sort",
+          "Binary Search Tree Sort",
+          "Counting Sort",
+          "Radix Sort"
+        ]
+      },
+      {
+        "topic": "Graph Algorithms",
+        "concepts": [
+          "Eulerian Path",
+          "Eulerian Cycle",
+          "Hamiltonian Path",
+          "Hamiltonian Cycle",
+          "Dijkstra's Algorithm",
+          "Floyd-Warshall Algorithm",
+          "Johnson's Algorithm",
+          "Bellman-Ford Algorithm",
+          "Prim’s Minimum-Spanning Tree",
+          "Kruskal’s Minimum-Spanning Tree",
+          "Planarity Algorithm",
+          "Colorability Algorithm",
+          "Hopcroft-Karp Matching",
+          "Gale-Shapley Matching",
+          "Hungarian Matching",
+          "Ford-Fulkerson Maximum Flow",
+          "Edmonds-Karp Maximum Flow"
+        ]
+      },
+      {
+        "topic": "Matching Algorithms",
+        "concepts": [
+          "Finite Automaton",
+          "Suffix Array",
+          "Rabin-Karp Algorithm",
+          "Knuth-Morris-Pratt Algorithm"
+        ]
+      },
+      {
+        "topic": "Online Algorithms",
+        "concepts": [
+          "Elevator Scheduling Problem",
+          "List Update Problem",
+          "Online Caching Problem"
+        ]
+      },
+      {
+        "topic": "Machine Learning Algorithms",
+        "concepts": [
+          "Clustering",
+          "Multiplicative Weights",
+          "Gradient Descent"
+        ]
+      }
+    ]
+  }
+]

@@ -4,6 +4,8 @@ import "@/styles/globals.css";
 import {LayoutProps} from "@/types/props";
 import React from "react";
 import {NextFont} from "next/dist/compiled/@next/font";
+import {Analytics} from '@vercel/analytics/next';
+import {SpeedInsights} from '@vercel/speed-insights/next';
 import Header from "@/app/header";
 import Footer from "@/app/footer";
 
@@ -18,6 +20,8 @@ export default function Layout({children}: LayoutProps): React.ReactElement {
         <body>
         <Header/>
         {children}
+        <Analytics/>
+        <SpeedInsights/>
         <Footer/>
         </body>
         </html>
