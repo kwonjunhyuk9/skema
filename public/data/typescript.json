@@ -72,17 +72,11 @@
     "topics": [
       {
         "topic": "Named Functions",
-        "concepts": [
-          "Named Regular Functions",
-          "Named Arrow Functions"
-        ]
+        "concepts": ["Named Regular Functions", "Named Arrow Functions"]
       },
       {
         "topic": "Anonymous Functions",
-        "concepts": [
-          "Anonymous Regular Functions",
-          "Anonymous Arrow Functions"
-        ]
+        "concepts": ["Anonymous Regular Functions", "Anonymous Arrow Functions"]
       }
     ]
   },

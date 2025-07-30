@@ -56,9 +56,16 @@
       {
         "topic": "Structural Pseudo Classes",
         "concepts": [
-          ":first-child", ":last-child", ":only-child", ":nth-child(n)",
-          ":nth-last-child(n)", ":first-of-type", ":last-of-type",
-          ":only-of-type", ":nth-of-type(n)", ":nth-last-of-type(n)"
+          ":first-child",
+          ":last-child",
+          ":only-child",
+          ":nth-child(n)",
+          ":nth-last-child(n)",
+          ":first-of-type",
+          ":last-of-type",
+          ":only-of-type",
+          ":nth-of-type(n)",
+          ":nth-last-of-type(n)"
         ]
       }
     ]
@@ -68,7 +75,13 @@
     "topics": [
       {
         "topic": "Positional Pseudo Elements",
-        "concepts": ["::before", "::after", "::first-line", "::first-letter", "::selection"]
+        "concepts": [
+          "::before",
+          "::after",
+          "::first-line",
+          "::first-letter",
+          "::selection"
+        ]
       },
       {
         "topic": "Functional Pseudo Elements",
@@ -94,7 +107,9 @@
     "topics": [
       {
         "topic": "Shorthand Properties",
-        "concepts": ["font: italic small-caps bold 16px/1.5 'Arial', sans-serif;"]
+        "concepts": [
+          "font: italic small-caps bold 16px/1.5 'Arial', sans-serif;"
+        ]
       },
       {
         "topic": "Longhand Properties",
@@ -114,7 +129,9 @@
     "topics": [
       {
         "topic": "Shorthand Properties",
-        "concepts": ["background: black url('../assets/css.png') repeat center/10% local padding-box;"]
+        "concepts": [
+          "background: black url('../assets/css.png') repeat center/10% local padding-box;"
+        ]
       },
       {
         "topic": "Longhand Properties",
@@ -136,41 +153,71 @@
       {
         "topic": "Inline Static",
         "concepts": [
-          "display: inline;", "margin: 10px 20px 15px 25px;", "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;", "box-sizing: border-box;", "overflow: scroll;",
-          "position: static;", "z-index: 1;"
+          "display: inline;",
+          "margin: 10px 20px 15px 25px;",
+          "border: 1px solid #000;",
+          "padding: 10px 20px 15px 25px;",
+          "box-sizing: border-box;",
+          "overflow: scroll;",
+          "position: static;",
+          "z-index: 1;"
         ]
       },
       {
         "topic": "Inline Relative",
         "concepts": [
-          "display: inline;", "margin: 10px 20px 15px 25px;", "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;", "box-sizing: border-box;", "overflow: scroll;",
-          "position: relative;", "z-index: 1;", "top: 30px;"
+          "display: inline;",
+          "margin: 10px 20px 15px 25px;",
+          "border: 1px solid #000;",
+          "padding: 10px 20px 15px 25px;",
+          "box-sizing: border-box;",
+          "overflow: scroll;",
+          "position: relative;",
+          "z-index: 1;",
+          "top: 30px;"
         ]
       },
       {
         "topic": "Inline Absolute",
         "concepts": [
-          "display: inline;", "margin: 10px 20px 15px 25px;", "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;", "box-sizing: border-box;", "overflow: scroll;",
-          "position: absolute;", "z-index: 1;", "top: 30px;"
+          "display: inline;",
+          "margin: 10px 20px 15px 25px;",
+          "border: 1px solid #000;",
+          "padding: 10px 20px 15px 25px;",
+          "box-sizing: border-box;",
+          "overflow: scroll;",
+          "position: absolute;",
+          "z-index: 1;",
+          "top: 30px;"
         ]
       },
       {
         "topic": "Inline Fixed",
         "concepts": [
-          "display: inline;", "margin: 10px 20px 15px 25px;", "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;", "box-sizing: border-box;", "overflow: scroll;",
-          "position: fixed;", "z-index: 1;", "top: 180px;", "left: 180px;"
+          "display: inline;",
+          "margin: 10px 20px 15px 25px;",
+          "border: 1px solid #000;",
+          "padding: 10px 20px 15px 25px;",
+          "box-sizing: border-box;",
+          "overflow: scroll;",
+          "position: fixed;",
+          "z-index: 1;",
+          "top: 180px;",
+          "left: 180px;"
         ]
       },
       {
         "topic": "Inline Sticky",
         "concepts": [
-          "display: inline;", "margin: 10px 20px 15px 25px;", "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;", "box-sizing: border-box;", "overflow: scroll;",
-          "position: sticky;", "z-index: 1;", "top: 0;"
+          "display: inline;",
+          "margin: 10px 20px 15px 25px;",
+          "border: 1px solid #000;",
+          "padding: 10px 20px 15px 25px;",
+          "box-sizing: border-box;",
+          "overflow: scroll;",
+          "position: sticky;",
+          "z-index: 1;",
+          "top: 0;"
         ]
       }
     ]
@@ -181,41 +228,71 @@
       {
         "topic": "Block Static",
         "concepts": [
-          "display: block;", "margin: 10px 20px 15px 25px;", "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;", "box-sizing: border-box;", "overflow: scroll;",
-          "position: static;", "z-index: 1;"
+          "display: block;",
+          "margin: 10px 20px 15px 25px;",
+          "border: 1px solid #000;",
+          "padding: 10px 20px 15px 25px;",
+          "box-sizing: border-box;",
+          "overflow: scroll;",
+          "position: static;",
+          "z-index: 1;"
         ]
       },
       {
         "topic": "Block Relative",
         "concepts": [
-          "display: block;", "margin: 10px 20px 15px 25px;", "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;", "box-sizing: border-box;", "overflow: scroll;",
-          "position: relative;", "z-index: 1;", "top: 30px;"
+          "display: block;",
+          "margin: 10px 20px 15px 25px;",
+          "border: 1px solid #000;",
+          "padding: 10px 20px 15px 25px;",
+          "box-sizing: border-box;",
+          "overflow: scroll;",
+          "position: relative;",
+          "z-index: 1;",
+          "top: 30px;"
         ]
       },
       {
         "topic": "Block Absolute",
         "concepts": [
-          "display: block;", "margin: 10px 20px 15px 25px;", "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;", "box-sizing: border-box;", "overflow: scroll;",
-          "position: absolute;", "z-index: 1;", "top: 30px;"
+          "display: block;",
+          "margin: 10px 20px 15px 25px;",
+          "border: 1px solid #000;",
+          "padding: 10px 20px 15px 25px;",
+          "box-sizing: border-box;",
+          "overflow: scroll;",
+          "position: absolute;",
+          "z-index: 1;",
+          "top: 30px;"
         ]
       },
       {
         "topic": "Block Fixed",
         "concepts": [
-          "display: block;", "margin: 10px 20px 15px 25px;", "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;", "box-sizing: border-box;", "overflow: scroll;",
-          "position: fixed;", "z-index: 1;", "top: 180px;", "left: 180px;"
+          "display: block;",
+          "margin: 10px 20px 15px 25px;",
+          "border: 1px solid #000;",
+          "padding: 10px 20px 15px 25px;",
+          "box-sizing: border-box;",
+          "overflow: scroll;",
+          "position: fixed;",
+          "z-index: 1;",
+          "top: 180px;",
+          "left: 180px;"
         ]
       },
       {
         "topic": "Block Sticky",
         "concepts": [
-          "display: block;", "margin: 10px 20px 15px 25px;", "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;", "box-sizing: border-box;", "overflow: scroll;",
-          "position: sticky;", "z-index: 1;", "top: 0;"
+          "display: block;",
+          "margin: 10px 20px 15px 25px;",
+          "border: 1px solid #000;",
+          "padding: 10px 20px 15px 25px;",
+          "box-sizing: border-box;",
+          "overflow: scroll;",
+          "position: sticky;",
+          "z-index: 1;",
+          "top: 0;"
         ]
       }
     ]
@@ -226,17 +303,28 @@
       {
         "topic": "Flexbox Row",
         "concepts": [
-          "display: flex;", "flex-flow: row wrap;", "flex: 1 1 100px;",
-          "justify-content: center;", "justify-items: center;", "justify-self: center;",
-          "align-content: center;", "align-items: center;", "align-self: center;"
+          "display: flex;",
+          "flex-flow: row wrap;",
+          "flex: 1 1 100px;",
+          "justify-content: center;",
+          "justify-items: center;",
+          "justify-self: center;",
+          "align-content: center;",
+          "align-items: center;",
+          "align-self: center;"
         ]
       },
       {
         "topic": "Flexbox Column",
         "concepts": [
-          "display: flex;", "flex-flow: column wrap;",
-          "justify-content: center;", "justify-items: center;", "justify-self: center;",
-          "align-content: center;", "align-items: center;", "align-self: center;"
+          "display: flex;",
+          "flex-flow: column wrap;",
+          "justify-content: center;",
+          "justify-items: center;",
+          "justify-self: center;",
+          "align-content: center;",
+          "align-items: center;",
+          "align-self: center;"
         ]
       }
     ]
@@ -247,19 +335,31 @@
       {
         "topic": "Grid AutoRow",
         "concepts": [
-          "display: grid;", "grid-auto-columns: 1fr;", "grid-auto-rows: 1fr;",
+          "display: grid;",
+          "grid-auto-columns: 1fr;",
+          "grid-auto-rows: 1fr;",
           "grid-auto-flow: row;",
-          "justify-content: center;", "justify-items: center;", "justify-self: center;",
-          "align-content: center;", "align-items: center;", "align-self: center;"
+          "justify-content: center;",
+          "justify-items: center;",
+          "justify-self: center;",
+          "align-content: center;",
+          "align-items: center;",
+          "align-self: center;"
         ]
       },
       {
         "topic": "Grid AutoColumn",
         "concepts": [
-          "display: grid;", "grid-auto-columns: 1fr;", "grid-auto-rows: 1fr;",
+          "display: grid;",
+          "grid-auto-columns: 1fr;",
+          "grid-auto-rows: 1fr;",
           "grid-auto-flow: column;",
-          "justify-content: center;", "justify-items: center;", "justify-self: center;",
-          "align-content: center;", "align-items: center;", "align-self: center;"
+          "justify-content: center;",
+          "justify-items: center;",
+          "justify-self: center;",
+          "align-content: center;",
+          "align-items: center;",
+          "align-self: center;"
         ]
       },
       {
@@ -269,8 +369,12 @@
           "grid-template-columns: 1fr 1fr 1fr;",
           "grid-template-rows: 1fr 1fr 1fr;",
           "grid-template-areas:\n    \"a b b\"\n    \"c d d\"\n    \"c d d\";",
-          "justify-content: center;", "justify-items: center;", "justify-self: center;",
-          "align-content: center;", "align-items: center;", "align-self: center;"
+          "justify-content: center;",
+          "justify-items: center;",
+          "justify-self: center;",
+          "align-content: center;",
+          "align-items: center;",
+          "align-self: center;"
         ]
       }
     ]
@@ -280,19 +384,31 @@
     "topics": [
       {
         "topic": "Translate Properties",
-        "concepts": ["transform: translate(5rem, 50%);", "transform-origin: center center;"]
+        "concepts": [
+          "transform: translate(5rem, 50%);",
+          "transform-origin: center center;"
+        ]
       },
       {
         "topic": "Scale Properties",
-        "concepts": ["transform: scale(2, 0.5);", "transform-origin: center center;"]
+        "concepts": [
+          "transform: scale(2, 0.5);",
+          "transform-origin: center center;"
+        ]
       },
       {
         "topic": "Skew Properties",
-        "concepts": ["transform: skewX(10deg) skewY(10deg);", "transform-origin: center center;"]
+        "concepts": [
+          "transform: skewX(10deg) skewY(10deg);",
+          "transform-origin: center center;"
+        ]
       },
       {
         "topic": "Rotate Properties",
-        "concepts": ["transform: rotate(10deg);", "transform-origin: bottom left;"]
+        "concepts": [
+          "transform: rotate(10deg);",
+          "transform-origin: bottom left;"
+        ]
       }
     ]
   },
@@ -319,7 +435,9 @@
     "topics": [
       {
         "topic": "Shorthand Properties",
-        "concepts": ["animation: slideIn 3s ease-in-out 1s infinite alternate forwards;"]
+        "concepts": [
+          "animation: slideIn 3s ease-in-out 1s infinite alternate forwards;"
+        ]
       },
       {
         "topic": "Longhand Properties",

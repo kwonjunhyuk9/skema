@@ -4,25 +4,15 @@
     "topics": [
       {
         "topic": "Electron Charge",
-        "concepts": [
-          "Electron Charge",
-          "Electron Charge Density"
-        ]
+        "concepts": ["Electron Charge", "Electron Charge Density"]
       },
       {
         "topic": "Electric Field",
-        "concepts": [
-          "Electric Field",
-          "Electric Force"
-        ]
+        "concepts": ["Electric Field", "Electric Force"]
       },
       {
         "topic": "Electric Flux",
-        "concepts": [
-          "Electric Flux",
-          "Electric Flux",
-          "Electric Flux Density"
-        ]
+        "concepts": ["Electric Flux", "Electric Flux", "Electric Flux Density"]
       },
       {
         "topic": "Electric Potential",
@@ -56,32 +46,19 @@
     "topics": [
       {
         "topic": "Electron Current",
-        "concepts": [
-          "Electron Current",
-          "Electron Current Density"
-        ]
+        "concepts": ["Electron Current", "Electron Current Density"]
       },
       {
         "topic": "Magnetic Field",
-        "concepts": [
-          "Magnetic Field",
-          "Magnetic Force"
-        ]
+        "concepts": ["Magnetic Field", "Magnetic Force"]
       },
       {
         "topic": "Magnetic Flux",
-        "concepts": [
-          "Magnetic Flux",
-          "Magnetic Flux",
-          "Magnetic Flux Density"
-        ]
+        "concepts": ["Magnetic Flux", "Magnetic Flux", "Magnetic Flux Density"]
       },
       {
         "topic": "Magnetic Potential",
-        "concepts": [
-          "Scalar Magnetic Potential",
-          "Vector Magnetic Potential"
-        ]
+        "concepts": ["Scalar Magnetic Potential", "Vector Magnetic Potential"]
       },
       {
         "topic": "Magnetic Energy",

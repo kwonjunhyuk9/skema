@@ -1,16 +1,49 @@
 # Dancing With Life
 
-### Description
 Dancing With Life is a personal blog that contains various topics in Computer Science.
-It summarizes topics such as Math, Science, Electronics, FrontEnd, BackEnd, and more.
 
-### Installation
-- Visit the website on https://dancing-with-life.vercel.app
-- Alternatively, you can clone the repository and view it on localhost
+---
 
-### Upcoming
-- Consider Mobile View
-- Add Real Time Data to Header
-- Add Real Time Data to Footer
-- Animate Typing Elements
-- Animate Laptop Elements
+## 📂 Clone the Repository
+
+To get started, clone the project repository from GitHub.
+
+```bash
+git clone https://github.com/kwonjunhyuk9/dancing-with-life.git
+cd dancing-with-life
+```
+
+---
+
+## 📦 Install Dependencies
+
+Make sure you have the following dependencies installed.
+
+```bash
+npm install react@^19.0.0
+npm install react-dom@^19.0.0
+npm install next@15.3.5
+npm install @vercel/analytics@^1.5.0
+npm install @vercel/speed-insights@^1.2.0
+npm install --save-dev typescript@^5
+npm install --save-dev @types/node@^20
+npm install --save-dev @types/react@^19
+npm install --save-dev @types/react-dom@^19
+npm install --save-dev eslint@^9
+npm install --save-dev eslint-config-next@15.3.5
+npm install --save-dev @eslint/eslintrc@^3
+npm install --save-dev prettier@^3.6.2
+npm install --save-dev jest
+npm install --save-dev cypress
+npm install --save-dev lighthouse
+```
+
+---
+
+## ✅ Verify Setup
+
+Run the development server and verify that the app is running at http://localhost:3000.
+
+```bash
+npm run dev
+```

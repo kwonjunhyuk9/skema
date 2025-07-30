@@ -4,11 +4,7 @@
     "topics": [
       {
         "topic": "Atomic Structure",
-        "concepts": [
-          "Proton",
-          "Neutron",
-          "Electron"
-        ]
+        "concepts": ["Proton", "Neutron", "Electron"]
       }
     ]
   },
@@ -42,10 +38,7 @@
     "topics": [
       {
         "topic": "Chemical Equations",
-        "concepts": [
-          "Reactant",
-          "Product"
-        ]
+        "concepts": ["Reactant", "Product"]
       },
       {
         "topic": "Chemical Reactions",

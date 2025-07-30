@@ -40,35 +40,19 @@
       },
       {
         "topic": "Fetching Data",
-        "concepts": [
-          "React Server Components",
-          "fetch",
-          "database",
-          "use"
-        ]
+        "concepts": ["React Server Components", "fetch", "database", "use"]
       },
       {
         "topic": "Updating Data",
-        "concepts": [
-          "React Server Functions",
-          "forms",
-          "events"
-        ]
+        "concepts": ["React Server Functions", "forms", "events"]
       },
       {
         "topic": "Caching Data",
-        "concepts": [
-          "unstable_cache",
-          "revalidateTag",
-          "revalidatePath"
-        ]
+        "concepts": ["unstable_cache", "revalidateTag", "revalidatePath"]
       },
       {
         "topic": "Deploying Website",
-        "concepts": [
-          "node server",
-          "docker container"
-        ]
+        "concepts": ["node server", "docker container"]
       }
     ]
   },
@@ -77,13 +61,7 @@
     "topics": [
       {
         "topic": "Components",
-        "concepts": [
-          "Font",
-          "Form",
-          "Image",
-          "Link",
-          "Script"
-        ]
+        "concepts": ["Font", "Form", "Image", "Link", "Script"]
       },
       {
         "topic": "Functions",

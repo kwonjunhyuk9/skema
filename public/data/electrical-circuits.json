@@ -4,10 +4,7 @@
     "topics": [
       {
         "topic": "Independent Sources",
-        "concepts": [
-          "Independent Current Source",
-          "Independent Voltage Source"
-        ]
+        "concepts": ["Independent Current Source", "Independent Voltage Source"]
       },
       {
         "topic": "Dependent Sources",
@@ -50,10 +47,7 @@
       },
       {
         "topic": "Transistors",
-        "concepts": [
-          "Bipolar Junction Transistor",
-          "Field Effect Transistor"
-        ]
+        "concepts": ["Bipolar Junction Transistor", "Field Effect Transistor"]
       },
       {
         "topic": "Operational Amplifiers",
@@ -75,17 +69,11 @@
     "topics": [
       {
         "topic": "Impedance",
-        "concepts": [
-          "Resistance",
-          "Reactance"
-        ]
+        "concepts": ["Resistance", "Reactance"]
       },
       {
         "topic": "Admittance",
-        "concepts": [
-          "Conductance",
-          "Susceptance"
-        ]
+        "concepts": ["Conductance", "Susceptance"]
       },
       {
         "topic": "Voltage Laws",
@@ -197,24 +185,15 @@
       },
       {
         "topic": "Magnetic Circuits",
-        "concepts": [
-          "T-Circuit",
-          "π-Circuit"
-        ]
+        "concepts": ["T-Circuit", "π-Circuit"]
       },
       {
         "topic": "Polyphase Circuits",
-        "concepts": [
-          "Y-Circuit",
-          "Δ-Circuit"
-        ]
+        "concepts": ["Y-Circuit", "Δ-Circuit"]
       },
       {
         "topic": "Port Circuits",
-        "concepts": [
-          "1-Port Circuit",
-          "2-Port Circuit"
-        ]
+        "concepts": ["1-Port Circuit", "2-Port Circuit"]
       }
     ]
   },
@@ -235,10 +214,7 @@
       },
       {
         "topic": "Circuit Scaling",
-        "concepts": [
-          "Magnitude Scaling",
-          "Frequency Scaling"
-        ]
+        "concepts": ["Magnitude Scaling", "Frequency Scaling"]
       }
     ]
   }

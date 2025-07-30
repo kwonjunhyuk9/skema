@@ -4,16 +4,11 @@
     "topics": [
       {
         "topic": "First-Order Homogeneous Differential Equations",
-        "concepts": [
-          "Homogeneous Solution Method"
-        ]
+        "concepts": ["Homogeneous Solution Method"]
       },
       {
         "topic": "First-Order Non-Homogeneous Differential Equations",
-        "concepts": [
-          "Non-Homogeneous Solution Method",
-          "Bernoulli's Method"
-        ]
+        "concepts": ["Non-Homogeneous Solution Method", "Bernoulli's Method"]
       },
       {
         "topic": "Higher-Order Homogeneous Differential Equations",
@@ -47,10 +42,7 @@
       },
       {
         "topic": "Systems of Differential Equations",
-        "concepts": [
-          "Eigenvalue Method",
-          "Laplace Transform Method"
-        ]
+        "concepts": ["Eigenvalue Method", "Laplace Transform Method"]
       },
       {
         "topic": "Applied Differential Equations",

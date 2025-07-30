@@ -106,28 +106,15 @@
       },
       {
         "topic": "Strategy",
-        "concepts": [
-          "User personas",
-          "Interviews",
-          "Card sorting"
-        ]
+        "concepts": ["User personas", "Interviews", "Card sorting"]
       },
       {
         "topic": "Design",
-        "concepts": [
-          "Task analysis",
-          "Eye tracking analysis",
-          "Surveys"
-        ]
+        "concepts": ["Task analysis", "Eye tracking analysis", "Surveys"]
       },
       {
         "topic": "Launch",
-        "concepts": [
-          "A/B testing",
-          "KPIs",
-          "Usability bug testing",
-          "Diaries"
-        ]
+        "concepts": ["A/B testing", "KPIs", "Usability bug testing", "Diaries"]
       }
     ]
   }

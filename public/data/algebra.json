@@ -219,9 +219,7 @@
       },
       {
         "topic": "Applications of Adjoint Transformation",
-        "concepts": [
-          "Adjoint Mapping Problem"
-        ]
+        "concepts": ["Adjoint Mapping Problem"]
       }
     ]
   }

@@ -6,7 +6,7 @@
   },
   {
     "subject": "MATH",
-    "courses": ["algebra", "discrete_math", "calculus", "engineering_math"],
+    "courses": ["algebra", "discrete-math", "calculus", "engineering-math"],
     "description": "Where Logic meets Elegance."
   },
   {
@@ -16,12 +16,20 @@
   },
   {
     "subject": "ELECTRONICS",
-    "courses": ["electrodynamics", "electrical_circuits", "logical_circuits"],
+    "courses": ["electrodynamics", "electrical-circuits", "logical-circuits"],
     "description": "Weave the language of Atoms."
   },
   {
     "subject": "FRONTEND",
-    "courses": ["javascript", "typescript", "react", "next", "html", "css", "design"],
+    "courses": [
+      "javascript",
+      "typescript",
+      "react",
+      "next",
+      "html",
+      "css",
+      "design"
+    ],
     "description": "Imagination meets Interaction."
   },
   {

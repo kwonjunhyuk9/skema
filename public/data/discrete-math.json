@@ -128,28 +128,15 @@
       },
       {
         "topic": "Relation",
-        "concepts": [
-          "Reflexivity",
-          "Symmetry",
-          "Antisymmetry",
-          "Transitivity"
-        ]
+        "concepts": ["Reflexivity", "Symmetry", "Antisymmetry", "Transitivity"]
       },
       {
         "topic": "Equivalence Relation",
-        "concepts": [
-          "Reflexivity",
-          "Symmetry",
-          "Transitivity"
-        ]
+        "concepts": ["Reflexivity", "Symmetry", "Transitivity"]
       },
       {
         "topic": "Order Relation",
-        "concepts": [
-          "Reflexivity",
-          "Antisymmetry",
-          "Transitivity"
-        ]
+        "concepts": ["Reflexivity", "Antisymmetry", "Transitivity"]
       }
     ]
   },
@@ -256,11 +243,7 @@
       },
       {
         "topic": "Statistics",
-        "concepts": [
-          "Expected Value",
-          "Variance",
-          "Deviation"
-        ]
+        "concepts": ["Expected Value", "Variance", "Deviation"]
       }
     ]
   }

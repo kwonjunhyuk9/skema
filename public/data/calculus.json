@@ -13,11 +13,7 @@
       },
       {
         "topic": "Convergence Tests for Sequences",
-        "concepts": [
-          "Limit Test",
-          "Comparison Test",
-          "Limit Comparison Test"
-        ]
+        "concepts": ["Limit Test", "Comparison Test", "Limit Comparison Test"]
       }
     ]
   },
@@ -219,9 +215,7 @@
       },
       {
         "topic": "Definition of Complex Differentiation",
-        "concepts": [
-          "Complex Differentiation"
-        ]
+        "concepts": ["Complex Differentiation"]
       },
       {
         "topic": "Differentiation and Curves",
@@ -273,10 +267,7 @@
     "topics": [
       {
         "topic": "Definition of Single-variable Integration",
-        "concepts": [
-          "Integration by Substitution",
-          "Integration by Parts"
-        ]
+        "concepts": ["Integration by Substitution", "Integration by Parts"]
       },
       {
         "topic": "Definition of Two-variable Integration",
@@ -306,9 +297,7 @@
       },
       {
         "topic": "Definition of Complex Integration",
-        "concepts": [
-          "Complex Integration"
-        ]
+        "concepts": ["Complex Integration"]
       },
       {
         "topic": "Integration and Curves",
@@ -345,13 +334,7 @@
     "topics": [
       {
         "topic": "Lines and Geometry",
-        "concepts": [
-          "Parabola",
-          "Ellipse",
-          "Hyperbola",
-          "Limacon",
-          "Rose"
-        ]
+        "concepts": ["Parabola", "Ellipse", "Hyperbola", "Limacon", "Rose"]
       },
       {
         "topic": "Surfaces and Geometry",
@@ -363,11 +346,7 @@
       },
       {
         "topic": "Volumes and Geometry",
-        "concepts": [
-          "Sphere",
-          "Cone",
-          "Cylinder"
-        ]
+        "concepts": ["Sphere", "Cone", "Cylinder"]
       }
     ]
   }

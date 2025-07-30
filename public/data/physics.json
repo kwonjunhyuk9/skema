@@ -4,12 +4,7 @@
     "topics": [
       {
         "topic": "Concepts of Thermodynamics",
-        "concepts": [
-          "Heat",
-          "Temperature",
-          "Pressure",
-          "Density"
-        ]
+        "concepts": ["Heat", "Temperature", "Pressure", "Density"]
       },
       {
         "topic": "Laws of Thermodynamics",
@@ -26,11 +21,7 @@
     "topics": [
       {
         "topic": "Concepts of Electrodynamics",
-        "concepts": [
-          "Voltage",
-          "Current",
-          "Power"
-        ]
+        "concepts": ["Voltage", "Current", "Power"]
       },
       {
         "topic": "Laws of Electrodynamics",
@@ -50,12 +41,7 @@
     "topics": [
       {
         "topic": "Concepts of Deterministic Mechanics",
-        "concepts": [
-          "Energy",
-          "Work",
-          "Momentum",
-          "Impulse"
-        ]
+        "concepts": ["Energy", "Work", "Momentum", "Impulse"]
       },
       {
         "topic": "Laws of Deterministic Mechanics",

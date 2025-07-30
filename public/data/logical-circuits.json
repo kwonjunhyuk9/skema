@@ -4,15 +4,7 @@
     "topics": [
       {
         "topic": "Logic Gates",
-        "concepts": [
-          "AND",
-          "OR",
-          "NOT",
-          "NAND",
-          "NOR",
-          "XOR",
-          "XNOR"
-        ]
+        "concepts": ["AND", "OR", "NOT", "NAND", "NOR", "XOR", "XNOR"]
       },
       {
         "topic": "Gate-Level Minimization",
@@ -60,22 +52,11 @@
       },
       {
         "topic": "Programmable Logic",
-        "concepts": [
-          "PLA",
-          "PAL"
-        ]
+        "concepts": ["PLA", "PAL"]
       },
       {
         "topic": "Memory",
-        "concepts": [
-          "SRAM",
-          "DRAM",
-          "MROM",
-          "PROM",
-          "EPROM",
-          "EEPROM",
-          "Flash"
-        ]
+        "concepts": ["SRAM", "DRAM", "MROM", "PROM", "EPROM", "EEPROM", "Flash"]
       }
     ]
   }
