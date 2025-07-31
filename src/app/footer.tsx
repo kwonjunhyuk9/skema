@@ -1,6 +1,7 @@
 "use client";
 import React, { Fragment } from "react";
 
+// TODO: Add Real Time Data to Footer, Animate Typing Elements
 export default function Footer(): React.ReactElement {
   return (
     <Fragment>

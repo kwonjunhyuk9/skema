@@ -2,6 +2,7 @@
 import React, { Fragment } from "react";
 import Link from "next/link";
 
+// TODO: Add Real Time Data to Header, Animate Typing Elements
 export default function Header(): React.ReactElement {
   return (
     <Fragment>

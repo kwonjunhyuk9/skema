@@ -14,7 +14,7 @@ auditing tool.
 ## 💡 Using Lighthouse
 
 - Run a Lighthouse audit by executing `lighthouse <URL>` in the terminal.
-- Use `--emulated-form-factor=mobile` or `--emulated-form-factor=desktop` to choose device type.
+- Use `--emulated-form-factor=mobile` or `--emulated-form-factor=desktop` to choose a device type.
 - Specify which categories to audit with `--only-categories=performance,seo,accessibility`.
 - Set the output format using `--output html` or `--output json`.
 - Define the output file and path with `--output-path ./report.html`.
