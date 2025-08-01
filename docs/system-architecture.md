@@ -8,7 +8,7 @@ the overall structure and interactions within the system.
 
 ## 2. Architecture Diagram
 
-[//]: # (TODO)
+[//]: # (TODO : Add Architecture Diagram)
 
 ## 3. Technology Stack
 
@@ -16,7 +16,7 @@ the overall structure and interactions within the system.
 |-------------|-------------------------------|
 | Frontend    | TypeScript, React, HTML, CSS  |
 | Backend     | Node, Next, SQL               |
-| Styling     | ESLint, Prettier              |
+| Styling     | Prettier, ESLint              |
 | Versioning  | Git, Github                   |
 | Testing     | Jest, Cypress, Github Actions |
 | Deployment  | Vercel                        |
@@ -45,5 +45,3 @@ the overall structure and interactions within the system.
 - Enforcing data integrity and consistency through constraints and transactions.
 - Securing sensitive data against unauthorized access.
 - Backing up and restoring data to prevent loss.
-
-

@@ -40,43 +40,52 @@ export default function Footer(): React.ReactElement {
       </footer>
       <style jsx>{`
         .container {
+          position: fixed;
+          width: 100%;
+          height: 7rem;
+          bottom: 0;
+          left: 0;
+          z-index: 100;
+
+          box-sizing: border-box;
+          padding: 1rem;
+
+          display: flex;
+          gap: 1rem;
+
           font-size: 0.75rem;
+
           background: linear-gradient(
             to top,
             rgba(0, 0, 0, 1) 60%,
             rgba(0, 0, 0, 0)
           );
-          height: 7rem;
-          width: 100%;
-          display: flex;
-          padding: 1rem;
-          gap: 1rem;
-          position: fixed;
-          z-index: 100;
-          box-sizing: border-box;
-          bottom: 0;
-          left: 0;
 
           & .empty {
-            flex: 6;
             min-width: 12rem;
+            
             margin: 0;
+
+            flex: 6;
           }
 
           & .location {
-            flex: 2;
             min-width: 12rem;
+            
             margin: 0;
+            
+            flex: 2;
           }
 
           & .contacts {
-            flex: 1;
             min-width: 6rem;
+            
+            flex: 1;
 
             & .link {
-              color: inherit;
               font-style: normal;
               text-decoration: none;
+              color: inherit;
             }
           }
         }

@@ -64,10 +64,13 @@ export default function Scrollbar({
           & .button {
             width: 24px;
             height: 24px;
+            
             padding: 0;
-            margin: ${direction === "row" ? "0 4px" : "4px 0"};
             border: none;
+            margin: ${direction === "row" ? "0 4px" : "4px 0"};
+            
             background: transparent;
+            
             cursor: pointer;
           }
         }

@@ -54,29 +54,35 @@ export default function Page(): React.ReactElement {
       </main>
       <style jsx>{`
         .container {
-          height: 100vh;
-          padding: 7rem 0;
-          box-sizing: border-box;
           position: relative;
+          height: 100vh;
+          
+          box-sizing: border-box;
+          padding: 7rem 0;
 
           & .title {
-            font-size: 7rem;
             position: relative;
+            
             margin: 0;
+            
+            font-size: 7rem;
           }
 
           & .link {
             position: relative;
-            margin: 0.1rem;
-            border: 0.05rem solid var(--cyber-white);
+            
             padding: 0.5rem;
+            border: 0.05rem solid var(--cyber-white);
+            margin: 0.1rem;
           }
 
           & .description {
-            font-size: 2rem;
             position: absolute;
-            margin: 0;
             bottom: 7rem;
+            
+            margin: 0;
+            
+            font-size: 2rem;
           }
         }
 
@@ -84,6 +90,7 @@ export default function Page(): React.ReactElement {
           position: fixed;
           top: 50%;
           left: 95%;
+          
           transform: translate(-50%, -50%);
         }
       `}</style>

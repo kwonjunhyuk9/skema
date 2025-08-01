@@ -6,8 +6,8 @@ This document defines the code style guidelines for the project to ensure consis
 
 ## 🛠 Styling Tools
 
-- **Linter**: ESLint
 - **Formatter**: Prettier
+- **Linter**: ESLint
 
 ---
 
@@ -50,6 +50,17 @@ This document defines the code style guidelines for the project to ensure consis
 - Constant should be `UPPER_SNAKE_CASE`.
 - Files should be `kebab-case`.
 - Folders should be `kebab-case`.
+
+---
+## 🔃 Styling Order
+
+- `Positioning` controls how an element is positioned on the page and layered with others.
+- `Box Model` defines the element’s size, spacing, and how it fits in the layout.
+- `Layout` manages the structural arrangement of elements using Flexbox or Grid.
+- `Typography` styles the appearance and formatting of text.
+- `Appearance` sets the visual look through colors, backgrounds, borders, and shadows.
+- `Effects` brings motion and transformation to elements.
+- `Miscellaneous` includes interaction behaviors like cursor, visibility, and user selection.
 
 ---
 

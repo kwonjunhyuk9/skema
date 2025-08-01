@@ -10,6 +10,6 @@
 }
 
 body {
-  background-color: var(--cyber-black);
   color: var(--cyber-white);
+  background-color: var(--cyber-black);
 }

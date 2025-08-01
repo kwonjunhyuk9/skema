@@ -30,6 +30,8 @@ export default function Article({
             ),
           )}
         </div>
+
+        {/*TODO: Add proper scrolling effect*/}
         <Scrollbar
           pageRefs={pageRefs}
           buttonCount={topics.length}
@@ -47,8 +49,9 @@ export default function Article({
             gap: 1rem;
 
             & .card {
-              max-width: 15rem;
               min-width: 15rem;
+              max-width: 15rem;
+              
               padding: 0.5rem;
               border: 0.05rem solid var(--cyber-white);
             }

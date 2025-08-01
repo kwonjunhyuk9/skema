@@ -39,38 +39,47 @@ export default function Header(): React.ReactElement {
       </header>
       <style jsx>{`
         .container {
+          position: fixed;
+          width: 100%;
+          height: 7rem;
+          top: 0;
+          left: 0;
+          z-index: 100;
+
+          box-sizing: border-box;
+          padding: 1rem;
+
+          display: flex;
+          gap: 1rem;
+          
           font-size: 0.75rem;
+          
           background: linear-gradient(
             to bottom,
             rgba(0, 0, 0, 1) 60%,
             rgba(0, 0, 0, 0)
           );
-          height: 7rem;
-          width: 100%;
-          display: flex;
-          padding: 1rem;
-          gap: 1rem;
-          position: fixed;
-          z-index: 100;
-          box-sizing: border-box;
-          top: 0;
-          left: 0;
-
+          
           & .home {
-            flex: 7;
             min-width: 12rem;
+          
+            flex: 7;
           }
 
           & .time {
-            flex: 4;
-            margin: 0;
             min-width: 12rem;
+          
+            margin: 0;
+          
+            flex: 4;
           }
 
           & .status {
-            flex: 2;
-            margin: 0;
             min-width: 12rem;
+          
+            margin: 0;
+          
+            flex: 2;
           }
         }
       `}</style>
