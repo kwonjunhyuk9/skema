@@ -1,24 +1,52 @@
 "use client";
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
+import TypeWriter from "@/app/typewriter";
 
-// TODO: Add Real Time Data to Footer, Animate Typing Elements
 export default function Footer(): React.ReactElement {
+  const [latitude, setLatitude] = useState(0);
+  const [longitude, setLongitude] = useState(0);
+  const [accuracy, setAccuracy] = useState(0);
+  const [error, setError] = useState("");
+
+  useEffect(() : void=> {
+    if (!navigator.geolocation) {
+      setError("Geolocation is not supported");
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      (position: GeolocationPosition): void => {
+        setLatitude(position.coords.latitude);
+        setLongitude(position.coords.longitude);
+        setAccuracy(position.coords.accuracy);
+        setError("");
+      },
+      (error: GeolocationPositionError): void => {
+        setError(error.message);
+      },
+      {
+        enableHighAccuracy: true,
+        timeout: 5000,
+        maximumAge: 0
+      }
+    );
+  }, []);
+
   return (
     <Fragment>
       <footer className="container">
-        <p className="empty" />
-        <p className="location">
-          LAT: 37°32&apos;52.6&quot;N
-          <br />
-          LONG: 126°55&apos;31.4&quot;E
-          <br />
-          SECTOR: NT-7
-          <br />
-          ZONE: RED-2
-          <br />
-          GRID: 255.128.064
-          <br />
-        </p>
+        <div className="empty" />
+        <div className="location">
+          {error ? (
+            <TypeWriter text={`${error}`} duration={2} steps={20} delay={0} />
+          ) : (
+            <Fragment>
+              <TypeWriter text={`LAT: ${latitude}`} duration={2} steps={15} delay={0} />
+              <TypeWriter text={`LONG: ${longitude}`} duration={2} steps={15} delay={0.5} />
+              <TypeWriter text={`ACC: ${accuracy}m`} duration={1} steps={10} delay={1} />
+            </Fragment>
+          )}
+        </div>
         <address className="contacts">
           <a className="link" href="tel:+821058551427">
             Phone
@@ -28,11 +56,7 @@ export default function Footer(): React.ReactElement {
             Email
           </a>
           <br />
-          <a
-            className="link"
-            href="https://www.linkedin.com/in/jun-hyuk-kwon-3a9551355"
-            target="_blank"
-          >
+          <a className="link" href="https://www.linkedin.com/in/jun-hyuk-kwon-3a9551355" target="_blank">
             LinkedIn
           </a>
           <br />
@@ -55,15 +79,11 @@ export default function Footer(): React.ReactElement {
 
           font-size: 0.75rem;
 
-          background: linear-gradient(
-            to top,
-            rgba(0, 0, 0, 1) 60%,
-            rgba(0, 0, 0, 0)
-          );
+          background: linear-gradient(to top, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0));
 
           & .empty {
             min-width: 12rem;
-            
+
             margin: 0;
 
             flex: 6;
@@ -71,15 +91,15 @@ export default function Footer(): React.ReactElement {
 
           & .location {
             min-width: 12rem;
-            
+
             margin: 0;
-            
+
             flex: 2;
           }
 
           & .contacts {
             min-width: 6rem;
-            
+
             flex: 1;
 
             & .link {

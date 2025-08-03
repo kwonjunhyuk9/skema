@@ -6,9 +6,8 @@ This document provides an overview of the system architecture for Dancing With L
 technology stack, data flow, deployment strategy, and future considerations. The goal is to help developers understand
 the overall structure and interactions within the system.
 
-## 2. Architecture Diagram
-
 [//]: # (TODO : Add Architecture Diagram)
+## 2. Architecture Diagram
 
 ## 3. Technology Stack
 

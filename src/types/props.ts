@@ -9,3 +9,10 @@ export interface ScrollbarProps {
   buttonCount: number;
   direction: "row" | "column";
 }
+
+export interface TypeWriterProps {
+  text: string;
+  duration: number;
+  steps: number;
+  delay: number;
+}

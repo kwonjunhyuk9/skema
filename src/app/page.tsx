@@ -56,21 +56,21 @@ export default function Page(): React.ReactElement {
         .container {
           position: relative;
           height: 100vh;
-          
+
           box-sizing: border-box;
           padding: 7rem 0;
 
           & .title {
             position: relative;
-            
+
             margin: 0;
-            
+
             font-size: 7rem;
           }
 
           & .link {
             position: relative;
-            
+
             padding: 0.5rem;
             border: 0.05rem solid var(--cyber-white);
             margin: 0.1rem;
@@ -79,9 +79,9 @@ export default function Page(): React.ReactElement {
           & .description {
             position: absolute;
             bottom: 7rem;
-            
+
             margin: 0;
-            
+
             font-size: 2rem;
           }
         }
@@ -90,7 +90,7 @@ export default function Page(): React.ReactElement {
           position: fixed;
           top: 50%;
           left: 95%;
-          
+
           transform: translate(-50%, -50%);
         }
       `}</style>

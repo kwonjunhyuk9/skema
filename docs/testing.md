@@ -12,6 +12,7 @@ This document outlines the testing strategy adopted in this project, detailing t
 
 ---
 
+[//]: # (TODO: Use Jest)
 ## 🧪 Using Jest
 
 - Jest automatically detects test files like `*.test.js` or `*.spec.js`.
@@ -23,6 +24,7 @@ This document outlines the testing strategy adopted in this project, detailing t
 
 ---
 
+[//]: # (TODO: Use Cypress)
 ## 🛰️ Using Cypress
 
 - Cypress is used for end-to-end and integration testing in the browser.
@@ -35,6 +37,7 @@ This document outlines the testing strategy adopted in this project, detailing t
 
 ---
 
+[//]: # (TODO: Use Github Actions)
 ## 🤖 Using GitHub Actions
 
 - GitHub Actions lets you automate workflows like testing, building, or deploying code.

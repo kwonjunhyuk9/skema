@@ -15,6 +15,7 @@ content on a variety of computer science topics for people of interest.
 
 ## 2. Users and Environments
 
+[//]: # (TODO: Add User Classes)
 ### 2.1 User Classes
 
 - Guests: Can read articles but not create, update, or delete them.
@@ -28,6 +29,7 @@ content on a variety of computer science topics for people of interest.
 
 ## 3. Functional Requirements
 
+[//]: # (TODO: Add User Authentication)
 ### 3.1 User Authentication
 
 - Input: Username, Password.
@@ -36,6 +38,7 @@ content on a variety of computer science topics for people of interest.
 - Related Users: Guests, Administrators.
 - Priority: High.
 
+[//]: # (TODO: Add Article Management)
 ### 3.2 Article Management
 
 - Input: Article data..
@@ -79,22 +82,26 @@ content on a variety of computer science topics for people of interest.
 
 ## 5. External Interface Requirements
 
+[//]: # (TODO: Add User Interface)
 ### 5.1 User Interface
 
 - Responsive to different screen sizes.
 - Interactive elements with engaging animations.
 - Incorporation of 3D graphics.
 
+[//]: # (TODO: Add Hardware Interface)
 ### 5.2 Hardware Interface
 
 - All standard devices such as smartphones, tablets, laptops, and desktop computers are supported.
 
+[//]: # (TODO: Add Software Interface)
 ### 5.3 Software Interface
 
 - API endpoints.
 - Database integration for storage.
 - Optional real-time communication.
 
+[//]: # (TODO: Add Communication Interface)
 ### 5.4 Communication Interface
 
 - HTTPS for all network traffic.

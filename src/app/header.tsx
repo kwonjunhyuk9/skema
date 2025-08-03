@@ -1,9 +1,79 @@
 "use client";
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import Link from "next/link";
+import TypeWriter from "@/app/typewriter";
 
-// TODO: Add Real Time Data to Header, Animate Typing Elements
 export default function Header(): React.ReactElement {
+  const [systemTime, setSystemTime] = useState("");
+  const [localTime, setLocalTime] = useState("");
+  const [offset, setOffset] = useState("");
+  const [hardware, setHardware] = useState("");
+  const [os, setOs] = useState("");
+  const [browser, setBrowser] = useState("");
+
+  useEffect((): (() => void) => {
+    function updateTime(): void {
+      const now = new Date();
+      const utc: string = now.toUTCString();
+      const local: string = now.toLocaleTimeString("en-US");
+      const offset: string =
+        new Intl.DateTimeFormat("en-US", {
+          timeZoneName: "longOffset",
+          hour: "numeric",
+          minute: "numeric",
+        })
+          .format(now)
+          .match(/GMT([+-]\d{1,2}:\d{2})/)?.[1] || "";
+
+      setSystemTime(utc);
+      setLocalTime(local);
+      setOffset(offset);
+    }
+
+    updateTime();
+    const timer: NodeJS.Timeout = setInterval(updateTime, 1000);
+    return (): void => clearInterval(timer);
+  }, []);
+
+  useEffect((): void => {
+    const userAgent: string = window.navigator.userAgent;
+
+    const hardwareInfo: string = ((): string => {
+      const ua: string = navigator.userAgent;
+      if (/Android|iPhone|iPad|iPod|Windows Phone|BlackBerry|IEMobile|Opera Mini/.test(ua)) {
+        return "MOBILE";
+      }
+      if (/Windows|Macintosh|Linux/.test(ua)) {
+        return "DESKTOP";
+      }
+      return "Unknown";
+    })();
+
+    const osInfo: string = ((): string => {
+      const ua: string = navigator.userAgent;
+      if (/Windows/.test(ua)) return "WINDOWS";
+      if (/Macintosh/.test(ua)) return "MACOS";
+      if (/Linux/.test(ua)) return "LINUX";
+      if (/iPhone|iPad|iPod/.test(ua)) return "IOS";
+      if (/Android/.test(ua)) return "ANDROID";
+      return "UNKNOWN";
+    })();
+
+    const browserInfo: string = ((): string => {
+      const ua: string = userAgent.toLowerCase();
+      if (ua.includes("firefox")) return "FIREFOX";
+      if (ua.includes("chrome")) return "CHROME";
+      if (ua.includes("safari")) return "SAFARI";
+      if (ua.includes("edge")) return "EDGE";
+      if (ua.includes("opera")) return "OPERA";
+      return "UNKNOWN";
+    })();
+
+    setHardware(hardwareInfo);
+    setOs(osInfo);
+    setBrowser(browserInfo);
+  }, []);
+
   return (
     <Fragment>
       <header className="container">
@@ -12,30 +82,16 @@ export default function Header(): React.ReactElement {
             DANCING WITH LIFE
           </Link>
         </div>
-        <p className="time">
-          LOCAL TIME: 23:42:17
-          <br />
-          SYSTEM TIME: 0x7E2C4B
-          <br />
-          UPTIME: 847:23:16
-          <br />
-          LAST SYNC: 2025.07.16_04:23
-          <br />
-        </p>
-        <p className="status">
-          &gt; SYSTEM STATUS: ONLINE
-          <br />
-          &gt; CPU LOAD: 42%
-          <br />
-          &gt; MEMORY: 16.4 GB / 32 GB
-          <br />
-          &gt; PING: 23ms
-          <br />
-          &gt; ENCRYPTION: ENABLED
-          <br />
-          &gt; SECURITY LEVEL: ALPHA
-          <br />
-        </p>
+        <div className="time">
+          <TypeWriter text={`SYSTEM TIME: ${systemTime} UTC`} duration={3} steps={20} delay={0} />
+          <TypeWriter text={`LOCAL TIME: ${localTime}`} duration={2} steps={15} delay={0.5} />
+          <TypeWriter text={`OFFSET: ${offset}`} duration={1} steps={10} delay={1} />
+        </div>
+        <div className="info">
+          <TypeWriter text={`> HARDWARE: ${hardware}`} duration={2} steps={15} delay={1.5} />
+          <TypeWriter text={`> OS: ${os}`} duration={2} steps={15} delay={2} />
+          <TypeWriter text={`> BROWSER: ${browser}`} duration={2} steps={15} delay={2.5} />
+        </div>
       </header>
       <style jsx>{`
         .container {
@@ -51,34 +107,30 @@ export default function Header(): React.ReactElement {
 
           display: flex;
           gap: 1rem;
-          
+
           font-size: 0.75rem;
-          
-          background: linear-gradient(
-            to bottom,
-            rgba(0, 0, 0, 1) 60%,
-            rgba(0, 0, 0, 0)
-          );
-          
+
+          background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0));
+
           & .home {
             min-width: 12rem;
-          
+
             flex: 7;
           }
 
           & .time {
             min-width: 12rem;
-          
+
             margin: 0;
-          
+
             flex: 4;
           }
 
-          & .status {
+          & .info {
             min-width: 12rem;
-          
+
             margin: 0;
-          
+
             flex: 2;
           }
         }
