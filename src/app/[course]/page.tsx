@@ -3,11 +3,7 @@ import React, { Fragment, use, useEffect, useState } from "react";
 import Article from "@/app/[course]/article";
 import { Chapter } from "@/types/curriculum";
 
-export default function Page({
-  params,
-}: {
-  params: Promise<{ course: string }>;
-}): React.ReactElement {
+export default function Page({ params }: { params: Promise<{ course: string }> }): React.ReactElement {
   const { course } = use(params);
   const [pages, setPages] = useState<Chapter[]>([]);
 
@@ -29,7 +25,9 @@ export default function Page({
       </main>
       <style jsx>{`
         .main {
-          padding: 7rem 0;
+          overflow: clip;
+
+          padding: 80px 0;
         }
       `}</style>
     </Fragment>

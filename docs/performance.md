@@ -12,6 +12,7 @@ auditing tool.
 ---
 
 [//]: # (TODO: Use Lighthouse)
+
 ## 💡 Using Lighthouse
 
 - Run a Lighthouse audit by executing `lighthouse <URL>` in the terminal.

@@ -1,10 +1,7 @@
 import { Concept, Topic } from "@/types/curriculum";
 import React, { Fragment } from "react";
 
-export default function Section({
-  topic,
-  concepts,
-}: Topic): React.ReactElement {
+export default function Section({ topic, concepts }: Topic): React.ReactElement {
   return (
     <Fragment>
       <section className="section">
@@ -20,7 +17,7 @@ export default function Section({
       <style jsx>
         {`
           .concepts {
-            padding: 0 1rem;
+            padding: 0 20px;
           }
         `}
       </style>

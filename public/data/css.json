@@ -75,13 +75,7 @@
     "topics": [
       {
         "topic": "Positional Pseudo Elements",
-        "concepts": [
-          "::before",
-          "::after",
-          "::first-line",
-          "::first-letter",
-          "::selection"
-        ]
+        "concepts": ["::before", "::after", "::first-line", "::first-letter", "::selection"]
       },
       {
         "topic": "Functional Pseudo Elements",
@@ -107,9 +101,7 @@
     "topics": [
       {
         "topic": "Shorthand Properties",
-        "concepts": [
-          "font: italic small-caps bold 16px/1.5 'Arial', sans-serif;"
-        ]
+        "concepts": ["font: italic small-caps bold 16px/1.5 'Arial', sans-serif;"]
       },
       {
         "topic": "Longhand Properties",
@@ -129,9 +121,7 @@
     "topics": [
       {
         "topic": "Shorthand Properties",
-        "concepts": [
-          "background: black url('../assets/css.png') repeat center/10% local padding-box;"
-        ]
+        "concepts": ["background: black url('../assets/css.png') repeat center/10% local padding-box;"]
       },
       {
         "topic": "Longhand Properties",
@@ -384,31 +374,19 @@
     "topics": [
       {
         "topic": "Translate Properties",
-        "concepts": [
-          "transform: translate(5rem, 50%);",
-          "transform-origin: center center;"
-        ]
+        "concepts": ["transform: translate(5rem, 50%);", "transform-origin: center center;"]
       },
       {
         "topic": "Scale Properties",
-        "concepts": [
-          "transform: scale(2, 0.5);",
-          "transform-origin: center center;"
-        ]
+        "concepts": ["transform: scale(2, 0.5);", "transform-origin: center center;"]
       },
       {
         "topic": "Skew Properties",
-        "concepts": [
-          "transform: skewX(10deg) skewY(10deg);",
-          "transform-origin: center center;"
-        ]
+        "concepts": ["transform: skewX(10deg) skewY(10deg);", "transform-origin: center center;"]
       },
       {
         "topic": "Rotate Properties",
-        "concepts": [
-          "transform: rotate(10deg);",
-          "transform-origin: bottom left;"
-        ]
+        "concepts": ["transform: rotate(10deg);", "transform-origin: bottom left;"]
       }
     ]
   },
@@ -435,9 +413,7 @@
     "topics": [
       {
         "topic": "Shorthand Properties",
-        "concepts": [
-          "animation: slideIn 3s ease-in-out 1s infinite alternate forwards;"
-        ]
+        "concepts": ["animation: slideIn 3s ease-in-out 1s infinite alternate forwards;"]
       },
       {
         "topic": "Longhand Properties",

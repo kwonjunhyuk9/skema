@@ -16,18 +16,11 @@
       },
       {
         "topic": "Electric Potential",
-        "concepts": [
-          "Absolute Electric Potential",
-          "Relative Electric Potential"
-        ]
+        "concepts": ["Absolute Electric Potential", "Relative Electric Potential"]
       },
       {
         "topic": "Electric Energy",
-        "concepts": [
-          "Electric Energy",
-          "Electric Energy",
-          "Electric Energy Density"
-        ]
+        "concepts": ["Electric Energy", "Electric Energy", "Electric Energy Density"]
       },
       {
         "topic": "Electric Laws",
@@ -62,11 +55,7 @@
       },
       {
         "topic": "Magnetic Energy",
-        "concepts": [
-          "Magnetic Energy",
-          "Magnetic Energy",
-          "Magnetic Energy Density"
-        ]
+        "concepts": ["Magnetic Energy", "Magnetic Energy", "Magnetic Energy Density"]
       },
       {
         "topic": "Magnetic Laws",
@@ -85,32 +74,15 @@
     "topics": [
       {
         "topic": "Transmission Line",
-        "concepts": [
-          "Coaxial Line",
-          "Two-Wire Line",
-          "Parallel-Plate Line",
-          "Strip Line",
-          "Microstrip Line"
-        ]
+        "concepts": ["Coaxial Line", "Two-Wire Line", "Parallel-Plate Line", "Strip Line", "Microstrip Line"]
       },
       {
         "topic": "Waveguide",
-        "concepts": [
-          "Circular Waveguide",
-          "Spherical Waveguide",
-          "Twisted Waveguide",
-          "Bent Waveguide"
-        ]
+        "concepts": ["Circular Waveguide", "Spherical Waveguide", "Twisted Waveguide", "Bent Waveguide"]
       },
       {
         "topic": "Antenna",
-        "concepts": [
-          "Dipole Antenna",
-          "Loop Antenna",
-          "Helical Antenna",
-          "Horn Antenna",
-          "Parabolic Antenna"
-        ]
+        "concepts": ["Dipole Antenna", "Loop Antenna", "Helical Antenna", "Horn Antenna", "Parabolic Antenna"]
       }
     ]
   }

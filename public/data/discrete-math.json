@@ -13,19 +13,11 @@
       },
       {
         "topic": "Finite Automata",
-        "concepts": [
-          "Regular Language",
-          "Deterministic Finite Automaton",
-          "Nondeterministic Finite Automaton"
-        ]
+        "concepts": ["Regular Language", "Deterministic Finite Automaton", "Nondeterministic Finite Automaton"]
       },
       {
         "topic": "Pushdown Automata",
-        "concepts": [
-          "Context-Free Language",
-          "Deterministic Pushdown Automaton",
-          "Nondeterministic Pushdown Automaton"
-        ]
+        "concepts": ["Context-Free Language", "Deterministic Pushdown Automaton", "Nondeterministic Pushdown Automaton"]
       },
       {
         "topic": "Linear Bounded Automata",
@@ -117,14 +109,7 @@
     "topics": [
       {
         "topic": "Set",
-        "concepts": [
-          "Empty Set",
-          "Universal Set",
-          "Finite Set",
-          "Infinite Set",
-          "Closed Set",
-          "Open Set"
-        ]
+        "concepts": ["Empty Set", "Universal Set", "Finite Set", "Infinite Set", "Closed Set", "Open Set"]
       },
       {
         "topic": "Relation",
@@ -155,44 +140,23 @@
       },
       {
         "topic": "Prime Numbers",
-        "concepts": [
-          "Direct Division",
-          "Sieve of Eratosthenes",
-          "Prime Number Theorem"
-        ]
+        "concepts": ["Direct Division", "Sieve of Eratosthenes", "Prime Number Theorem"]
       },
       {
         "topic": "Greatest Common Divisor",
-        "concepts": [
-          "Prime Factorization Method",
-          "Euclidean Algorithm",
-          "Bézout's Identity"
-        ]
+        "concepts": ["Prime Factorization Method", "Euclidean Algorithm", "Bézout's Identity"]
       },
       {
         "topic": "Least Common Multiple",
-        "concepts": [
-          "Prime Factorization Method",
-          "Euclidean Algorithm",
-          "Bézout's Identity"
-        ]
+        "concepts": ["Prime Factorization Method", "Euclidean Algorithm", "Bézout's Identity"]
       },
       {
         "topic": "Congruence",
-        "concepts": [
-          "Chinese Remainder Theorem",
-          "Fermat's Little Theorem",
-          "Euler's Totient Theorem"
-        ]
+        "concepts": ["Chinese Remainder Theorem", "Fermat's Little Theorem", "Euler's Totient Theorem"]
       },
       {
         "topic": "Cryptography",
-        "concepts": [
-          "Caesar Cipher",
-          "Affine Cipher",
-          "Transposition Cipher",
-          "RSA Encryption"
-        ]
+        "concepts": ["Caesar Cipher", "Affine Cipher", "Transposition Cipher", "RSA Encryption"]
       }
     ]
   },
@@ -201,25 +165,15 @@
     "topics": [
       {
         "topic": "Counting",
-        "concepts": [
-          "Binomial Theorem",
-          "Pascal's Identity",
-          "Vandermonde's Identity"
-        ]
+        "concepts": ["Binomial Theorem", "Pascal's Identity", "Vandermonde's Identity"]
       },
       {
         "topic": "Permutation",
-        "concepts": [
-          "Permutation with Repetition",
-          "Permutation without Repetition"
-        ]
+        "concepts": ["Permutation with Repetition", "Permutation without Repetition"]
       },
       {
         "topic": "Combination",
-        "concepts": [
-          "Combination with Repetition",
-          "Combination without Repetition"
-        ]
+        "concepts": ["Combination with Repetition", "Combination without Repetition"]
       },
       {
         "topic": "Partition",

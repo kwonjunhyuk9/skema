@@ -8,12 +8,7 @@
       },
       {
         "topic": "Gate-Level Minimization",
-        "concepts": [
-          "3-variable Karnaugh Map",
-          "4-variable Karnaugh Map",
-          "NAND Implementation",
-          "NOR Implementation"
-        ]
+        "concepts": ["3-variable Karnaugh Map", "4-variable Karnaugh Map", "NAND Implementation", "NOR Implementation"]
       }
     ]
   },

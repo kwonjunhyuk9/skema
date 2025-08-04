@@ -24,12 +24,7 @@
       },
       {
         "topic": "Chemical Bonds",
-        "concepts": [
-          "Covalent Bond",
-          "Metallic Bond",
-          "Coordinate Bond",
-          "Ionic Bond"
-        ]
+        "concepts": ["Covalent Bond", "Metallic Bond", "Coordinate Bond", "Ionic Bond"]
       }
     ]
   },
@@ -42,11 +37,7 @@
       },
       {
         "topic": "Chemical Reactions",
-        "concepts": [
-          "Addition Reaction",
-          "Substitution Reaction",
-          "Elimination Reaction"
-        ]
+        "concepts": ["Addition Reaction", "Substitution Reaction", "Elimination Reaction"]
       }
     ]
   }

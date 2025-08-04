@@ -4,12 +4,7 @@
     "topics": [
       {
         "topic": "Types of Sequences",
-        "concepts": [
-          "Arithmetic Progression",
-          "Geometric Progression",
-          "Alternating Sequence",
-          "P-Sequence"
-        ]
+        "concepts": ["Arithmetic Progression", "Geometric Progression", "Alternating Sequence", "P-Sequence"]
       },
       {
         "topic": "Convergence Tests for Sequences",
@@ -22,12 +17,7 @@
     "topics": [
       {
         "topic": "Types of Series",
-        "concepts": [
-          "Arithmetic Series",
-          "Geometric Series",
-          "Alternating Series",
-          "P-Series"
-        ]
+        "concepts": ["Arithmetic Series", "Geometric Series", "Alternating Series", "P-Series"]
       },
       {
         "topic": "Convergence Tests for Series",
@@ -321,11 +311,7 @@
       },
       {
         "topic": "Applications of Integration",
-        "concepts": [
-          "Energy and Work",
-          "Center of Mass and Centroid",
-          "Improper Functions and Gamma Functions"
-        ]
+        "concepts": ["Energy and Work", "Center of Mass and Centroid", "Improper Functions and Gamma Functions"]
       }
     ]
   },
@@ -338,11 +324,7 @@
       },
       {
         "topic": "Surfaces and Geometry",
-        "concepts": [
-          "Ellipsoid",
-          "Elliptic Paraboloid",
-          "Hyperbolic Paraboloid"
-        ]
+        "concepts": ["Ellipsoid", "Elliptic Paraboloid", "Hyperbolic Paraboloid"]
       },
       {
         "topic": "Volumes and Geometry",

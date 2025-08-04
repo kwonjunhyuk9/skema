@@ -98,102 +98,47 @@
     "topics": [
       {
         "topic": "Boolean",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "Number",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "String",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "Array",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "Object",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "Map",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "Set",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "Math",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "Date",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "Promise",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "JSON",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       }
     ]
   },
@@ -202,39 +147,19 @@
     "topics": [
       {
         "topic": "Node",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "Element",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "Document",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "Event",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       }
     ]
   },
@@ -243,30 +168,15 @@
     "topics": [
       {
         "topic": "Headers",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "Request",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       },
       {
         "topic": "Response",
-        "concepts": [
-          "instance properties",
-          "instance methods",
-          "static properties",
-          "static methods"
-        ]
+        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
       }
     ]
   }

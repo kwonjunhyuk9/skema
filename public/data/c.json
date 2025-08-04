@@ -8,17 +8,7 @@
       },
       {
         "topic": "Variable identifiers",
-        "concepts": [
-          "bool",
-          "char",
-          "short",
-          "int",
-          "long",
-          "long long",
-          "float",
-          "double",
-          "long double"
-        ]
+        "concepts": ["bool", "char", "short", "int", "long", "long long", "float", "double", "long double"]
       }
     ]
   },

@@ -105,20 +105,11 @@
       },
       {
         "topic": "Matching Algorithms",
-        "concepts": [
-          "Finite Automaton",
-          "Suffix Array",
-          "Rabin-Karp Algorithm",
-          "Knuth-Morris-Pratt Algorithm"
-        ]
+        "concepts": ["Finite Automaton", "Suffix Array", "Rabin-Karp Algorithm", "Knuth-Morris-Pratt Algorithm"]
       },
       {
         "topic": "Online Algorithms",
-        "concepts": [
-          "Elevator Scheduling Problem",
-          "List Update Problem",
-          "Online Caching Problem"
-        ]
+        "concepts": ["Elevator Scheduling Problem", "List Update Problem", "Online Caching Problem"]
       },
       {
         "topic": "Machine Learning Algorithms",

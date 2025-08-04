@@ -68,16 +68,7 @@
       },
       {
         "topic": "Table Tags",
-        "concepts": [
-          "table",
-          "caption",
-          "thead",
-          "tbody",
-          "tfoot",
-          "tr",
-          "th",
-          "td"
-        ]
+        "concepts": ["table", "caption", "thead", "tbody", "tfoot", "tr", "th", "td"]
       },
       {
         "topic": "Figure Tags",
@@ -111,15 +102,7 @@
       },
       {
         "topic": "Form Tags",
-        "concepts": [
-          "form",
-          "label",
-          "input",
-          "select",
-          "option",
-          "fieldset",
-          "legend"
-        ]
+        "concepts": ["form", "label", "input", "select", "option", "fieldset", "legend"]
       }
     ]
   }

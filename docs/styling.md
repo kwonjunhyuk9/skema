@@ -52,6 +52,7 @@ This document defines the code style guidelines for the project to ensure consis
 - Folders should be `kebab-case`.
 
 ---
+
 ## 🔃 Styling Order
 
 - `Positioning` controls how an element is positioned on the page and layered with others.

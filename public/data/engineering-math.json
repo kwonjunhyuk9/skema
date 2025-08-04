@@ -33,12 +33,7 @@
       },
       {
         "topic": "Nonlinear Differential Equations",
-        "concepts": [
-          "Separation of Variables Method",
-          "Substitution Method",
-          "Homogeneous Method",
-          "Exact Method"
-        ]
+        "concepts": ["Separation of Variables Method", "Substitution Method", "Homogeneous Method", "Exact Method"]
       },
       {
         "topic": "Systems of Differential Equations",
@@ -91,12 +86,7 @@
       },
       {
         "topic": "Laplace Special Functions",
-        "concepts": [
-          "Integral Function",
-          "Periodic Function",
-          "Unit Step Function",
-          "Unit Impulse Function"
-        ]
+        "concepts": ["Integral Function", "Periodic Function", "Unit Step Function", "Unit Impulse Function"]
       }
     ]
   },
@@ -117,12 +107,7 @@
       },
       {
         "topic": "Fourier Series",
-        "concepts": [
-          "Fourier Real Series",
-          "Fourier Complex Series",
-          "Fourier Cosine Series",
-          "Fourier Sine Series"
-        ]
+        "concepts": ["Fourier Real Series", "Fourier Complex Series", "Fourier Cosine Series", "Fourier Sine Series"]
       },
       {
         "topic": "Fourier Integral",

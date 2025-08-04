@@ -97,16 +97,16 @@ export default function Header(): React.ReactElement {
         .container {
           position: fixed;
           width: 100%;
-          height: 7rem;
+          height: 80px;
           top: 0;
           left: 0;
           z-index: 100;
 
           box-sizing: border-box;
-          padding: 1rem;
+          padding: 20px;
 
           display: flex;
-          gap: 1rem;
+          gap: 20px;
 
           font-size: 0.75rem;
 
@@ -119,7 +119,7 @@ export default function Header(): React.ReactElement {
           }
 
           & .time {
-            min-width: 12rem;
+            min-width: 15rem;
 
             margin: 0;
 

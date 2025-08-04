@@ -7,12 +7,13 @@ technology stack, data flow, deployment strategy, and future considerations. The
 the overall structure and interactions within the system.
 
 [//]: # (TODO : Add Architecture Diagram)
+
 ## 2. Architecture Diagram
 
 ## 3. Technology Stack
 
 | Layer       | Technology                    |
-|-------------|-------------------------------|
+| ----------- | ----------------------------- |
 | Frontend    | TypeScript, React, HTML, CSS  |
 | Backend     | Node, Next, SQL               |
 | Styling     | Prettier, ESLint              |

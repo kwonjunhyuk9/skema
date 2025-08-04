@@ -3,13 +3,8 @@ import React, { Fragment, useRef } from "react";
 import Section from "@/app/[course]/section";
 import Scrollbar from "@/app/scrollbar";
 
-export default function Article({
-  chapter,
-  topics,
-}: Chapter): React.ReactElement {
-  const pageRefs: React.RefObject<(HTMLElement | null)[]> = useRef<
-    (HTMLElement | null)[]
-  >([]);
+export default function Article({ chapter, topics }: Chapter): React.ReactElement {
+  const pageRefs: React.RefObject<(HTMLElement | null)[]> = useRef<(HTMLElement | null)[]>([]);
 
   return (
     <Fragment>
@@ -30,13 +25,7 @@ export default function Article({
             ),
           )}
         </div>
-
-        {/*TODO: Add proper scrolling effect*/}
-        <Scrollbar
-          pageRefs={pageRefs}
-          buttonCount={topics.length}
-          direction="row"
-        />
+        <Scrollbar pageRefs={pageRefs} buttonCount={topics.length} direction="row" />
       </article>
       <style jsx>{`
         .article {
@@ -44,16 +33,23 @@ export default function Article({
           flex-flow: column nowrap;
 
           & .container {
+            width: 100vw;
+            overflow: auto;
+
+            box-sizing: border-box;
+            padding-right: 100vw;
+
             display: flex;
             flex-flow: row nowrap;
-            gap: 1rem;
+            gap: 10px;
 
             & .card {
-              min-width: 15rem;
-              max-width: 15rem;
-              
-              padding: 0.5rem;
-              border: 0.05rem solid var(--cyber-white);
+              min-width: 20rem;
+              max-width: 20rem;
+
+              padding: 10px;
+              border: 1px solid var(--cyber-white);
+              margin: 1px;
             }
           }
         }

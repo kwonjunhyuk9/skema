@@ -17,13 +17,7 @@
       },
       {
         "topic": "Types of Vectors",
-        "concepts": [
-          "Unit Vector",
-          "Position Vector",
-          "Direction Vector",
-          "Tangent Vector",
-          "Normal Vector"
-        ]
+        "concepts": ["Unit Vector", "Position Vector", "Direction Vector", "Tangent Vector", "Normal Vector"]
       },
       {
         "topic": "Applications of Vectors",
@@ -117,10 +111,7 @@
       },
       {
         "topic": "Applications of Vector Space",
-        "concepts": [
-          "Eigenvalue Decomposition and Multiplicity",
-          "Jordan Decomposition and Real Numbers"
-        ]
+        "concepts": ["Eigenvalue Decomposition and Multiplicity", "Jordan Decomposition and Real Numbers"]
       }
     ]
   },
@@ -147,10 +138,7 @@
       },
       {
         "topic": "Applications of Inner Product Space",
-        "concepts": [
-          "Spectral Decomposition and Multiplicity",
-          "Singular Value Decomposition and Real Numbers"
-        ]
+        "concepts": ["Spectral Decomposition and Multiplicity", "Singular Value Decomposition and Real Numbers"]
       }
     ]
   },

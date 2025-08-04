@@ -39,11 +39,7 @@
       },
       {
         "topic": "Inductors",
-        "concepts": [
-          "Iron Core Inductor",
-          "Toroidal Inductor",
-          "Solenoid Inductor"
-        ]
+        "concepts": ["Iron Core Inductor", "Toroidal Inductor", "Solenoid Inductor"]
       },
       {
         "topic": "Transistors",
@@ -77,39 +73,19 @@
       },
       {
         "topic": "Voltage Laws",
-        "concepts": [
-          "DC Voltage",
-          "AC Voltage",
-          "Kirchhoff's Voltage Law",
-          "Voltage Divider Rule"
-        ]
+        "concepts": ["DC Voltage", "AC Voltage", "Kirchhoff's Voltage Law", "Voltage Divider Rule"]
       },
       {
         "topic": "Current Laws",
-        "concepts": [
-          "DC Current",
-          "AC Current",
-          "Kirchhoff's Current Law",
-          "Current Divider Rule"
-        ]
+        "concepts": ["DC Current", "AC Current", "Kirchhoff's Current Law", "Current Divider Rule"]
       },
       {
         "topic": "Power Laws",
-        "concepts": [
-          "Complex Power",
-          "Apparent Power",
-          "Active Power",
-          "Reactive Power"
-        ]
+        "concepts": ["Complex Power", "Apparent Power", "Active Power", "Reactive Power"]
       },
       {
         "topic": "Nodal Analysis Method",
-        "concepts": [
-          "Define a reference node",
-          "Label voltages at each node",
-          "Utilize supernodes",
-          "Solve using KCL"
-        ]
+        "concepts": ["Define a reference node", "Label voltages at each node", "Utilize supernodes", "Solve using KCL"]
       },
       {
         "topic": "Mesh Analysis Method",
@@ -145,30 +121,15 @@
     "topics": [
       {
         "topic": "RC Circuit",
-        "concepts": [
-          "Forced Response",
-          "Natural Response",
-          "Time Constant",
-          "Cutoff Frequency"
-        ]
+        "concepts": ["Forced Response", "Natural Response", "Time Constant", "Cutoff Frequency"]
       },
       {
         "topic": "RL Circuit",
-        "concepts": [
-          "Forced Response",
-          "Natural Response",
-          "Time Constant",
-          "Cutoff Frequency"
-        ]
+        "concepts": ["Forced Response", "Natural Response", "Time Constant", "Cutoff Frequency"]
       },
       {
         "topic": "RLC Circuit",
-        "concepts": [
-          "Steady Response",
-          "Transient Response",
-          "Damping Factor",
-          "Resonant Frequency"
-        ]
+        "concepts": ["Steady Response", "Transient Response", "Damping Factor", "Resonant Frequency"]
       },
       {
         "topic": "Filter Circuits",

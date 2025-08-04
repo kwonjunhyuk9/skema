@@ -8,7 +8,7 @@ export default function Footer(): React.ReactElement {
   const [accuracy, setAccuracy] = useState(0);
   const [error, setError] = useState("");
 
-  useEffect(() : void=> {
+  useEffect((): void => {
     if (!navigator.geolocation) {
       setError("Geolocation is not supported");
       return;
@@ -27,8 +27,8 @@ export default function Footer(): React.ReactElement {
       {
         enableHighAccuracy: true,
         timeout: 5000,
-        maximumAge: 0
-      }
+        maximumAge: 0,
+      },
     );
   }, []);
 
@@ -66,16 +66,16 @@ export default function Footer(): React.ReactElement {
         .container {
           position: fixed;
           width: 100%;
-          height: 7rem;
+          height: 80px;
           bottom: 0;
           left: 0;
           z-index: 100;
 
           box-sizing: border-box;
-          padding: 1rem;
+          padding: 20px;
 
           display: flex;
-          gap: 1rem;
+          gap: 20px;
 
           font-size: 0.75rem;
 

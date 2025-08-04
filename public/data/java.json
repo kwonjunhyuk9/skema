@@ -8,15 +8,7 @@
       },
       {
         "topic": "Variable identifiers",
-        "concepts": [
-          "boolean",
-          "byte",
-          "short",
-          "int",
-          "long",
-          "float",
-          "double"
-        ]
+        "concepts": ["boolean", "byte", "short", "int", "long", "float", "double"]
       }
     ]
   },

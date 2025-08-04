@@ -8,11 +8,7 @@
       },
       {
         "topic": "Laws of Thermodynamics",
-        "concepts": [
-          "Law of Energy Conservation",
-          "Law of Entropy",
-          "Law of Absolute Zero"
-        ]
+        "concepts": ["Law of Energy Conservation", "Law of Entropy", "Law of Absolute Zero"]
       }
     ]
   },
@@ -45,11 +41,7 @@
       },
       {
         "topic": "Laws of Deterministic Mechanics",
-        "concepts": [
-          "Law of Inertia",
-          "Law of Acceleration",
-          "Law of Action and Reaction"
-        ]
+        "concepts": ["Law of Inertia", "Law of Acceleration", "Law of Action and Reaction"]
       }
     ]
   },
@@ -82,19 +74,11 @@
     "topics": [
       {
         "topic": "Concepts of Quantum Mechanics",
-        "concepts": [
-          "Quantum Fluctuation",
-          "Quantum Entanglement",
-          "Quantum Tunneling"
-        ]
+        "concepts": ["Quantum Fluctuation", "Quantum Entanglement", "Quantum Tunneling"]
       },
       {
         "topic": "Laws of Quantum Mechanics",
-        "concepts": [
-          "Quantization",
-          "Wave-Particle Duality",
-          "Uncertainty Principle"
-        ]
+        "concepts": ["Quantization", "Wave-Particle Duality", "Uncertainty Principle"]
       }
     ]
   }

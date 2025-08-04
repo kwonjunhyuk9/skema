@@ -4,16 +4,7 @@
     "topics": [
       {
         "topic": "Elements",
-        "concepts": [
-          "Color",
-          "Texture",
-          "Typography",
-          "Line",
-          "Shape",
-          "Space",
-          "Balance",
-          "Harmony"
-        ]
+        "concepts": ["Color", "Texture", "Typography", "Line", "Shape", "Space", "Balance", "Harmony"]
       },
       {
         "topic": "Principles",
@@ -52,13 +43,7 @@
       },
       {
         "topic": "Website Structure",
-        "concepts": [
-          "Hierarchical model",
-          "Linear model",
-          "Matrix model",
-          "Database model",
-          "Hybrid models"
-        ]
+        "concepts": ["Hierarchical model", "Linear model", "Matrix model", "Database model", "Hybrid models"]
       },
       {
         "topic": "Website Layout",

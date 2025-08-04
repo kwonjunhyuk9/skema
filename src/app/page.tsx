@@ -6,9 +6,7 @@ import Scrollbar from "@/app/scrollbar";
 
 export default function Page(): React.ReactElement {
   const [pages, setPages] = useState<Subject[]>([]);
-  const pageRefs: React.RefObject<(HTMLElement | null)[]> = useRef<
-    (HTMLElement | null)[]
-  >([]);
+  const pageRefs: React.RefObject<(HTMLElement | null)[]> = useRef<(HTMLElement | null)[]>([]);
 
   useEffect((): void => {
     fetch("/data/pages.json")
@@ -20,10 +18,7 @@ export default function Page(): React.ReactElement {
     <Fragment>
       <main>
         {pages.map(
-          (
-            { subject, courses, description }: Subject,
-            index: number,
-          ): React.ReactElement => (
+          ({ subject, courses, description }: Subject, index: number): React.ReactElement => (
             <article
               className="container"
               key={subject}
@@ -35,10 +30,7 @@ export default function Page(): React.ReactElement {
               {courses.map(
                 (course: Course): React.ReactElement => (
                   <span className="link" key={course}>
-                    <Link
-                      href={`/${course}`}
-                      style={{ color: "inherit", textDecoration: "none" }}
-                    >
+                    <Link href={`/${course}`} style={{ color: "inherit", textDecoration: "none" }}>
                       {course.toUpperCase()}
                     </Link>
                   </span>
@@ -58,7 +50,7 @@ export default function Page(): React.ReactElement {
           height: 100vh;
 
           box-sizing: border-box;
-          padding: 7rem 0;
+          padding: 80px 0;
 
           & .title {
             position: relative;
@@ -71,14 +63,14 @@ export default function Page(): React.ReactElement {
           & .link {
             position: relative;
 
-            padding: 0.5rem;
-            border: 0.05rem solid var(--cyber-white);
-            margin: 0.1rem;
+            padding: 10px;
+            border: 1px solid var(--cyber-white);
+            margin: 1px;
           }
 
           & .description {
             position: absolute;
-            bottom: 7rem;
+            bottom: 80px;
 
             margin: 0;
 
