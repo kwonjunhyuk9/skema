@@ -1,0 +1,74 @@
+[
+  {
+    "chapter": "DOM API",
+    "topics": [
+      {
+        "topic": "Node",
+        "concepts": [
+          "childNodes",
+          "firstChild",
+          "lastChild",
+          "previousSibling",
+          "nextSibling",
+          "parentNode",
+          "appendChild()",
+          "removeChild()"
+        ]
+      },
+      {
+        "topic": "Document",
+        "concepts": [
+          "querySelector()",
+          "querySelectorAll()",
+          "getElementById()",
+          "getElementsByTagName()",
+          "getElementsByClassName()"
+        ]
+      },
+      {
+        "topic": "Element",
+        "concepts": [
+          "querySelector()",
+          "querySelectorAll()",
+          "getElementById()",
+          "getElementsByTagName()",
+          "getElementsByClassName()"
+        ]
+      },
+      {
+        "topic": "Event",
+        "concepts": [
+          "preventDefault()",
+          "stopPropagation()"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Fetch API",
+    "topics": [
+      {
+        "topic": "Headers",
+        "concepts": [
+          "keys()",
+          "values()",
+          "entries()"
+        ]
+      },
+      {
+        "topic": "Request",
+        "concepts": [
+          "text()",
+          "json()"
+        ]
+      },
+      {
+        "topic": "Response",
+        "concepts": [
+          "text()",
+          "json()"
+        ]
+      }
+    ]
+  }
+]

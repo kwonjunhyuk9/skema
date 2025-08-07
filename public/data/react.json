@@ -6,16 +6,16 @@
         "topic": "Rules of React",
         "concepts": [
           "Components and Hooks must be pure",
-          "components must be idempotent",
-          "side effects must run outside of render",
-          "props and state are immutable",
-          "return values and arguments to hooks are immutable",
-          "values are immutable after being passed to JSX",
+          "Components must be idempotent",
+          "Side effects must run outside of render",
+          "Props and state are immutable",
+          "Return values and arguments to hooks are immutable",
+          "Values are immutable after being passed to JSX",
           "React calls Components and Hooks",
-          "never call component functions directly",
-          "never pass around hooks as regular values",
-          "only call hooks at the top level",
-          "only call hooks from react functions"
+          "Never call component functions directly",
+          "Never pass around hooks as regular values",
+          "Only call hooks at the top level",
+          "Only call hooks from react functions"
         ]
       }
     ]
@@ -25,19 +25,47 @@
     "topics": [
       {
         "topic": "Fragment",
-        "concepts": ["lets you group elements without a wrapper node"]
-      },
-      {
-        "topic": "Profiler",
-        "concepts": ["lets you measure rendering performance of a React tree programmatically"]
-      },
-      {
-        "topic": "StrictMode",
-        "concepts": ["lets you find common bugs in your components early during development"]
+        "concepts": [
+          "Lets you group elements without a wrapper node",
+          "Returning multiple elements",
+          "Assigning multiple elements to a variable",
+          "Grouping elements with text",
+          "Rendering a list of Fragments"
+        ]
       },
       {
         "topic": "Suspense",
-        "concepts": ["lets you display a fallback until its children have finished loading"]
+        "concepts": [
+          "Lets you display a fallback until its children have finished loading",
+          "Displaying a fallback while content is loading",
+          "Revealing content together at once",
+          "Revealing nested content as it loads",
+          "Showing stale content while fresh content is loading",
+          "Preventing already revealed content from hiding",
+          "Indicating that a Transition is happening",
+          "Resetting Suspense boundaries on navigation",
+          "Providing a fallback for server errors and client-only content"
+        ]
+      },
+      {
+        "topic": "StrictMode",
+        "concepts": [
+          "Lets you find common bugs in your components early during development",
+          "Enabling Strict Mode for entire app",
+          "Enabling Strict Mode for a part of the app",
+          "Fixing bugs found by double rendering in development",
+          "Fixing bugs found by re-running Effects in development",
+          "Fixing bugs found by re-running ref callbacks in development",
+          "Fixing deprecation warnings enabled by Strict Mode"
+        ]
+      },
+      {
+        "topic": "Profiler",
+        "concepts": [
+          "Lets you measure rendering performance of a React tree programmatically",
+          "Measuring rendering performance programmatically",
+          "Measuring different parts of the application"
+        ]
       }
     ]
   },
@@ -46,23 +74,81 @@
     "topics": [
       {
         "topic": "useState",
-        "concepts": ["useState is a React Hook that lets you add a state variable to your component"]
+        "concepts": [
+          "Add a state variable to your component",
+          "Adding state to a component",
+          "Updating state based on the previous state",
+          "Updating objects and arrays in state",
+          "Avoiding recreating the initial state",
+          "Resetting state with a key",
+          "Storing information from previous renders"
+        ]
       },
       {
         "topic": "useReducer",
-        "concepts": ["useReducer is a React Hook that lets you add a reducer to your component"]
+        "concepts": [
+          "Add a reducer to your component",
+          "Adding a reducer to a component",
+          "Writing the reducer function",
+          "Avoiding recreating the initial state"
+        ]
       },
       {
         "topic": "useContext",
-        "concepts": ["useContext is a React Hook that lets you read and subscribe to context from your component"]
+        "concepts": [
+          "Read and subscribe to context from your component",
+          "Passing data deeply into the tree",
+          "Updating data passed via context",
+          "Specifying a fallback default value",
+          "Overriding context for a part of the tree",
+          "Optimizing re-renders when passing objects and functions"
+        ]
       },
       {
         "topic": "useRef",
-        "concepts": ["useRef is a React Hook that lets you reference a value that’s not needed for rendering"]
+        "concepts": [
+          "Reference a value that is not needed for rendering",
+          "Referencing a value with a ref",
+          "Manipulating the DOM with a ref",
+          "Avoiding recreating the ref contents"
+        ]
       },
       {
         "topic": "useEffect",
-        "concepts": ["useEffect is a React Hook that lets you synchronize a component with an external system"]
+        "concepts": [
+          "Synchronize a component with an external system",
+          "Connecting to an external system",
+          "Wrapping Effects in custom Hooks",
+          "Controlling a non-React widget",
+          "Fetching data with Effects",
+          "Specifying reactive dependencies",
+          "Updating state based on previous state from an Effect",
+          "Removing unnecessary object dependencies",
+          "Removing unnecessary function dependencies",
+          "Reading the latest props and state from an Effect",
+          "Displaying different content on the server and the client"
+        ]
+      },
+      {
+        "topic": "useMemo",
+        "concepts": [
+          "Cache the result of a calculation between re-renders",
+          "Skipping expensive recalculations",
+          "Skipping re-rendering of components",
+          "Preventing an Effect from firing too often",
+          "Memoizing a dependency of another Hook",
+          "Memoizing a function"
+        ]
+      },
+      {
+        "topic": "useCallback",
+        "concepts": [
+          "Cache a function definition between re-renders",
+          "Skipping re-rendering of components",
+          "Updating state from a memoized callback",
+          "Preventing an Effect from firing too often",
+          "Optimizing a custom Hook"
+        ]
       }
     ]
   }

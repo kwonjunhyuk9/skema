@@ -4,11 +4,15 @@
     "topics": [
       {
         "topic": "Constant identifiers",
-        "concepts": ["const"]
+        "concepts": [
+          "const"
+        ]
       },
       {
         "topic": "Variable identifiers",
-        "concepts": ["let"]
+        "concepts": [
+          "let"
+        ]
       }
     ]
   },
@@ -17,23 +21,56 @@
     "topics": [
       {
         "topic": "Bitwise operators",
-        "concepts": ["&", "|", "^", "~", "<<", ">>"]
+        "concepts": [
+          "&",
+          "|",
+          "^",
+          "~",
+          "<<",
+          ">>"
+        ]
       },
       {
         "topic": "Logical operators",
-        "concepts": ["&&", "||", "!"]
+        "concepts": [
+          "&&",
+          "||",
+          "!"
+        ]
       },
       {
         "topic": "Arithmetic Operators",
-        "concepts": ["+", "-", "*", "/", "%", "++", "—"]
+        "concepts": [
+          "+",
+          "-",
+          "*",
+          "/",
+          "%",
+          "++",
+          "—"
+        ]
       },
       {
         "topic": "Assignment Operators",
-        "concepts": ["=", "+=", "-=", "*=", "/=", "%="]
+        "concepts": [
+          "=",
+          "+=",
+          "-=",
+          "*=",
+          "/=",
+          "%="
+        ]
       },
       {
         "topic": "Comparison Operators",
-        "concepts": ["===", "!==", "<", ">", "<=", ">="]
+        "concepts": [
+          "===",
+          "!==",
+          "<",
+          ">",
+          "<=",
+          ">="
+        ]
       }
     ]
   },
@@ -42,15 +79,21 @@
     "topics": [
       {
         "topic": "If Conditionals",
-        "concepts": ["if else"]
+        "concepts": [
+          "if else"
+        ]
       },
       {
         "topic": "Switch Conditionals",
-        "concepts": ["switch case"]
+        "concepts": [
+          "switch case"
+        ]
       },
       {
         "topic": "Try Conditionals",
-        "concepts": ["try catch finally"]
+        "concepts": [
+          "try catch finally"
+        ]
       }
     ]
   },
@@ -59,11 +102,18 @@
     "topics": [
       {
         "topic": "For Loops",
-        "concepts": ["for", "for of", "for in"]
+        "concepts": [
+          "for",
+          "for of",
+          "for in"
+        ]
       },
       {
         "topic": "While Loops",
-        "concepts": ["while", "do while"]
+        "concepts": [
+          "while",
+          "do while"
+        ]
       }
     ]
   },
@@ -72,11 +122,19 @@
     "topics": [
       {
         "topic": "Named Functions",
-        "concepts": ["Named Regular Functions", "Named Arrow Functions"]
+        "concepts": [
+          "Named Synchronous Functions",
+          "Named Asynchronous Functions",
+          "Named Arrow Functions"
+        ]
       },
       {
         "topic": "Anonymous Functions",
-        "concepts": ["Anonymous Regular Functions", "Anonymous Arrow Functions"]
+        "concepts": [
+          "Anonymous Synchronous Functions",
+          "Anonymous Asynchronous Functions",
+          "Anonymous Arrow Functions"
+        ]
       }
     ]
   },
@@ -85,11 +143,17 @@
     "topics": [
       {
         "topic": "Inputs",
-        "concepts": ["prompt", "readFile"]
+        "concepts": [
+          "prompt",
+          "readFile"
+        ]
       },
       {
         "topic": "Outputs",
-        "concepts": ["alert", "writeFile"]
+        "concepts": [
+          "alert",
+          "writeFile"
+        ]
       }
     ]
   },
@@ -98,85 +162,128 @@
     "topics": [
       {
         "topic": "Boolean",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
+        "concepts": [
+          "toString()",
+          "valueOf()"
+        ]
       },
       {
         "topic": "Number",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
+        "concepts": [
+          "toString()",
+          "valueOf()",
+          "parseInt()",
+          "parseFloat()"
+        ]
       },
       {
         "topic": "String",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
+        "concepts": [
+          "fromCharCode()",
+          "fromCodePoint()",
+          "slice()",
+          "split()",
+          "toLowerCase()",
+          "toUpperCase()",
+          "startsWith()",
+          "endsWith()"
+        ]
       },
       {
         "topic": "Array",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
-      },
-      {
-        "topic": "Object",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
+        "concepts": [
+          "of()",
+          "from()",
+          "push()",
+          "pop",
+          "unshift()",
+          "shift()",
+          "slice()",
+          "splice()",
+          "reverse()",
+          "sort()",
+          "filter()",
+          "map()"
+        ]
       },
       {
         "topic": "Map",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
+        "concepts": [
+          "keys()",
+          "values()",
+          "entries()",
+          "has()",
+          "set()",
+          "get()",
+          "delete()",
+          "clear()"
+        ]
       },
       {
         "topic": "Set",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
+        "concepts": [
+          "keys()",
+          "values()",
+          "entries()",
+          "has()",
+          "set()",
+          "get()",
+          "delete()",
+          "clear()"
+        ]
+      },
+      {
+        "topic": "Object",
+        "concepts": [
+          "toString()",
+          "valueOf()"
+        ]
+      },
+      {
+        "topic": "Error",
+        "concepts": [
+          "isError()"
+        ]
       },
       {
         "topic": "Math",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
+        "concepts": [
+          "abs()",
+          "ceil()",
+          "floor()",
+          "round()",
+          "min()",
+          "max()",
+          "random()"
+        ]
       },
       {
         "topic": "Date",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
+        "concepts": [
+          "now()",
+          "toUTCString()",
+          "toLocaleString()"
+        ]
       },
       {
         "topic": "Promise",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
+        "concepts": [
+          "then()",
+          "catch()",
+          "finally()",
+          "resolve()",
+          "reject()",
+          "any()",
+          "all()",
+          "race()"
+        ]
       },
       {
         "topic": "JSON",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
-      }
-    ]
-  },
-  {
-    "chapter": "Document Object Model",
-    "topics": [
-      {
-        "topic": "Node",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
-      },
-      {
-        "topic": "Element",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
-      },
-      {
-        "topic": "Document",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
-      },
-      {
-        "topic": "Event",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
-      }
-    ]
-  },
-  {
-    "chapter": "Fetch API",
-    "topics": [
-      {
-        "topic": "Headers",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
-      },
-      {
-        "topic": "Request",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
-      },
-      {
-        "topic": "Response",
-        "concepts": ["instance properties", "instance methods", "static properties", "static methods"]
+        "concepts": [
+          "parse()",
+          "stringify()"
+        ]
       }
     ]
   }

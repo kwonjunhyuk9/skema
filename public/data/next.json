@@ -1,19 +1,20 @@
 [
   {
-    "chapter": "Basics",
+    "chapter": "Rules of Next",
     "topics": [
       {
         "topic": "Routing Files",
         "concepts": [
           "layout.tsx",
           "page.tsx",
+          "template.tsx",
+          "default.tsx",
           "loading.tsx",
           "not-found.tsx",
           "error.tsx",
           "global-error.tsx",
           "route.tsx",
-          "template.tsx",
-          "default.tsx"
+          "middleware.tsx"
         ]
       },
       {
@@ -33,6 +34,8 @@
         "concepts": [
           "Server Components",
           "Client Components",
+          "Server Functions",
+          "Client Functions",
           "Static Rendering",
           "Dynamic Rendering",
           "Partial Prerendering"
@@ -40,41 +43,127 @@
       },
       {
         "topic": "Fetching Data",
-        "concepts": ["React Server Components", "fetch", "database", "use"]
+        "concepts": [
+          "Fetch data from Internal Database with ORM",
+          "Fetch data from External Service with fetch"
+        ]
       },
       {
         "topic": "Updating Data",
-        "concepts": ["React Server Functions", "forms", "events"]
+        "concepts": [
+          "Update data by using Event Handlers",
+          "Update data by using Forms"
+        ]
       },
       {
         "topic": "Caching Data",
-        "concepts": ["unstable_cache", "revalidateTag", "revalidatePath"]
+        "concepts": [
+          "unstable_cache allows you to cache the result of database queries and other async functions",
+          "revalidateTag is used to revalidate cache entries based on a tag and following an event",
+          "revalidatePath is used to revalidate a route and following an event"
+        ]
       },
       {
         "topic": "Deploying Website",
-        "concepts": ["node server", "docker container"]
+        "concepts": [
+          "Vercel Hosting",
+          "Node Server",
+          "Docker Container"
+        ]
       }
     ]
   },
   {
-    "chapter": "API",
+    "chapter": "Components",
     "topics": [
       {
-        "topic": "Components",
-        "concepts": ["Font", "Form", "Image", "Link", "Script"]
+        "topic": "Font",
+        "concepts": [
+          "Automatically optimizes your fonts and removes external network requests for improved privacy and performance",
+          "It includes built-in automatic self-hosting for any font file",
+          "You can also conveniently use all Google Fonts"
+        ]
       },
       {
-        "topic": "Functions",
+        "topic": "Image",
         "concepts": [
-          "useLinkStatus",
-          "useParams",
-          "usePathname",
-          "useReportWebVitals",
-          "useRouter",
-          "useSearchParams",
-          "useSelectedLayoutSegment",
-          "useSelectedLayoutSegments",
-          "userAgent"
+          "Extends the HTML <img> element for automatic image optimization"
+        ]
+      },
+      {
+        "topic": "Link",
+        "concepts": [
+          "Extends the HTML <a> element to provide prefetching and client-side navigation between routes"
+        ]
+      },
+      {
+        "topic": "Form",
+        "concepts": [
+          "Extends the HTML <form> element to provide prefetching of loading UI, client-side navigation on submission, and progressive enhancement",
+          "It's useful for forms that update URL search params as it reduces the boilerplate code needed to achieve the above"
+        ]
+      },
+      {
+        "topic": "Script",
+        "concepts": [
+          "Extends the HTML <script> element to enable optimized loading and management of third-party scripts"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Functions",
+    "topics": [
+      {
+        "topic": "useLinkStatus",
+        "concepts": [
+          "Lets you tracks the pending state of a <Link>",
+          "You can use it to show inline visual feedback to the user while a navigation to a new route completes"
+        ]
+      },
+      {
+        "topic": "useRouter",
+        "concepts": [
+          "Allows you to programmatically change routes inside Client Components"
+        ]
+      },
+      {
+        "topic": "useParams",
+        "concepts": [
+          "Client Component hook that lets you read a route's dynamic params filled in by the current URL"
+        ]
+      },
+      {
+        "topic": "useSearchParams",
+        "concepts": [
+          "Client Component hook that lets you read the current URL's query string"
+        ]
+      },
+      {
+        "topic": "usePathname",
+        "concepts": [
+          "Client Component hook that lets you read the current URL's pathname"
+        ]
+      },
+      {
+        "topic": "useSelectedLayoutSegment",
+        "concepts": [
+          "Client Component hook that lets you read the active route segment one level below the Layout it is called from",
+          "It is useful for navigation UI, such as tabs inside a parent layout that change style depending on the active child segment"
+        ]
+      },
+      {
+        "topic": "useSelectedLayoutSegments",
+        "concepts": [
+          "Client Component hook that lets you read the active route segments below the Layout it is called from",
+          "It is useful for creating UI in parent Layouts that need knowledge of active child segments such as breadcrumbs"
+        ]
+      },
+      {
+        "topic": "useReportWebVitals",
+        "concepts": [
+          "Allows you to report Core Web Vitals",
+          "Can be used in combination with your analytics service"
         ]
       }
     ]

@@ -55,12 +55,12 @@ This document defines the code style guidelines for the project to ensure consis
 
 ## 🔃 Styling Order
 
-- `Positioning` controls how an element is positioned on the page and layered with others.
-- `Box Model` defines the element’s size, spacing, and how it fits in the layout.
+- `Position` controls how an element is positioned on the page and layered with others.
+- `Box` defines the element’s size, spacing, and how it fits in the layout.
 - `Layout` manages the structural arrangement of elements using Flexbox or Grid.
 - `Typography` styles the appearance and formatting of text.
 - `Appearance` sets the visual look through colors, backgrounds, borders, and shadows.
-- `Effects` brings motion and transformation to elements.
+- `Effect` brings motion and transformation to elements.
 - `Miscellaneous` includes interaction behaviors like cursor, visibility, and user selection.
 
 ---

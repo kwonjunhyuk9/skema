@@ -4,11 +4,21 @@
     "topics": [
       {
         "topic": "Constant identifiers",
-        "concepts": ["final"]
+        "concepts": [
+          "final"
+        ]
       },
       {
         "topic": "Variable identifiers",
-        "concepts": ["boolean", "byte", "short", "int", "long", "float", "double"]
+        "concepts": [
+          "boolean",
+          "byte",
+          "short",
+          "int",
+          "long",
+          "float",
+          "double"
+        ]
       }
     ]
   },
@@ -17,23 +27,56 @@
     "topics": [
       {
         "topic": "Bitwise operators",
-        "concepts": ["&", "|", "^", "~", "<<", ">>"]
+        "concepts": [
+          "&",
+          "|",
+          "^",
+          "~",
+          "<<",
+          ">>"
+        ]
       },
       {
         "topic": "Logical operators",
-        "concepts": ["&&", "||", "!"]
+        "concepts": [
+          "&&",
+          "||",
+          "!"
+        ]
       },
       {
         "topic": "Arithmetic Operators",
-        "concepts": ["+", "-", "*", "/", "%", "++", "—"]
+        "concepts": [
+          "+",
+          "-",
+          "*",
+          "/",
+          "%",
+          "++",
+          "—"
+        ]
       },
       {
         "topic": "Assignment Operators",
-        "concepts": ["=", "+=", "-=", "*=", "/=", "%="]
+        "concepts": [
+          "=",
+          "+=",
+          "-=",
+          "*=",
+          "/=",
+          "%="
+        ]
       },
       {
         "topic": "Comparison Operators",
-        "concepts": ["==", "!=", "<", ">", "<=", ">="]
+        "concepts": [
+          "==",
+          "!=",
+          "<",
+          ">",
+          "<=",
+          ">="
+        ]
       }
     ]
   },
@@ -42,15 +85,21 @@
     "topics": [
       {
         "topic": "If Conditionals",
-        "concepts": ["if else"]
+        "concepts": [
+          "if else"
+        ]
       },
       {
         "topic": "Switch Conditionals",
-        "concepts": ["switch case"]
+        "concepts": [
+          "switch case"
+        ]
       },
       {
         "topic": "Try Conditionals",
-        "concepts": ["try catch finally"]
+        "concepts": [
+          "try catch finally"
+        ]
       }
     ]
   },
@@ -59,11 +108,17 @@
     "topics": [
       {
         "topic": "For Loops",
-        "concepts": ["for", "for :"]
+        "concepts": [
+          "for",
+          "for :"
+        ]
       },
       {
         "topic": "While Loops",
-        "concepts": ["while", "do while"]
+        "concepts": [
+          "while",
+          "do while"
+        ]
       }
     ]
   },
@@ -72,11 +127,17 @@
     "topics": [
       {
         "topic": "Named Functions",
-        "concepts": ["Named Regular Functions", "Named Arrow Functions"]
+        "concepts": [
+          "Named Regular Functions",
+          "Named Arrow Functions"
+        ]
       },
       {
         "topic": "Anonymous Functions",
-        "concepts": ["Anonymous Regular Functions", "Anonymous Arrow Functions"]
+        "concepts": [
+          "Anonymous Regular Functions",
+          "Anonymous Arrow Functions"
+        ]
       }
     ]
   },
@@ -85,11 +146,203 @@
     "topics": [
       {
         "topic": "Inputs",
-        "concepts": ["System.in"]
+        "concepts": [
+          "System.in"
+        ]
       },
       {
         "topic": "Outputs",
-        "concepts": ["System.out"]
+        "concepts": [
+          "System.out"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Built In Objects",
+    "topics": [
+      {
+        "topic": "Boolean",
+        "concepts": [
+          "parseBoolean",
+          "valueOf",
+          "booleanValue",
+          "toString",
+          "hashCode",
+          "compareTo"
+        ]
+      },
+      {
+        "topic": "Byte",
+        "concepts": [
+          "byteValue",
+          "parseByte",
+          "toString",
+          "valueOf"
+        ]
+      },
+      {
+        "topic": "Character",
+        "concepts": [
+          "isLetter",
+          "isDigit",
+          "isWhitespace",
+          "toUpperCase",
+          "toLowerCase",
+          "valueOf"
+        ]
+      },
+      {
+        "topic": "Short",
+        "concepts": [
+          "parseShort",
+          "shortValue",
+          "valueOf",
+          "toString"
+        ]
+      },
+      {
+        "topic": "Integer",
+        "concepts": [
+          "parseInt",
+          "valueOf",
+          "intValue",
+          "toString"
+        ]
+      },
+      {
+        "topic": "Long",
+        "concepts": [
+          "parseLong",
+          "longValue",
+          "valueOf",
+          "toString"
+        ]
+      },
+      {
+        "topic": "Float",
+        "concepts": [
+          "parseFloat",
+          "floatValue",
+          "valueOf",
+          "toString"
+        ]
+      },
+      {
+        "topic": "Double",
+        "concepts": [
+          "parseDouble",
+          "doubleValue",
+          "valueOf",
+          "toString"
+        ]
+      },
+      {
+        "topic": "String",
+        "concepts": [
+          "length",
+          "charAt",
+          "substring",
+          "indexOf",
+          "equals",
+          "trim",
+          "toLowerCase",
+          "toUpperCase",
+          "replace",
+          "split"
+        ]
+      },
+      {
+        "topic": "Array",
+        "concepts": [
+          "length",
+          "sort",
+          "binarySearch",
+          "copyOf",
+          "equals",
+          "fill"
+        ]
+      },
+      {
+        "topic": "Map",
+        "concepts": [
+          "put",
+          "get",
+          "containsKey",
+          "keySet",
+          "values",
+          "entrySet",
+          "remove",
+          "size"
+        ]
+      },
+      {
+        "topic": "Set",
+        "concepts": [
+          "add",
+          "remove",
+          "contains",
+          "size",
+          "isEmpty",
+          "clear"
+        ]
+      },
+      {
+        "topic": "Object",
+        "concepts": [
+          "equals",
+          "hashCode",
+          "toString",
+          "getClass"
+        ]
+      },
+      {
+        "topic": "System",
+        "concepts": [
+          "currentTimeMillis",
+          "exit",
+          "gc",
+          "getProperty",
+          "arraycopy"
+        ]
+      },
+      {
+        "topic": "Error",
+        "concepts": [
+          "Error",
+          "Exception",
+          "Throwable",
+          "try-catch-finally",
+          "throws",
+          "RuntimeException"
+        ]
+      },
+      {
+        "topic": "Math",
+        "concepts": [
+          "abs",
+          "min",
+          "max",
+          "random",
+          "round",
+          "floor",
+          "ceil",
+          "pow",
+          "sqrt",
+          "sin",
+          "cos"
+        ]
+      },
+      {
+        "topic": "Date",
+        "concepts": [
+          "getTime",
+          "setTime",
+          "after",
+          "before",
+          "compareTo",
+          "equals"
+        ]
       }
     ]
   }

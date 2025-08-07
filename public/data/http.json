@@ -1,0 +1,277 @@
+[
+  {
+    "chapter": "HTTP Headers",
+    "topics": [
+      {
+        "topic": "Request context",
+        "concepts": [
+          "From",
+          "Host",
+          "Referer",
+          "Referrer-Policy",
+          "User-Agent"
+        ]
+      },
+      {
+        "topic": "Response context",
+        "concepts": [
+          "Allow",
+          "Server"
+        ]
+      },
+      {
+        "topic": "Message body information",
+        "concepts": [
+          "Content-Length",
+          "Content-Type",
+          "Content-Encoding",
+          "Content-Language",
+          "Content-Location"
+        ]
+      },
+      {
+        "topic": "Authentication",
+        "concepts": [
+          "WWW-Authenticate",
+          "Authorization",
+          "Proxy-Authenticate",
+          "Proxy-Authorization"
+        ]
+      },
+      {
+        "topic": "Caching",
+        "concepts": [
+          "Age",
+          "Cache-Control",
+          "Clear-Site-Data",
+          "Expires",
+          "No-Vary-Search"
+        ]
+      },
+      {
+        "topic": "Cookies",
+        "concepts": [
+          "Cookie",
+          "Set-Cookie"
+        ]
+      },
+      {
+        "topic": "Conditionals",
+        "concepts": [
+          "Last-Modified",
+          "ETag",
+          "If-Match",
+          "If-None-Match",
+          "If-Modified-Since",
+          "If-Unmodified-Since",
+          "Vary"
+        ]
+      },
+      {
+        "topic": "Content negotiation",
+        "concepts": [
+          "Accept",
+          "Accept-Encoding",
+          "Accept-Language",
+          "Accept-Patch",
+          "Accept-Post"
+        ]
+      },
+      {
+        "topic": "Range requests",
+        "concepts": [
+          "Accept-Ranges",
+          "Range",
+          "If-Range",
+          "Content-Range"
+        ]
+      },
+      {
+        "topic": "Proxies",
+        "concepts": [
+          "Forwarded",
+          "Via"
+        ]
+      },
+      {
+        "topic": "Security",
+        "concepts": [
+          "Cross-Origin-Embedder-Policy",
+          "Cross-Origin-Opener-Policy",
+          "Cross-Origin-Resource-Policy",
+          "Content-Security-Policy",
+          "Content-Security-Policy-Report-Only",
+          "Expect-CT",
+          "Permissions-Policy",
+          "Reporting-Endpoints",
+          "Strict-Transport-Security",
+          "Upgrade-Insecure-Requests",
+          "X-Content-Type-Options",
+          "X-Frame-Options",
+          "X-Permitted-Cross-Domain-Policies",
+          "X-Powered-By",
+          "X-XSS-Protection"
+        ]
+      },
+      {
+        "topic": "WebSockets",
+        "concepts": [
+          "Sec-WebSocket-Accept",
+          "Sec-WebSocket-Extensions",
+          "Sec-WebSocket-Key",
+          "Sec-WebSocket-Protocol",
+          "Sec-WebSocket-Version"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "HTTP Requests",
+    "topics": [
+      {
+        "topic": "GET",
+        "concepts": [
+          "The GET method requests a representation of the specified resource"
+        ]
+      },
+      {
+        "topic": "HEAD",
+        "concepts": [
+          "The HEAD method asks for a response identical to a GET request, but without a response body"
+        ]
+      },
+      {
+        "topic": "POST",
+        "concepts": [
+          "The POST method submits an entity to the specified resource, often causing a change in state or side effects on the server"
+        ]
+      },
+      {
+        "topic": "PUT",
+        "concepts": [
+          "The PUT method replaces all current representations of the target resource with the request content"
+        ]
+      },
+      {
+        "topic": "DELETE",
+        "concepts": [
+          "The DELETE method deletes the specified resource"
+        ]
+      },
+      {
+        "topic": "CONNECT",
+        "concepts": [
+          "The CONNECT method establishes a tunnel to the server identified by the target resource"
+        ]
+      },
+      {
+        "topic": "OPTIONS",
+        "concepts": [
+          "The OPTIONS method describes the communication options for the target resource"
+        ]
+      },
+      {
+        "topic": "TRACE",
+        "concepts": [
+          "The TRACE method performs a message loop-back test along the path to the target resource"
+        ]
+      },
+      {
+        "topic": "PATCH",
+        "concepts": [
+          "The PATCH method applies partial modifications to a resource"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "HTTP Responses",
+    "topics": [
+      {
+        "topic": "Informational Responses",
+        "concepts": [
+          "100 Continue",
+          "101 Switching Protocols",
+          "102 Processing Deprecated",
+          "103 Early Hints"
+        ]
+      },
+      {
+        "topic": "Successful Responses",
+        "concepts": [
+          "201 Created",
+          "202 Accepted",
+          "203 Non-Authoritative Information",
+          "204 No Content",
+          "205 Reset Content",
+          "206 Partial Content",
+          "207 Multi-Status",
+          "208 Already Reported",
+          "226 IM Used"
+        ]
+      },
+      {
+        "topic": "Redirection Responses",
+        "concepts": [
+          "300 Multiple Choices",
+          "301 Moved Permanently",
+          "302 Found",
+          "303 See Other",
+          "304 Not Modified",
+          "307 Temporary Redirect",
+          "308 Permanent Redirect"
+        ]
+      },
+      {
+        "topic": "Client Error Responses",
+        "concepts": [
+          "400 Bad Request",
+          "401 Unauthorized",
+          "402 Payment Required",
+          "403 Forbidden",
+          "404 Not Found",
+          "405 Method Not Allowed",
+          "406 Not Acceptable",
+          "407 Proxy Authentication Required",
+          "408 Request Timeout",
+          "409 Conflict",
+          "410 Gone",
+          "411 Length Required",
+          "412 Precondition Failed",
+          "413 Content Too Large",
+          "414 URI Too Long",
+          "415 Unsupported Media Type",
+          "416 Range Not Satisfiable",
+          "417 Expectation Failed",
+          "418 I'm a teapot",
+          "421 Misdirected Request",
+          "422 Unprocessable Content",
+          "423 Locked",
+          "424 Failed Dependency",
+          "425 Too Early",
+          "426 Upgrade Required",
+          "428 Precondition Required",
+          "429 Too Many Requests",
+          "431 Request Header Fields Too Large",
+          "451 Unavailable For Legal Reasons"
+        ]
+      },
+      {
+        "topic": "Server Error Responses",
+        "concepts": [
+          "500 Internal Server Error",
+          "501 Not Implemented",
+          "502 Bad Gateway",
+          "503 Service Unavailable",
+          "504 Gateway Timeout",
+          "505 HTTP Version Not Supported",
+          "506 Variant Also Negotiates",
+          "507 Insufficient Storage",
+          "508 Loop Detected",
+          "510 Not Extended",
+          "511 Network Authentication Required"
+        ]
+      }
+    ]
+  }
+]

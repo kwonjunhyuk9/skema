@@ -6,27 +6,53 @@
   },
   {
     "subject": "MATH",
-    "courses": ["algebra", "discrete-math", "calculus", "engineering-math"],
+    "courses": [
+      "algebra",
+      "discrete-math",
+      "calculus",
+      "engineering-math"
+    ],
     "description": "Where Logic meets Elegance."
   },
   {
     "subject": "SCIENCE",
-    "courses": ["physics", "chemistry"],
+    "courses": [
+      "physics",
+      "chemistry"
+    ],
     "description": "Unveil the Patterns of the Universe."
   },
   {
     "subject": "ELECTRONICS",
-    "courses": ["electrodynamics", "electrical-circuits", "logical-circuits"],
+    "courses": [
+      "electrodynamics",
+      "electrical-circuits",
+      "logical-circuits"
+    ],
     "description": "Weave the language of Atoms."
   },
   {
     "subject": "FRONTEND",
-    "courses": ["javascript", "typescript", "react", "next", "html", "css", "design"],
+    "courses": [
+      "javascript",
+      "typescript",
+      "react",
+      "next",
+      "http",
+      "api",
+      "html",
+      "css",
+      "design"
+    ],
     "description": "Imagination meets Interaction."
   },
   {
     "subject": "BACKEND",
-    "courses": ["c", "java", "algorithms"],
+    "courses": [
+      "c",
+      "java",
+      "algorithms"
+    ],
     "description": "Silently Architect Data Flows."
   },
   {

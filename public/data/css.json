@@ -1,57 +1,230 @@
 [
   {
-    "chapter": "Inheritance",
+    "chapter": "Position",
     "topics": [
       {
-        "topic": "Cascade Rules",
-        "concepts": ["Order", "Specificity", "Importance"]
-      },
-      {
-        "topic": "Global Keywords",
-        "concepts": ["inherit", "initial", "revert", "revert-layer", "unset"]
-      }
-    ]
-  },
-  {
-    "chapter": "Selectors",
-    "topics": [
-      {
-        "topic": "General Selectors",
-        "concepts": ["tag { }", ".class { }", "#id { }", "* { }"]
-      },
-      {
-        "topic": "Attribute Selectors",
+        "topic": "display",
         "concepts": [
-          "[attribute] { }",
-          "[attribute=value] { }",
-          "[attribute~=value] { }",
-          "[attribute|=value] { }",
-          "[attribute^=value] { }",
-          "[attribute$=value] { }",
-          "[attribute*=value] { }"
+          "inline",
+          "block",
+          "flex",
+          "grid"
+        ]
+      },
+      {
+        "topic": "position",
+        "concepts": [
+          "static",
+          "relative",
+          "absolute",
+          "fixed",
+          "sticky"
+        ]
+      },
+      {
+        "topic": "offset",
+        "concepts": [
+          "top",
+          "right",
+          "bottom",
+          "left",
+          "z-index"
         ]
       }
     ]
   },
   {
-    "chapter": "Combinators",
+    "chapter": "Box",
     "topics": [
       {
-        "topic": "Descendant Combinators",
-        "concepts": ["parent descendent"]
+        "topic": "margin",
+        "concepts": [
+          "margin-top",
+          "margin-right",
+          "margin-bottom",
+          "margin-left"
+        ]
       },
       {
-        "topic": "Child Combinators",
-        "concepts": ["parent > child", "parent + child", "parent ~ child"]
+        "topic": "border",
+        "concepts": [
+          "border-width",
+          "border-style",
+          "border-color"
+        ]
+      },
+      {
+        "topic": "padding",
+        "concepts": [
+          "padding-top",
+          "padding-right",
+          "padding-bottom",
+          "padding-left"
+        ]
+      },
+      {
+        "topic": "size",
+        "concepts": [
+          "width",
+          "height"
+        ]
+      },
+      {
+        "topic": "overflow",
+        "concepts": [
+          "overflow-x",
+          "overflow-y"
+        ]
+      },
+      {
+        "topic": "box-sizing",
+        "concepts": [
+          "content-box",
+          "border-box"
+        ]
       }
     ]
   },
   {
-    "chapter": "Pseudo Classes",
+    "chapter": "Layout",
+    "topics": [
+      {
+        "topic": "flex",
+        "concepts": [
+          "flex-grow",
+          "flex-shrink",
+          "flex-basis",
+          "flex-direction",
+          "flex-wrap"
+        ]
+      },
+      {
+        "topic": "grid",
+        "concepts": [
+          "grid-auto-columns",
+          "grid-auto-rows",
+          "grid-auto-flow",
+          "grid-template-columns",
+          "grid-template-rows",
+          "grid-template-areas"
+        ]
+      },
+      {
+        "topic": "justify",
+        "concepts": [
+          "justify-content",
+          "justify-items",
+          "justify-self"
+        ]
+      },
+      {
+        "topic": "align",
+        "concepts": [
+          "align-content",
+          "align-items",
+          "align-self"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Typography",
+    "topics": [
+      {
+        "topic": "font",
+        "concepts": [
+          "font-style",
+          "font-variant",
+          "font-weight",
+          "font-size",
+          "font-family"
+        ]
+      },
+      {
+        "topic": "text",
+        "concepts": [
+          "text-align",
+          "text-decoration",
+          "text-indent",
+          "text-overflow",
+          "text-shadow",
+          "text-transform"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Appearance",
+    "topics": [
+      {
+        "topic": "background",
+        "concepts": [
+          "background-color",
+          "background-image",
+          "background-position",
+          "background-size",
+          "background-repeat",
+          "background-attachment",
+          "background-origin",
+          "background-clip"
+        ]
+      },
+      {
+        "topic": "outline",
+        "concepts": [
+          "outline-color",
+          "outline-style",
+          "outline-width"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Effect",
+    "topics": [
+      {
+        "topic": "transform",
+        "concepts": [
+          "transform",
+          "transform-origin"
+        ]
+      },
+      {
+        "topic": "transition",
+        "concepts": [
+          "transition-property",
+          "transition-duration",
+          "transition-timing-function",
+          "transition-delay"
+        ]
+      },
+      {
+        "topic": "animation",
+        "concepts": [
+          "animation-name",
+          "animation-duration",
+          "animation-timing-function",
+          "animation-delay",
+          "animation-iteration-count",
+          "animation-direction",
+          "animation-fill-mode",
+          "animation-play-state"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Miscellaneous",
     "topics": [
       {
         "topic": "Interactive Pseudo Classes",
-        "concepts": [":hover", ":active", ":focus", ":link", ":visited"]
+        "concepts": [
+          ":hover",
+          ":active",
+          ":focus",
+          ":link",
+          ":visited"
+        ]
       },
       {
         "topic": "Structural Pseudo Classes",
@@ -67,364 +240,39 @@
           ":nth-of-type(n)",
           ":nth-last-of-type(n)"
         ]
-      }
-    ]
-  },
-  {
-    "chapter": "Pseudo Elements",
-    "topics": [
+      },
       {
         "topic": "Positional Pseudo Elements",
-        "concepts": ["::before", "::after", "::first-line", "::first-letter", "::selection"]
+        "concepts": [
+          "::before",
+          "::after",
+          "::first-line",
+          "::first-letter",
+          "::selection"
+        ]
       },
       {
         "topic": "Functional Pseudo Elements",
-        "concepts": ["::placeholder", "::marker", "::backdrop"]
-      }
-    ]
-  },
-  {
-    "chapter": "At Rules",
-    "topics": [
+        "concepts": [
+          "::placeholder",
+          "::marker",
+          "::backdrop"
+        ]
+      },
       {
         "topic": "Conditional Queries",
-        "concepts": ["@import", "@media", "@supports", "@container"]
+        "concepts": [
+          "@import",
+          "@media",
+          "@supports",
+          "@container"
+        ]
       },
       {
         "topic": "Feature Queries",
-        "concepts": ["@font-face", "@keyframes"]
-      }
-    ]
-  },
-  {
-    "chapter": "Text",
-    "topics": [
-      {
-        "topic": "Shorthand Properties",
-        "concepts": ["font: italic small-caps bold 16px/1.5 'Arial', sans-serif;"]
-      },
-      {
-        "topic": "Longhand Properties",
         "concepts": [
-          "font-style: italic;",
-          "font-variant: small-caps;",
-          "font-weight: bold;",
-          "font-size: 16px;",
-          "line-height: 1.5;",
-          "font-family: 'Arial', sans-serif;"
-        ]
-      }
-    ]
-  },
-  {
-    "chapter": "Background",
-    "topics": [
-      {
-        "topic": "Shorthand Properties",
-        "concepts": ["background: black url('../assets/css.png') repeat center/10% local padding-box;"]
-      },
-      {
-        "topic": "Longhand Properties",
-        "concepts": [
-          "background-color: black;",
-          "background-image: url('../assets/css.png');",
-          "background-repeat: repeat;",
-          "background-position: center;",
-          "background-size: 10%;",
-          "background-attachment: local;",
-          "background-origin: padding-box;"
-        ]
-      }
-    ]
-  },
-  {
-    "chapter": "Inline",
-    "topics": [
-      {
-        "topic": "Inline Static",
-        "concepts": [
-          "display: inline;",
-          "margin: 10px 20px 15px 25px;",
-          "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;",
-          "box-sizing: border-box;",
-          "overflow: scroll;",
-          "position: static;",
-          "z-index: 1;"
-        ]
-      },
-      {
-        "topic": "Inline Relative",
-        "concepts": [
-          "display: inline;",
-          "margin: 10px 20px 15px 25px;",
-          "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;",
-          "box-sizing: border-box;",
-          "overflow: scroll;",
-          "position: relative;",
-          "z-index: 1;",
-          "top: 30px;"
-        ]
-      },
-      {
-        "topic": "Inline Absolute",
-        "concepts": [
-          "display: inline;",
-          "margin: 10px 20px 15px 25px;",
-          "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;",
-          "box-sizing: border-box;",
-          "overflow: scroll;",
-          "position: absolute;",
-          "z-index: 1;",
-          "top: 30px;"
-        ]
-      },
-      {
-        "topic": "Inline Fixed",
-        "concepts": [
-          "display: inline;",
-          "margin: 10px 20px 15px 25px;",
-          "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;",
-          "box-sizing: border-box;",
-          "overflow: scroll;",
-          "position: fixed;",
-          "z-index: 1;",
-          "top: 180px;",
-          "left: 180px;"
-        ]
-      },
-      {
-        "topic": "Inline Sticky",
-        "concepts": [
-          "display: inline;",
-          "margin: 10px 20px 15px 25px;",
-          "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;",
-          "box-sizing: border-box;",
-          "overflow: scroll;",
-          "position: sticky;",
-          "z-index: 1;",
-          "top: 0;"
-        ]
-      }
-    ]
-  },
-  {
-    "chapter": "Block",
-    "topics": [
-      {
-        "topic": "Block Static",
-        "concepts": [
-          "display: block;",
-          "margin: 10px 20px 15px 25px;",
-          "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;",
-          "box-sizing: border-box;",
-          "overflow: scroll;",
-          "position: static;",
-          "z-index: 1;"
-        ]
-      },
-      {
-        "topic": "Block Relative",
-        "concepts": [
-          "display: block;",
-          "margin: 10px 20px 15px 25px;",
-          "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;",
-          "box-sizing: border-box;",
-          "overflow: scroll;",
-          "position: relative;",
-          "z-index: 1;",
-          "top: 30px;"
-        ]
-      },
-      {
-        "topic": "Block Absolute",
-        "concepts": [
-          "display: block;",
-          "margin: 10px 20px 15px 25px;",
-          "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;",
-          "box-sizing: border-box;",
-          "overflow: scroll;",
-          "position: absolute;",
-          "z-index: 1;",
-          "top: 30px;"
-        ]
-      },
-      {
-        "topic": "Block Fixed",
-        "concepts": [
-          "display: block;",
-          "margin: 10px 20px 15px 25px;",
-          "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;",
-          "box-sizing: border-box;",
-          "overflow: scroll;",
-          "position: fixed;",
-          "z-index: 1;",
-          "top: 180px;",
-          "left: 180px;"
-        ]
-      },
-      {
-        "topic": "Block Sticky",
-        "concepts": [
-          "display: block;",
-          "margin: 10px 20px 15px 25px;",
-          "border: 1px solid #000;",
-          "padding: 10px 20px 15px 25px;",
-          "box-sizing: border-box;",
-          "overflow: scroll;",
-          "position: sticky;",
-          "z-index: 1;",
-          "top: 0;"
-        ]
-      }
-    ]
-  },
-  {
-    "chapter": "Flexbox",
-    "topics": [
-      {
-        "topic": "Flexbox Row",
-        "concepts": [
-          "display: flex;",
-          "flex-flow: row wrap;",
-          "flex: 1 1 100px;",
-          "justify-content: center;",
-          "justify-items: center;",
-          "justify-self: center;",
-          "align-content: center;",
-          "align-items: center;",
-          "align-self: center;"
-        ]
-      },
-      {
-        "topic": "Flexbox Column",
-        "concepts": [
-          "display: flex;",
-          "flex-flow: column wrap;",
-          "justify-content: center;",
-          "justify-items: center;",
-          "justify-self: center;",
-          "align-content: center;",
-          "align-items: center;",
-          "align-self: center;"
-        ]
-      }
-    ]
-  },
-  {
-    "chapter": "Grid",
-    "topics": [
-      {
-        "topic": "Grid AutoRow",
-        "concepts": [
-          "display: grid;",
-          "grid-auto-columns: 1fr;",
-          "grid-auto-rows: 1fr;",
-          "grid-auto-flow: row;",
-          "justify-content: center;",
-          "justify-items: center;",
-          "justify-self: center;",
-          "align-content: center;",
-          "align-items: center;",
-          "align-self: center;"
-        ]
-      },
-      {
-        "topic": "Grid AutoColumn",
-        "concepts": [
-          "display: grid;",
-          "grid-auto-columns: 1fr;",
-          "grid-auto-rows: 1fr;",
-          "grid-auto-flow: column;",
-          "justify-content: center;",
-          "justify-items: center;",
-          "justify-self: center;",
-          "align-content: center;",
-          "align-items: center;",
-          "align-self: center;"
-        ]
-      },
-      {
-        "topic": "Grid Template",
-        "concepts": [
-          "display: grid;",
-          "grid-template-columns: 1fr 1fr 1fr;",
-          "grid-template-rows: 1fr 1fr 1fr;",
-          "grid-template-areas:\n    \"a b b\"\n    \"c d d\"\n    \"c d d\";",
-          "justify-content: center;",
-          "justify-items: center;",
-          "justify-self: center;",
-          "align-content: center;",
-          "align-items: center;",
-          "align-self: center;"
-        ]
-      }
-    ]
-  },
-  {
-    "chapter": "Transform",
-    "topics": [
-      {
-        "topic": "Translate Properties",
-        "concepts": ["transform: translate(5rem, 50%);", "transform-origin: center center;"]
-      },
-      {
-        "topic": "Scale Properties",
-        "concepts": ["transform: scale(2, 0.5);", "transform-origin: center center;"]
-      },
-      {
-        "topic": "Skew Properties",
-        "concepts": ["transform: skewX(10deg) skewY(10deg);", "transform-origin: center center;"]
-      },
-      {
-        "topic": "Rotate Properties",
-        "concepts": ["transform: rotate(10deg);", "transform-origin: bottom left;"]
-      }
-    ]
-  },
-  {
-    "chapter": "Transition",
-    "topics": [
-      {
-        "topic": "Shorthand Properties",
-        "concepts": ["transition: all 1s ease-in-out 0s;"]
-      },
-      {
-        "topic": "Longhand Properties",
-        "concepts": [
-          "transition-property: all;",
-          "transition-duration: 1s;",
-          "transition-timing-function: ease-in-out;",
-          "transition-delay: 0s;"
-        ]
-      }
-    ]
-  },
-  {
-    "chapter": "Animations",
-    "topics": [
-      {
-        "topic": "Shorthand Properties",
-        "concepts": ["animation: slideIn 3s ease-in-out 1s infinite alternate forwards;"]
-      },
-      {
-        "topic": "Longhand Properties",
-        "concepts": [
-          "animation-name: slideIn;",
-          "animation-duration: 3s;",
-          "animation-timing-function: ease-in-out;",
-          "animation-delay: 1s;",
-          "animation-iteration-count: infinite;",
-          "animation-direction: alternate;",
-          "animation-fill-mode: forwards;"
+          "@font-face",
+          "@keyframes"
         ]
       }
     ]

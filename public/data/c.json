@@ -4,11 +4,23 @@
     "topics": [
       {
         "topic": "Constant identifiers",
-        "concepts": ["const"]
+        "concepts": [
+          "const"
+        ]
       },
       {
         "topic": "Variable identifiers",
-        "concepts": ["bool", "char", "short", "int", "long", "long long", "float", "double", "long double"]
+        "concepts": [
+          "bool",
+          "char",
+          "short",
+          "int",
+          "long",
+          "long long",
+          "float",
+          "double",
+          "long double"
+        ]
       }
     ]
   },
@@ -17,23 +29,56 @@
     "topics": [
       {
         "topic": "Bitwise operators",
-        "concepts": ["&", "|", "^", "~", "<<", ">>"]
+        "concepts": [
+          "&",
+          "|",
+          "^",
+          "~",
+          "<<",
+          ">>"
+        ]
       },
       {
         "topic": "Logical operators",
-        "concepts": ["&&", "||", "!"]
+        "concepts": [
+          "&&",
+          "||",
+          "!"
+        ]
       },
       {
         "topic": "Arithmetic Operators",
-        "concepts": ["+", "-", "*", "/", "%", "++", "—"]
+        "concepts": [
+          "+",
+          "-",
+          "*",
+          "/",
+          "%",
+          "++",
+          "—"
+        ]
       },
       {
         "topic": "Assignment Operators",
-        "concepts": ["=", "+=", "-=", "*=", "/=", "%="]
+        "concepts": [
+          "=",
+          "+=",
+          "-=",
+          "*=",
+          "/=",
+          "%="
+        ]
       },
       {
         "topic": "Comparison Operators",
-        "concepts": ["==", "!=", "<", ">", "<=", ">="]
+        "concepts": [
+          "==",
+          "!=",
+          "<",
+          ">",
+          "<=",
+          ">="
+        ]
       }
     ]
   },
@@ -42,11 +87,15 @@
     "topics": [
       {
         "topic": "If Conditionals",
-        "concepts": ["if else"]
+        "concepts": [
+          "if else"
+        ]
       },
       {
         "topic": "Switch Conditionals",
-        "concepts": ["switch case"]
+        "concepts": [
+          "switch case"
+        ]
       }
     ]
   },
@@ -55,11 +104,16 @@
     "topics": [
       {
         "topic": "For Loops",
-        "concepts": ["for"]
+        "concepts": [
+          "for"
+        ]
       },
       {
         "topic": "While Loops",
-        "concepts": ["while", "do while"]
+        "concepts": [
+          "while",
+          "do while"
+        ]
       }
     ]
   },
@@ -68,11 +122,15 @@
     "topics": [
       {
         "topic": "Named Functions",
-        "concepts": ["Named Regular Functions"]
+        "concepts": [
+          "Named Regular Functions"
+        ]
       },
       {
         "topic": "Anonymous Functions",
-        "concepts": ["Anonymous Regular Functions"]
+        "concepts": [
+          "Anonymous Regular Functions"
+        ]
       }
     ]
   },
@@ -81,11 +139,95 @@
     "topics": [
       {
         "topic": "Inputs",
-        "concepts": ["scanf", "getchar", "gets"]
+        "concepts": [
+          "scanf",
+          "getchar",
+          "gets"
+        ]
       },
       {
         "topic": "Outputs",
-        "concepts": ["printf", "putchar", "puts"]
+        "concepts": [
+          "printf",
+          "putchar",
+          "puts"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Standard Libraries",
+    "topics": [
+      {
+        "topic": "stdlib.h",
+        "concepts": [
+          "malloc",
+          "calloc",
+          "realloc",
+          "free",
+          "exit",
+          "atoi",
+          "atof",
+          "system"
+        ]
+      },
+      {
+        "topic": "stdbool.h",
+        "concepts": [
+          "true",
+          "false"
+        ]
+      },
+      {
+        "topic": "string.h",
+        "concepts": [
+          "strlen",
+          "strcpy",
+          "strncpy",
+          "strcat",
+          "strcmp",
+          "strstr",
+          "memset",
+          "memcpy"
+        ]
+      },
+      {
+        "topic": "stdio.h",
+        "concepts": [
+          "printf",
+          "scanf",
+          "fopen",
+          "fclose",
+          "fprintf",
+          "fscanf",
+          "fgets",
+          "fputs"
+        ]
+      },
+      {
+        "topic": "math.h",
+        "concepts": [
+          "sqrt",
+          "pow",
+          "sin",
+          "cos",
+          "tan",
+          "log",
+          "exp",
+          "fabs"
+        ]
+      },
+      {
+        "topic": "time.h",
+        "concepts": [
+          "time",
+          "clock",
+          "difftime",
+          "mktime",
+          "localtime",
+          "gmtime",
+          "strftime"
+        ]
       }
     ]
   }
