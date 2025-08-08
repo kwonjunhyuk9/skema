@@ -95,17 +95,17 @@ export default function Header(): React.ReactElement {
       </header>
       <style jsx>{`
         .container {
+          display: flex;
           position: fixed;
-          width: 100%;
-          height: 80px;
           top: 0;
           left: 0;
           z-index: 100;
 
-          box-sizing: border-box;
           padding: 20px;
+          width: 100%;
+          height: 80px;
+          box-sizing: border-box;
 
-          display: flex;
           gap: 20px;
 
           font-size: 0.75rem;
@@ -113,25 +113,17 @@ export default function Header(): React.ReactElement {
           background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0));
 
           & .home {
-            min-width: 12rem;
+            flex: 7 1 0;
 
-            flex: 7;
+            white-space: nowrap;
           }
 
           & .time {
-            min-width: 15rem;
-
-            margin: 0;
-
-            flex: 4;
+            flex: 4 1 0;
           }
 
           & .info {
-            min-width: 12rem;
-
-            margin: 0;
-
-            flex: 2;
+            flex: 2 1 0;
           }
         }
       `}</style>

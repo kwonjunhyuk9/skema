@@ -14,11 +14,10 @@ export default function TypeWriter({ text, duration, steps, delay }: TypeWriterP
         }
 
         .typewriter {
-          width: 0;
-
           border-right: 2px solid var(--cyber-white);
-
+          width: 0;
           overflow: hidden;
+          
           white-space: nowrap;
 
           animation:

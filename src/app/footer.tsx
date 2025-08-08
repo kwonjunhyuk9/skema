@@ -64,17 +64,17 @@ export default function Footer(): React.ReactElement {
       </footer>
       <style jsx>{`
         .container {
+          display: flex;
           position: fixed;
-          width: 100%;
-          height: 80px;
           bottom: 0;
           left: 0;
           z-index: 100;
 
-          box-sizing: border-box;
           padding: 20px;
+          width: 100%;
+          height: 80px;
+          box-sizing: border-box;
 
-          display: flex;
           gap: 20px;
 
           font-size: 0.75rem;
@@ -82,25 +82,15 @@ export default function Footer(): React.ReactElement {
           background: linear-gradient(to top, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0));
 
           & .empty {
-            min-width: 12rem;
-
-            margin: 0;
-
-            flex: 6;
+            flex: 6 1 0;
           }
 
           & .location {
-            min-width: 12rem;
-
-            margin: 0;
-
-            flex: 2;
+            flex: 2 1 0;
           }
 
           & .contacts {
-            min-width: 6rem;
-
-            flex: 1;
+            flex: 1 1 0;
 
             & .link {
               font-style: normal;

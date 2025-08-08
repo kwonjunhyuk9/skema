@@ -66,7 +66,11 @@
         "topic": "size",
         "concepts": [
           "width",
-          "height"
+          "min-width",
+          "max-width",
+          "height",
+          "min-height",
+          "max-height"
         ]
       },
       {
@@ -123,6 +127,13 @@
           "align-content",
           "align-items",
           "align-self"
+        ]
+      },
+      {
+        "topic": "gap",
+        "concepts": [
+          "row-gap",
+          "column-gap"
         ]
       }
     ]

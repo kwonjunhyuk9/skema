@@ -25,9 +25,8 @@ export default function Page({ params }: { params: Promise<{ course: string }> }
       </main>
       <style jsx>{`
         .main {
-          overflow: clip;
-
           padding: 80px 0;
+          overflow: clip;
         }
       `}</style>
     </Fragment>

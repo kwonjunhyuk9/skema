@@ -35,15 +35,15 @@ export default function Scrollbar({ pageRefs, buttonCount, direction }: Scrollba
       <style jsx>{`
         .container {
           display: flex;
+          
           flex-direction: ${direction};
 
           & .button {
+            margin: ${direction === "row" ? "0 4px" : "4px 0"};
+            border: none;
+            padding: 0;
             width: 24px;
             height: 24px;
-
-            padding: 0;
-            border: none;
-            margin: ${direction === "row" ? "0 4px" : "4px 0"};
 
             background: transparent;
 

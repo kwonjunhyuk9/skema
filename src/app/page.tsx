@@ -47,10 +47,10 @@ export default function Page(): React.ReactElement {
       <style jsx>{`
         .container {
           position: relative;
-          height: 100vh;
 
-          box-sizing: border-box;
           padding: 80px 0;
+          height: 100vh;
+          box-sizing: border-box;
 
           & .title {
             position: relative;
@@ -63,9 +63,9 @@ export default function Page(): React.ReactElement {
           & .link {
             position: relative;
 
-            padding: 10px;
-            border: 1px solid var(--cyber-white);
             margin: 1px;
+            border: 1px solid var(--cyber-white);
+            padding: 10px;
           }
 
           & .description {

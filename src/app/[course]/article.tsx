@@ -30,26 +30,26 @@ export default function Article({ chapter, topics }: Chapter): React.ReactElemen
       <style jsx>{`
         .article {
           display: flex;
+          
           flex-flow: column nowrap;
 
           & .container {
+            display: flex;
+
+            padding-right: 100vw;
             width: 100vw;
             overflow: auto;
-
             box-sizing: border-box;
-            padding-right: 100vw;
 
-            display: flex;
             flex-flow: row nowrap;
             gap: 10px;
 
             & .card {
+              margin: 1px;
+              border: 1px solid var(--cyber-white);
+              padding: 10px;
               min-width: 20rem;
               max-width: 20rem;
-
-              padding: 10px;
-              border: 1px solid var(--cyber-white);
-              margin: 1px;
             }
           }
         }
