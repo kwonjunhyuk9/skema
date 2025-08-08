@@ -1,6 +1,7 @@
 "use client";
 import React, { Fragment, useEffect, useState } from "react";
 import TypeWriter from "@/app/typewriter";
+import Underliner from "@/app/underliner";
 
 export default function Footer(): React.ReactElement {
   const [latitude, setLatitude] = useState(0);
@@ -38,7 +39,7 @@ export default function Footer(): React.ReactElement {
         <div className="empty" />
         <div className="location">
           {error ? (
-            <TypeWriter text={`${error}`} duration={2} steps={20} delay={0} />
+            <TypeWriter text={`${error}`} duration={2} steps={15} delay={0} />
           ) : (
             <Fragment>
               <TypeWriter text={`LAT: ${latitude}`} duration={2} steps={15} delay={0} />
@@ -49,15 +50,15 @@ export default function Footer(): React.ReactElement {
         </div>
         <address className="contacts">
           <a className="link" href="tel:+821058551427">
-            Phone
+            <Underliner text="Phone" />
           </a>
           <br />
           <a className="link" href="mailto:kwonjunhyuk9@icloud.com">
-            Email
+            <Underliner text="Email" />
           </a>
           <br />
           <a className="link" href="https://www.linkedin.com/in/jun-hyuk-kwon-3a9551355" target="_blank">
-            LinkedIn
+            <Underliner text="LinkedIn" />
           </a>
           <br />
         </address>
@@ -95,7 +96,6 @@ export default function Footer(): React.ReactElement {
             & .link {
               font-style: normal;
               text-decoration: none;
-              color: inherit;
             }
           }
         }

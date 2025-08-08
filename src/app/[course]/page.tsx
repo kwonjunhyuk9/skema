@@ -13,6 +13,7 @@ export default function Page({ params }: { params: Promise<{ course: string }> }
       .then((data: Chapter[]): void => setPages(data));
   }, [course]);
 
+  // TODO: Recheck next.json
   return (
     <Fragment>
       <main className="main">

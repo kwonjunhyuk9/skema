@@ -2,6 +2,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 import Link from "next/link";
 import TypeWriter from "@/app/typewriter";
+import Underliner from "@/app/underliner";
 
 export default function Header(): React.ReactElement {
   const [systemTime, setSystemTime] = useState("");
@@ -79,7 +80,7 @@ export default function Header(): React.ReactElement {
       <header className="container">
         <div className="home">
           <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>
-            DANCING WITH LIFE
+            <Underliner text="DANCING WITH LIFE"/>
           </Link>
         </div>
         <div className="time">

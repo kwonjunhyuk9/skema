@@ -6,6 +6,7 @@ import Image from "next/image";
 export default function Scrollbar({ pageRefs, buttonCount, direction }: ScrollbarProps): React.ReactElement {
   const buttons: number[] = Array.from({ length: buttonCount }, (_: undefined, i: number): number => i);
 
+  // TODO: Remember Position
   function scrollToIndex(index: number): void {
     const el: HTMLElement | null = pageRefs.current[index];
     if (el) {

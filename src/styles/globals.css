@@ -5,12 +5,12 @@
   --neon-blue: #01fff4;
   --neon-purple: #9d00ff;
   --cyber-white: #ffffff;
-  --cyber-navy: #0b0b2c;
   --cyber-black: #000000;
 }
 
 body {
   color: var(--cyber-white);
+
   background-color: var(--cyber-black);
 }
 

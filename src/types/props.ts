@@ -16,3 +16,7 @@ export interface TypeWriterProps {
   steps: number;
   delay: number;
 }
+
+export interface UnderLinerProps {
+  text: string;
+}
