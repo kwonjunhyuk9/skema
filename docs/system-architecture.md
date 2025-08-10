@@ -12,15 +12,15 @@ the overall structure and interactions within the system.
 
 ## 3. Technology Stack
 
-| Layer       | Technology                    |
-| ----------- | ----------------------------- |
-| Frontend    | TypeScript, React, HTML, CSS  |
-| Backend     | Node, Next, SQL               |
-| Styling     | Prettier, ESLint              |
-| Versioning  | Git, Github                   |
-| Testing     | Jest, Cypress, Github Actions |
-| Deployment  | Vercel                        |
-| Performance | Lighthouse                    |
+| Layer       | Technology                                          |
+|-------------|-----------------------------------------------------|
+| Frontend    | TypeScript, React, HTML, CSS                        |
+| Backend     | Node, Next, SQL                                     |
+| Styling     | Prettier, ESLint                                    |
+| Versioning  | Git, Github                                         |
+| Testing     | Jest, Cypress, Github Actions                       |
+| Deployment  | Vercel                                              |
+| Performance | Lighthouse, Vercel Analytics, Vercel Speed Insights |
 
 ## 4. Presentation Layer
 

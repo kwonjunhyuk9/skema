@@ -8,6 +8,8 @@ auditing tool.
 ## 🛠 Performance Tools
 
 - **SEO**: Lighthouse
+- **Analytics**: Vercel Analytics
+- **Insights**: Vercel Speed Insights
 
 ---
 
@@ -21,6 +23,23 @@ auditing tool.
 - Set the output format using `--output html` or `--output json`.
 - Define the output file and path with `--output-path ./report.html`.
 - Integrate the Lighthouse CLI commands into CI/CD pipelines for automated audits.
+
+---
+
+## 📊 Using Vercel Analytics
+
+- Enable Analytics for your project via the Vercel dashboard under the “Analytics” tab.
+- Access real-time visitor data directly in the dashboard or via the Vercel Analytics API.
+- View traffic sources, geographic distribution, and page performance metrics on demand.
+
+---
+
+## ⚡ Using Vercel Speed Insights
+
+- Open your project in the Vercel dashboard and navigate to the “Speed Insights” section.
+- Review key performance metrics like FCP, LCP, and TBT collected from real user data.
+- Use filtering options to analyze specific URLs, devices, or time ranges.
+- Track performance trends over time to monitor improvements or regressions after deployments.
 
 ---
 

@@ -64,9 +64,77 @@
         ]
       },
       {
+        "topic": "Lazy Loading",
+        "concepts": [
+          "Importing Client Components",
+          "Importing Server Components",
+          "Loading External Libraries",
+          "Adding a custom loading component"
+        ]
+      },
+      {
+        "topic": "Background Loading",
+        "concepts": [
+          "Automatic prefetch",
+          "Manual prefetch",
+          "Hover-triggered prefetch",
+          "Extending or ejecting link",
+          "Disabled prefetch"
+        ]
+      },
+      {
+        "topic": "Forms",
+        "concepts": [
+          "Form validation",
+          "Validation errors",
+          "Pending states",
+          "Optimistic updates",
+          "Nested form elements",
+          "Programmatic form submission"
+        ]
+      },
+      {
+        "topic": "Environment Variables",
+        "concepts": [
+          "Loading Environment Variables",
+          "Bundling Environment Variables",
+          "Testing Environment Variables"
+        ]
+      },
+      {
+        "topic": "ISR",
+        "concepts": [
+          "Time-based Revalidation",
+          "On-demand Revalidation"
+        ]
+      },
+      {
+        "topic": "PWA",
+        "concepts": [
+          "Creating the Web App Manifest",
+          "Implementing Web Push Notifications",
+          "Implementing Server Actions",
+          "Generating VAPID Keys",
+          "Creating a Service Worker",
+          "Adding to Home Screen",
+          "Testing Locally",
+          "Securing your application"
+        ]
+      },
+      {
+        "topic": "SPA",
+        "concepts": [
+          "Using React’s use within a Context Provider",
+          "SPAs with SWR",
+          "SPAs with React Query",
+          "Rendering components only in the browser",
+          "Shallow routing on the client",
+          "Using Server Actions in Client Components"
+        ]
+      },
+      {
         "topic": "Deploying Website",
         "concepts": [
-          "Vercel Hosting",
           "Node Server",
           "Docker Container"
         ]
