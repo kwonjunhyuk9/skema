@@ -41,7 +41,7 @@ export default function Page(): React.ReactElement {
           ),
         )}
         <div className="scrollbar">
-          <Scrollbar pageRefs={pageRefs} buttonCount={7} direction="column" />
+          <Scrollbar pageRefs={pageRefs} buttonCount={8} direction="column" />
         </div>
       </main>
       <style jsx>{`

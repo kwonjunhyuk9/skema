@@ -14,7 +14,7 @@ export default function Page({ params }: { params: Promise<{ course: string }> }
   }, [course]);
 
   // TODO: Add SQL
-  // TODO: Use Project Data
+  // TODO: Use Project
   return (
     <Fragment>
       <main className="main">

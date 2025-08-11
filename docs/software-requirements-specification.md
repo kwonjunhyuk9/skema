@@ -15,8 +15,6 @@ content on a variety of computer science topics for people of interest.
 
 ## 2. Users and Environments
 
-[//]: # (TODO: Add User Classes)
-
 ### 2.1 User Classes
 
 - Guests: Can read articles but not create, update, or delete them.

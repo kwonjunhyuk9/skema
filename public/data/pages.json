@@ -36,12 +36,11 @@
     "courses": [
       "javascript",
       "typescript",
-      "react",
-      "next",
-      "http",
-      "api",
       "html",
       "css",
+      "react",
+      "next",
+      "network",
       "design"
     ],
     "description": "Imagination meets Interaction."
@@ -50,10 +49,21 @@
     "subject": "BACKEND",
     "courses": [
       "c",
+      "c++",
       "java",
+      "sql",
       "algorithms"
     ],
     "description": "Silently Architect Data Flows."
+  },
+  {
+    "subject": "AI",
+    "courses": [
+      "artificial-intelligence",
+      "machine-learning",
+      "deep-learning"
+    ],
+    "description": "Empower Intelligent Systems with Adaptive Learning and Decision Making."
   },
   {
     "subject": "OUTRO",

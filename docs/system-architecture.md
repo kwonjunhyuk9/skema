@@ -14,12 +14,12 @@ the overall structure and interactions within the system.
 
 | Layer       | Technology                                          |
 |-------------|-----------------------------------------------------|
-| Frontend    | TypeScript, React, HTML, CSS                        |
-| Backend     | Node, Next, SQL                                     |
+| Frontend    | TypeScript, HTML, CSS, React, Next                  |
+| Backend     | TypeScript, SQL                                     |
 | Styling     | Prettier, ESLint                                    |
 | Versioning  | Git, Github                                         |
 | Testing     | Jest, Cypress, Github Actions                       |
-| Deployment  | Vercel                                              |
+| Deployment  | Vercel, Supabase                                    |
 | Performance | Lighthouse, Vercel Analytics, Vercel Speed Insights |
 
 ## 4. Presentation Layer
