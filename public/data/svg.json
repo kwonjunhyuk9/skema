@@ -1,0 +1,89 @@
+[
+  {
+    "chapter": "Structure",
+    "topics": [
+      {
+        "topic": "Container",
+        "concepts": [
+          "a",
+          "defs",
+          "g",
+          "marker",
+          "mask",
+          "pattern",
+          "svg",
+          "switch",
+          "symbol",
+          "use"
+        ]
+      },
+      {
+        "topic": "Description",
+        "concepts": [
+          "desc",
+          "metadata",
+          "title"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Graphics",
+    "topics": [
+      {
+        "topic": "Text",
+        "concepts": [
+          "text",
+          "textPath"
+        ]
+      },
+      {
+        "topic": "Shape",
+        "concepts": [
+          "circle",
+          "ellipse",
+          "line",
+          "polygon",
+          "polyline",
+          "rect",
+          "path"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Enhancements",
+    "topics": [
+      {
+        "topic": "Gradient",
+        "concepts": [
+          "linearGradient",
+          "radialGradient",
+          "stop",
+          "pattern"
+        ]
+      },
+      {
+        "topic": "Filter",
+        "concepts": [
+          "feGaussianBlur",
+          "feDropShadow",
+          "feColorMatrix",
+          "feBlend",
+          "feComposite",
+          "feOffset"
+        ]
+      },
+      {
+        "topic": "Animation",
+        "concepts": [
+          "animate",
+          "animateMotion",
+          "animateTransform",
+          "mpath",
+          "set"
+        ]
+      }
+    ]
+  }
+]

@@ -1,11 +1,65 @@
 [
   {
-    "chapter": "",
+    "chapter": "Data Definition",
     "topics": [
       {
-        "topic": "",
+        "topic": "Types",
         "concepts": [
-          ""
+          "char",
+          "varchar",
+          "int",
+          "smallint",
+          "numeric",
+          "real",
+          "double precision",
+          "float"
+        ]
+      },
+      {
+        "topic": "Schemas",
+        "concepts": [
+          "create table",
+          "alter table",
+          "drop table"
+        ]
+      }
+    ]
+  },
+  {
+    "chapter": "Data Manipulation",
+    "topics": [
+      {
+        "topic": "Structure",
+        "concepts": [
+          "select",
+          "from",
+          "where"
+        ]
+      },
+      {
+        "topic": "Modification",
+        "concepts": [
+          "insert",
+          "update",
+          "delete"
+        ]
+      },
+      {
+        "topic": "Set Operations",
+        "concepts": [
+          "union",
+          "intersect",
+          "except"
+        ]
+      },
+      {
+        "topic": "Aggregate Functions",
+        "concepts": [
+          "avg",
+          "min",
+          "max",
+          "sum",
+          "count"
         ]
       }
     ]

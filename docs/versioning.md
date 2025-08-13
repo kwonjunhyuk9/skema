@@ -30,8 +30,6 @@ This document briefly describes the versioning strategy and tools used in this p
 
 ---
 
-[//]: # (TODO: Version Release with Tags)
-
 ## 🔖 Versioning Scheme
 
 - The `MAJOR` version is incremented when incompatible API changes are introduced.

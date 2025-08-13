@@ -7,6 +7,7 @@ This document explains the process of deploying the application to a live enviro
 ## 🛠 Deployment Tools
 
 - **Hosting**: Vercel
+- **Database**: Supabase
 
 ---
 
@@ -21,6 +22,19 @@ This document explains the process of deploying the application to a live enviro
 - Dependency installation is also handled by default during the deployment process.
 - Environment variables must be added manually.
 - Every push to your Git repository automatically triggers a Preview deployment.
+
+---
+
+## 🔗Using Supabase
+
+- In Vercel, open Integrations and install Supabase.
+- Connect your project and link or create a Supabase project.
+- Verify environment variables in Vercel.
+- Add server-only keys as protected if needed.
+- Redeploy to apply environment variables.
+- Set Auth redirect URLs for your Vercel domains.
+- Run migrations and enable RLS as needed.
+- Test on a Preview URL and monitor logs.
 
 ---
 

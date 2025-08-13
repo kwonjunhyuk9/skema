@@ -14,6 +14,15 @@ export default function Page(): React.ReactElement {
       .then((data: Subject[]): void => setPages(data));
   }, []);
 
+  // TODO:
+  //  Intro - Education and Employment with Dropdown
+  //  Math - Vector, Matrix, Set, Number, Prob, Differentiation, Integration, Laplace, Fourier
+  //  Science - Animation
+  //  Electronics - Animation
+  //  Frontend - Animation
+  //  Backend - Animation
+  //  AI - Animation
+  //  Outro - Reports and Projects with Detailed Explanation
   return (
     <Fragment>
       <main>

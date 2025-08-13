@@ -13,8 +13,6 @@ export default function Page({ params }: { params: Promise<{ course: string }> }
       .then((data: Chapter[]): void => setPages(data));
   }, [course]);
 
-  // TODO: Add SQL
-  // TODO: Use Project
   return (
     <Fragment>
       <main className="main">

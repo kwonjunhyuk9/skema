@@ -25,6 +25,7 @@ npm install react-dom@^19.0.0
 npm install next@15.3.5
 npm install @vercel/analytics@^1.5.0
 npm install @vercel/speed-insights@^1.2.0
+npm install @supabase/supabase-js
 npm install --save-dev typescript@^5
 npm install --save-dev @types/node@^20
 npm install --save-dev @types/react@^19

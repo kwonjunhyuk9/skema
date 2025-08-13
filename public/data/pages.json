@@ -37,6 +37,7 @@
       "javascript",
       "typescript",
       "html",
+      "svg",
       "css",
       "react",
       "next",
@@ -60,8 +61,7 @@
     "subject": "AI",
     "courses": [
       "artificial-intelligence",
-      "machine-learning",
-      "deep-learning"
+      "machine-learning"
     ],
     "description": "Empower Intelligent Systems with Adaptive Learning and Decision Making."
   },
