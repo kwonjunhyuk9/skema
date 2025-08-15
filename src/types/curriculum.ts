@@ -7,13 +7,16 @@ export interface Subject {
 export type Course = string;
 
 export interface Chapter {
-  chapter: string;
-  topics: Topic[];
+  chapter_id: number;
+  chapter_name: string;
 }
 
 export interface Topic {
-  topic: string;
-  concepts: Concept[];
+  topic_id: number;
+  topic_name: string;
 }
 
-export type Concept = string;
+export interface Concept {
+  concept_id: number;
+  concept_name: string;
+}

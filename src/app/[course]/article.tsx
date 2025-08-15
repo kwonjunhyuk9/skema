@@ -1,26 +1,40 @@
+"use client";
 import { Chapter, Topic } from "@/types/curriculum";
-import React, { Fragment, useRef } from "react";
+import React, { Fragment, useEffect, useRef, useState } from "react";
+import supabase from "@/utils/supabase";
 import Section from "@/app/[course]/section";
 import Scrollbar from "@/app/scrollbar";
 
-export default function Article({ chapter, topics }: Chapter): React.ReactElement {
+export default function Article({ chapter_id, chapter_name }: Chapter): React.ReactElement {
+  const [topics, setTopics] = useState<{ topic_id: number; topic_name: string }[]>([]);
   const pageRefs: React.RefObject<(HTMLElement | null)[]> = useRef<(HTMLElement | null)[]>([]);
+
+  useEffect((): void => {
+    (async (): Promise<void> => {
+      await getTopics();
+    })();
+  }, []);
+
+  async function getTopics(): Promise<void> {
+    const { data: topicsData } = await supabase.from("topics").select().eq("chapter_id", chapter_id);
+    setTopics(topicsData || []);
+  }
 
   return (
     <Fragment>
       <article className="article">
-        <h2>{chapter}</h2>
+        <h2>{chapter_name}</h2>
         <div className="container">
           {topics.map(
-            ({ topic, concepts }: Topic, index: number): React.ReactElement => (
+            ({ topic_id, topic_name }: Topic): React.ReactElement => (
               <div
                 className="card"
-                key={topic}
+                key={topic_id}
                 ref={(el: HTMLElement | null): void => {
-                  (pageRefs.current as (HTMLElement | null)[])[index] = el;
+                  (pageRefs.current as (HTMLElement | null)[])[topic_id] = el;
                 }}
               >
-                <Section topic={topic} concepts={concepts} />
+                <Section topic_id={topic_id} topic_name={topic_name} />
               </div>
             ),
           )}
@@ -30,7 +44,7 @@ export default function Article({ chapter, topics }: Chapter): React.ReactElemen
       <style jsx>{`
         .article {
           display: flex;
-          
+
           flex-flow: column nowrap;
 
           & .container {

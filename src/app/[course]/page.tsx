@@ -1,25 +1,34 @@
 "use client";
-import React, { Fragment, use, useEffect, useState } from "react";
-import Article from "@/app/[course]/article";
 import { Chapter } from "@/types/curriculum";
+import React, { Fragment, use, useEffect, useState } from "react";
+import supabase from "@/utils/supabase";
+import Article from "@/app/[course]/article";
 
 export default function Page({ params }: { params: Promise<{ course: string }> }): React.ReactElement {
-  const { course } = use(params);
-  const [pages, setPages] = useState<Chapter[]>([]);
+  const course: string = use(params).course.replace(/-/g, " ");
+  const [chapters, setChapters] = useState<{ chapter_id: number; chapter_name: string }[]>([]);
 
   useEffect((): void => {
-    fetch(`/data/${course}.json`)
-      .then((response: Response): Promise<Chapter[]> => response.json())
-      .then((data: Chapter[]): void => setPages(data));
-  }, [course]);
+    (async (): Promise<void> => {
+      await getChapters();
+    })();
+  }, []);
+
+  async function getChapters(): Promise<void> {
+    const { data: course_id } = await supabase.from("courses").select("course_id").eq("course_name", course);
+    if (!course_id?.length) return;
+    const { data: chaptersData } = await supabase.from("chapters").select().eq("course_id", course_id[0].course_id);
+
+    setChapters(chaptersData || []);
+  }
 
   return (
     <Fragment>
       <main className="main">
-        <h1 className="course">{course.toUpperCase()}</h1>
-        {pages.map(
-          ({ chapter, topics }: Chapter): React.ReactElement => (
-            <Article key={chapter} chapter={chapter} topics={topics} />
+        <h1>{course.toUpperCase()}</h1>
+        {chapters.map(
+          ({ chapter_id, chapter_name }: Chapter): React.ReactElement => (
+            <Article key={chapter_id} chapter_id={chapter_id} chapter_name={chapter_name} />
           ),
         )}
       </main>
