@@ -6,42 +6,36 @@ This document provides an overview of the system architecture for Dancing With L
 technology stack, data flow, deployment strategy, and future considerations. The goal is to help developers understand
 the overall structure and interactions within the system.
 
-[//]: # (TODO : Add Architecture Diagram)
+## 2. Technology Stack
 
-## 2. Architecture Diagram
+| Layer       | Technology                         |
+|-------------|------------------------------------|
+| Frontend    | TypeScript, HTML, CSS, React, Next |
+| Backend     | TypeScript, SQL                    |
+| Styling     | Prettier, ESLint                   |
+| Versioning  | Git, Github                        |
+| Testing     | Jest, Playwright                   |
+| Deployment  | Vercel, Supabase                   |
+| Performance | Lighthouse                         |
+ 
+## 3. Architecture Diagram
 
-## 3. Technology Stack
-
-| Layer       | Technology                                          |
-|-------------|-----------------------------------------------------|
-| Frontend    | TypeScript, HTML, CSS, React, Next                  |
-| Backend     | TypeScript, SQL                                     |
-| Styling     | Prettier, ESLint                                    |
-| Versioning  | Git, Github                                         |
-| Testing     | Jest, Cypress, Github Actions                       |
-| Deployment  | Vercel, Supabase                                    |
-| Performance | Lighthouse, Vercel Analytics, Vercel Speed Insights |
+[architecture-diagram.mmd](../public/diagrams/architecture-diagram.mmd)
 
 ## 4. Presentation Layer
 
 - Rendering the user interface and presenting data visually to users.
-- Collecting and forwarding user input to the backend.
 - Providing responsive layout and accessibility for various devices and screen sizes.
-- Managing application state on the client side, such as the current page or logged-in status.
-- Handling client-side validation for faster feedback
+- Collecting and forwarding user input to the backend.
 
 ## 5. Application Layer
 
-- Executing business logic, such as validating user actions and enforcing application rules.
+- Managing user authentication, authorization, and session states. 
+- Handling all aspects of article management.
 - Orchestrating data flow between the frontend, backend services, and databases.
-- Managing user authentication, authorization, and session states.
-- Processing API requests and responses.
-- Integrating and communicating with external services.
 
 ## 6. Data Layer
 
-- Storing structured data reliably and efficiently.
-- Retrieving, updating, or deleting data as requested by the application layer.
+- Creating, reading, updating, or deleting data as requested by the application layer.
 - Enforcing data integrity and consistency through constraints and transactions.
-- Securing sensitive data against unauthorized access.
-- Backing up and restoring data to prevent loss.
+- Storing structured data reliably and efficiently.

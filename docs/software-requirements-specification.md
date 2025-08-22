@@ -5,8 +5,8 @@
 ### 1.1 Purpose
 
 This Software Requirements Specification outlines the requirements for "Dancing With Life," a personal blog website. The
-document is intended for the sole developer to better architect and implement the software system by providing a clear
-understanding of its requirements.
+document is intended for myself to better architect and implement the software system by providing a clear understanding
+of its requirements.
 
 ### 1.2 Scope
 
@@ -42,7 +42,7 @@ content on a variety of computer science topics for people of interest.
 
 ### 3.2 Article Management
 
-- Input: Article data..
+- Input: Article data.
 - Output: Article created, read, updated, or deleted.
 - Processing: Validate data, Handle, create, read, update, delete processes.
 - Related Users: Administrators.
@@ -83,31 +83,12 @@ content on a variety of computer science topics for people of interest.
 
 ## 5. External Interface Requirements
 
-[//]: # (TODO: Add User Interface)
-
 ### 5.1 User Interface
 
-- Responsive to different screen sizes.
 - Interactive elements with engaging animations.
-- Incorporation of 3D graphics.
+- Responsive to different screen sizes.
 
-[//]: # (TODO: Add Hardware Interface)
-
-### 5.2 Hardware Interface
-
-- All standard devices such as smartphones, tablets, laptops, and desktop computers are supported.
-
-[//]: # (TODO: Add Software Interface)
-
-### 5.3 Software Interface
-
-- API endpoints.
-- Database integration for storage.
-- Optional real-time communication.
-
-[//]: # (TODO: Add Communication Interface)
-
-### 5.4 Communication Interface
+### 5.2 Communication Interface
 
 - HTTPS for all network traffic.
 - JSON for API communication.

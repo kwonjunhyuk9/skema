@@ -1,0 +1,23 @@
+flowchart TD
+    subgraph "Client"
+        A[User]
+    end
+
+    subgraph "Presentation Layer"
+        B[Frontend: TypeScript, HTML, CSS, React, Next]
+    end
+
+    subgraph "Application Layer"
+        C[Backend: TypeScript, SQL]
+    end
+
+    subgraph "Data Layer"
+        D[Database: Supabase]
+    end
+
+    A -- "User Input" --> B
+    B -- "UI Update" --> A
+    B -- "API Request" --> C
+    C -- "API Response" --> B
+    C -- "Database Request" --> D
+    D -- "Data Response" --> C

@@ -30,13 +30,22 @@ npm install --save-dev typescript@^5
 npm install --save-dev @types/node@^20
 npm install --save-dev @types/react@^19
 npm install --save-dev @types/react-dom@^19
+npm install --save-dev @types/jest,
 npm install --save-dev eslint@^9
-npm install --save-dev eslint-config-next@15.3.5
 npm install --save-dev @eslint/eslintrc@^3
+npm install --save-dev eslint-config-next@15.3.5
+npm install --save-dev eslint-config-prettier
 npm install --save-dev prettier@^3.6.2
 npm install --save-dev jest
-npm install --save-dev cypress
+npm install --save-dev jest-environment-jsdom,
+npm install --save-dev ts-node,
+npm install --save-dev @testing-library/dom,
+npm install --save-dev @testing-library/jest-dom,
+npm install --save-dev @testing-library/react,
+npm install --save-dev playwright
+npm install --save-dev @playwright/test,
 npm install --save-dev lighthouse
+
 ```
 
 ---
