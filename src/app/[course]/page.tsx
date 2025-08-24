@@ -12,7 +12,7 @@ export default function Page({ params }: { params: Promise<{ course: string }> }
     (async (): Promise<void> => {
       await getChapters();
     })();
-  }, []);
+  });
 
   async function getChapters(): Promise<void> {
     const { data: course_id } = await supabase.from("courses").select("course_id").eq("course_name", course);
@@ -28,7 +28,7 @@ export default function Page({ params }: { params: Promise<{ course: string }> }
         <h1>{course.toUpperCase()}</h1>
         {chapters.map(
           ({ chapter_id, chapter_name }: Chapter): React.ReactElement => (
-            <Article key={chapter_id} chapter_id={chapter_id} chapter_name={chapter_name} />
+            <Article key={`chapter-${chapter_id}`} chapter_id={chapter_id} chapter_name={chapter_name} />
           ),
         )}
       </main>

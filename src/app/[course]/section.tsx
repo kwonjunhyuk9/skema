@@ -10,7 +10,7 @@ export default function Section({ topic_id, topic_name }: Topic): React.ReactEle
     (async (): Promise<void> => {
       await getConcepts();
     })();
-  }, []);
+  });
 
   async function getConcepts(): Promise<void> {
     const { data: conceptsData } = await supabase.from("concepts").select().eq("topic_id", topic_id);
@@ -24,7 +24,7 @@ export default function Section({ topic_id, topic_name }: Topic): React.ReactEle
         <ul className="concepts">
           {concepts.map(
             ({ concept_id, concept_name }: Concept): React.ReactElement => (
-              <li key={concept_id}>{concept_name}</li>
+              <li key={`concept-${concept_id}`}>{concept_name}</li>
             ),
           )}
         </ul>

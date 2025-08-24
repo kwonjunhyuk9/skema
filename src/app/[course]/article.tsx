@@ -13,7 +13,7 @@ export default function Article({ chapter_id, chapter_name }: Chapter): React.Re
     (async (): Promise<void> => {
       await getTopics();
     })();
-  }, []);
+  });
 
   async function getTopics(): Promise<void> {
     const { data: topicsData } = await supabase.from("topics").select().eq("chapter_id", chapter_id);
@@ -29,7 +29,7 @@ export default function Article({ chapter_id, chapter_name }: Chapter): React.Re
             ({ topic_id, topic_name }: Topic): React.ReactElement => (
               <div
                 className="card"
-                key={topic_id}
+                key={`topic-${topic_id}`}
                 ref={(el: HTMLElement | null): void => {
                   (pageRefs.current as (HTMLElement | null)[])[topic_id] = el;
                 }}

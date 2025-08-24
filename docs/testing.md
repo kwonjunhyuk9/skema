@@ -13,19 +13,19 @@ This document outlines the testing strategy adopted in this project, detailing t
 
 ## 🃏 Using Jest
 
-- Jest automatically detects test files like `*.test.js`.
+- Jest automatically detects test files like `*.test.tsx`.
 - Run all tests using `npx jest`.
 - To test a specific file, use `npx jest filename`.
-- Customize behavior using a `jest.config.js` file.
+- Customize behavior using a `jest.config.ts` file.
 
 ---
 
 ## 🎭 Using Playwright
 
-- Jest automatically detects test files like `*.spec.js`.
-- Run all tests using `npx playwright`.
-- To test a specific file, use `npx playwright filename`.
-- Customize behavior using a `playwright.config.js` file.
+- Playwright automatically detects test files like `*.spec.tsx`.
+- Run all tests using `npx playwright test`.
+- To test a specific file, use `npx playwright test filename`.
+- Customize behavior using a `playwright.config.ts` file.
 
 ---
 
