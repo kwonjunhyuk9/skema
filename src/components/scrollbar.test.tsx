@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import Scrollbar from "@/app/scrollbar";
+import Scrollbar from "@/components/scrollbar";
 
 describe("Scrollbar Component", (): void => {
   const mockRefs = {

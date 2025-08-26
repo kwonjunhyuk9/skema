@@ -1,0 +1,21 @@
+.container {
+    --direction: ;
+
+    display: flex;
+
+    flex-direction: var(--direction);
+}
+
+.button {
+    --margin: ;
+
+    margin: var(--margin);
+    border: none;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+
+    background: transparent;
+
+    cursor: pointer;
+}

@@ -1,6 +1,7 @@
 "use client";
+import styles from "./page.module.css"
 import { Chapter } from "@/types/curriculum";
-import React, { Fragment, use, useEffect, useState } from "react";
+import React, { use, useEffect, useState } from "react";
 import supabase from "@/utils/supabase";
 import Article from "@/app/[course]/article";
 
@@ -23,21 +24,13 @@ export default function Page({ params }: { params: Promise<{ course: string }> }
   }
 
   return (
-    <Fragment>
-      <main className="main">
-        <h1>{course.toUpperCase()}</h1>
-        {chapters.map(
-          ({ chapter_id, chapter_name }: Chapter): React.ReactElement => (
-            <Article key={`chapter-${chapter_id}`} chapter_id={chapter_id} chapter_name={chapter_name} />
-          ),
-        )}
-      </main>
-      <style jsx>{`
-        .main {
-          padding: 80px 0;
-          overflow: clip;
-        }
-      `}</style>
-    </Fragment>
+    <main className={styles.main}>
+      <h1>{course.toUpperCase()}</h1>
+      {chapters.map(
+        ({ chapter_id, chapter_name }: Chapter): React.ReactElement => (
+          <Article key={`chapter-${chapter_id}`} chapter_id={chapter_id} chapter_name={chapter_name} />
+        ),
+      )}
+    </main>
   );
 }

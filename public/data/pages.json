@@ -1,8 +1,12 @@
 [
   {
-    "subject": "INTRO",
-    "courses": [],
-    "description": "A Universe In Your Hands."
+    "subject": "PROFILE",
+    "courses": [
+      "Education",
+      "Reports",
+      "Projects"
+    ],
+    "description": "May your Curiosity keep you Dancing With Life."
   },
   {
     "subject": "MATH",
@@ -64,10 +68,5 @@
       "machine-learning"
     ],
     "description": "Empower Intelligent Systems with Adaptive Learning and Decision Making."
-  },
-  {
-    "subject": "OUTRO",
-    "courses": [],
-    "description": "May your Curiosity keep you Dancing With Life."
   }
 ]

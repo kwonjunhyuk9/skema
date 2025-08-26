@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import Underliner from "@/app/underliner";
+import Underliner from "@/components/underliner";
 
 describe("Underliner Component", (): void => {
   it("renders the given text", (): void => {

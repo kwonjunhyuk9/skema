@@ -1,0 +1,37 @@
+.container {
+    width: max-content;
+}
+
+.typewriter {
+    --duration: ;
+    --steps: ;
+    --delay: ;
+
+    border-right: 2px solid var(--cyber-white);
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+
+    animation: typing var(--duration) steps(var(--steps), end) forwards,
+    blink 0.7s steps(1, end) forwards 10;
+    animation-delay: var(--delay);
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: var(--cyber-white);
+    }
+}

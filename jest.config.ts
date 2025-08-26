@@ -9,7 +9,7 @@ const config: Config = {
   coverageProvider: "v8",
   testEnvironment: "jsdom",
   moduleNameMapper: { "^@/(.*)$": "<rootDir>/src/$1" },
-  roots: ["<rootDir>/src/unit"],
+  roots: ["<rootDir>/src/app", "<rootDir>/src/components"],
 };
 
 export default createJestConfig(config);

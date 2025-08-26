@@ -1,6 +1,7 @@
 "use client";
+import styles from "./section.module.css";
 import { Concept, Topic } from "@/types/curriculum";
-import React, { Fragment, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import supabase from "@/utils/supabase";
 
 export default function Section({ topic_id, topic_name }: Topic): React.ReactElement {
@@ -18,22 +19,15 @@ export default function Section({ topic_id, topic_name }: Topic): React.ReactEle
   }
 
   return (
-    <Fragment>
-      <section>
-        <h3>{topic_name}</h3>
-        <ul className="concepts">
-          {concepts.map(
-            ({ concept_id, concept_name }: Concept): React.ReactElement => (
-              <li key={`concept-${concept_id}`}>{concept_name}</li>
-            ),
-          )}
-        </ul>
-      </section>
-      <style jsx>{`
-        .concepts {
-          padding: 0 20px;
-        }
-      `}</style>
-    </Fragment>
+    <section>
+      <h3>{topic_name}</h3>
+      <ul className={styles.concepts}>
+        {concepts.map(
+          ({ concept_id, concept_name }: Concept): React.ReactElement => (
+            <li key={`concept-${concept_id}`}>{concept_name}</li>
+          ),
+        )}
+      </ul>
+    </section>
   );
 }

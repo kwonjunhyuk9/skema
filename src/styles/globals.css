@@ -8,27 +8,8 @@
   --cyber-black: #000000;
 }
 
-body {
+html {
   color: var(--cyber-white);
 
   background-color: var(--cyber-black);
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blink {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: var(--cyber-white);
-  }
 }
