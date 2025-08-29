@@ -2,8 +2,8 @@ import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import Footer from "@/app/footer";
 
-describe("Footer Component", (): void => {
-  it("renders contact links", (): void => {
+describe("Footer Component", () => {
+  it("renders contact links", () => {
     render(<Footer />);
     expect(screen.getByText(/Phone/i)).toBeInTheDocument();
     expect(screen.getByText(/Email/i)).toBeInTheDocument();

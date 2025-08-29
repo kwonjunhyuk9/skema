@@ -13,12 +13,12 @@ export default function Header(): React.ReactElement {
   const [os, setOs] = useState("");
   const [browser, setBrowser] = useState("");
 
-  useEffect((): (() => void) => {
-    function updateTime(): void {
+  useEffect(() => {
+    function updateTime() {
       const now = new Date();
-      const utc: string = now.toUTCString();
-      const local: string = now.toLocaleTimeString("en-US");
-      const offset: string =
+      const utc = now.toUTCString();
+      const local = now.toLocaleTimeString("en-US");
+      const offset =
         new Intl.DateTimeFormat("en-US", {
           timeZoneName: "longOffset",
           hour: "numeric",
@@ -33,15 +33,15 @@ export default function Header(): React.ReactElement {
     }
 
     updateTime();
-    const timer: NodeJS.Timeout = setInterval(updateTime, 1000);
-    return (): void => clearInterval(timer);
+    const timer = setInterval(updateTime, 1000);
+    return () => clearInterval(timer);
   }, []);
 
-  useEffect((): void => {
-    const userAgent: string = window.navigator.userAgent;
+  useEffect(() => {
+    const userAgent = window.navigator.userAgent;
 
-    const hardwareInfo: string = ((): string => {
-      const ua: string = navigator.userAgent;
+    const hardwareInfo = (() => {
+      const ua = navigator.userAgent;
       if (/Android|iPhone|iPad|iPod|Windows Phone|BlackBerry|IEMobile|Opera Mini/.test(ua)) {
         return "MOBILE";
       }
@@ -51,8 +51,8 @@ export default function Header(): React.ReactElement {
       return "Unknown";
     })();
 
-    const osInfo: string = ((): string => {
-      const ua: string = navigator.userAgent;
+    const osInfo = (() => {
+      const ua = navigator.userAgent;
       if (/Windows/.test(ua)) return "WINDOWS";
       if (/Macintosh/.test(ua)) return "MACOS";
       if (/Linux/.test(ua)) return "LINUX";
@@ -61,8 +61,8 @@ export default function Header(): React.ReactElement {
       return "UNKNOWN";
     })();
 
-    const browserInfo: string = ((): string => {
-      const ua: string = userAgent.toLowerCase();
+    const browserInfo = (() => {
+      const ua = userAgent.toLowerCase();
       if (ua.includes("firefox")) return "FIREFOX";
       if (ua.includes("chrome")) return "CHROME";
       if (ua.includes("safari")) return "SAFARI";

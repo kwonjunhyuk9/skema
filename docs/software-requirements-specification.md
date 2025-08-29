@@ -18,12 +18,13 @@ content on a variety of computer science topics for people of interest.
 ### 2.1 User Classes
 
 - Guests: Can read articles but not create, update, or delete them.
+- Users: Can leave comments on articles.
 - Administrators: Can create, read, update, and delete articles.
 
 ### 2.2 Operating Environment
 
 - Hardware: Devices ranging from mobile phones to desktop computers.
-- OS: macOS, Windows, Linux, Android, iOS.
+- OS: macOS, Windows, Linux, iOS, Android.
 - Browser: Chrome, Firefox, Safari, Edge.
 
 ## 3. Functional Requirements
@@ -35,7 +36,7 @@ content on a variety of computer science topics for people of interest.
 - Input: Username, Password.
 - Output: Session on success, Error on failure.
 - Processing: Validate credentials, Generate session, Handle error.
-- Related Users: Guests, Administrators.
+- Related Users: Guests, Users, Administrators.
 - Priority: High.
 
 [//]: # (TODO: Add Article Management)
@@ -47,6 +48,26 @@ content on a variety of computer science topics for people of interest.
 - Processing: Validate data, Handle, create, read, update, delete processes.
 - Related Users: Administrators.
 - Priority: High.
+
+[//]: # (TODO: Add File Management)
+
+### 3.3 File Management
+
+- Input: File data.
+- Output: File created, read, updated, or deleted.
+- Processing: Validate data, Handle, create, read, update, delete processes.
+- Related Users: Administrators.
+- Priority: High.
+
+[//]: # (TODO: Add Comment Management)
+
+### 3.4 Comment Management
+
+- Input: Comment data.
+- Output: Comment created, read, updated, or deleted.
+- Processing: Validate data, Handle, create, read, update, delete processes.
+- Related Users: Users.
+- Priority: Low.
 
 ## 4. Non-functional Requirements
 

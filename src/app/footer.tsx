@@ -3,6 +3,7 @@ import styles from "./footer.module.css";
 import React, { Fragment, useEffect, useState } from "react";
 import TypeWriter from "@/components/typewriter";
 import Underliner from "@/components/underliner";
+import { Authentication } from "@/app/auth/authentication";
 
 export default function Footer(): React.ReactElement {
   const [latitude, setLatitude] = useState(0);
@@ -10,20 +11,20 @@ export default function Footer(): React.ReactElement {
   const [accuracy, setAccuracy] = useState(0);
   const [error, setError] = useState("");
 
-  useEffect((): void => {
+  useEffect(() => {
     if (!navigator.geolocation) {
       setError("Geolocation is not supported");
       return;
     }
 
     navigator.geolocation.getCurrentPosition(
-      (position: GeolocationPosition): void => {
+      (position) => {
         setLatitude(position.coords.latitude);
         setLongitude(position.coords.longitude);
         setAccuracy(position.coords.accuracy);
         setError("");
       },
-      (error: GeolocationPositionError): void => {
+      (error) => {
         setError(error.message);
       },
       {
@@ -36,7 +37,9 @@ export default function Footer(): React.ReactElement {
 
   return (
     <footer className={styles.container}>
-      <div className={styles.empty} />
+      <div className={styles.auth}>
+        <Authentication />
+      </div>
       <div className={styles.location}>
         {error ? (
           <TypeWriter text={`${error}`} duration={2} steps={15} delay={0} />

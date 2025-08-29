@@ -2,8 +2,8 @@ import "@testing-library/jest-dom";
 import { render, screen, waitFor } from "@testing-library/react";
 import Article from "@/app/[course]/article";
 
-jest.mock("@/utils/supabase", (): unknown => ({
-  from: jest.fn((): unknown => ({
+jest.mock("@/lib/client", () => ({
+  from: jest.fn(() => ({
     select: jest.fn().mockReturnThis(),
     eq: jest.fn().mockResolvedValue({
       data: [
@@ -14,11 +14,11 @@ jest.mock("@/utils/supabase", (): unknown => ({
   })),
 }));
 
-describe("Article Component", (): void => {
-  it("renders chapter name and section component", async (): Promise<void> => {
+describe("Article Component", () => {
+  it("renders chapter name and section component", async () => {
     render(<Article chapter_id={1} chapter_name="Chapter One" />);
     expect(screen.getByText("Chapter One")).toBeInTheDocument();
-    await waitFor((): void => {
+    await waitFor(() => {
       expect(screen.getByText("Topic One")).toBeInTheDocument();
       expect(screen.getByText("Topic Two")).toBeInTheDocument();
     });

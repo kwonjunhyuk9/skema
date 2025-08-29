@@ -1,12 +1,12 @@
-import { test, expect, Locator, Page } from "@playwright/test";
+import { test, expect, Locator} from "@playwright/test";
 
-test.describe("Homepage Link Navigation Tests", (): void => {
-  test.beforeEach(async ({ page }: { page: Page }): Promise<void> => {
+test.describe("Homepage Link Navigation Tests", () => {
+  test.beforeEach(async ({ page }) => {
     await page.goto("/");
     await page.waitForLoadState("networkidle");
   });
 
-  test("Verify all subject links exist and have correct href", async ({ page }: { page: Page }): Promise<void> => {
+  test("Verify all subject links exist and have correct href", async ({ page }) => {
     const courses: string[] = [
       "algebra",
       "discrete-math",

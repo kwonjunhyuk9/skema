@@ -8,6 +8,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Header from "@/app/header";
 import Footer from "@/app/footer";
+import styles from "./layout.module.css"
 
 export const metadata: Metadata = {
   title: "Dancing With Life",
@@ -22,7 +23,7 @@ const vt323: NextFont = VT323({
 export default function Layout({ children }: LayoutProps): React.ReactElement {
   return (
     <html lang="en" className={vt323.className}>
-      <body>
+      <body className={styles.body}>
         <Header />
         {children}
         <Analytics />

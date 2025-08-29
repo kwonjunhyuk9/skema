@@ -17,10 +17,10 @@ global.fetch = jest.fn().mockResolvedValue({
   ]),
 });
 
-describe("Page Component", (): void => {
-  it("renders subjects with courses and descriptions", async (): Promise<void> => {
+describe("Page Component", () => {
+  it("renders subjects with courses and descriptions", async () => {
     render(<Page />);
-    await waitFor((): void => {
+    await waitFor(() => {
       expect(screen.getByText("Subject One")).toBeInTheDocument();
       expect(screen.getByText("Subject Two")).toBeInTheDocument();
       expect(screen.getByText("COURSE-ONE")).toBeInTheDocument();

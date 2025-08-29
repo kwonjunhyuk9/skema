@@ -1,5 +1,5 @@
-import styles from "./typewriter.module.css";
 import { TypeWriterProps } from "@/types/props";
+import styles from "./typewriter.module.css";
 import React from "react";
 
 export default function TypeWriter({ text, duration, steps, delay }: TypeWriterProps): React.ReactElement {

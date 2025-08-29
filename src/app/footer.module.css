@@ -17,7 +17,7 @@
     background: linear-gradient(to top, rgba(0, 0, 0, 1) 60%, rgba(0, 0, 0, 0));
 }
 
-.empty {
+.auth {
     flex: 6 1 0;
 }
 
