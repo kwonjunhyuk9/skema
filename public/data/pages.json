@@ -3,6 +3,7 @@
     "subject": "PROFILE",
     "courses": [
       "Education",
+      "Employment",
       "Reports",
       "Projects"
     ],
@@ -27,46 +28,52 @@
     "description": "Unveil the Patterns of the Universe."
   },
   {
-    "subject": "ELECTRONICS",
+    "subject": "HARDWARE",
     "courses": [
       "electrodynamics",
       "electrical-circuits",
-      "logical-circuits"
+      "logical-circuits",
+      "operating-systems",
+      "computer-architecture"
     ],
-    "description": "Weave the language of Atoms."
+    "description": "Build the Backbone of Modern Innovation."
   },
   {
-    "subject": "FRONTEND",
+    "subject": "SOFTWARE",
     "courses": [
-      "javascript",
-      "typescript",
-      "html",
-      "svg",
-      "css",
-      "react",
-      "next",
+      "algorithms",
+      "database",
       "network",
-      "design"
+      "software-engineering"
     ],
-    "description": "Imagination meets Interaction."
-  },
-  {
-    "subject": "BACKEND",
-    "courses": [
-      "c",
-      "c++",
-      "java",
-      "sql",
-      "algorithms"
-    ],
-    "description": "Silently Architect Data Flows."
+    "description": "Craft Virtual Realities with Precision and Creativity."
   },
   {
     "subject": "AI",
     "courses": [
       "artificial-intelligence",
-      "machine-learning"
+      "machine-learning",
+      "reinforced-learning",
+      "computer-vision",
+      "computer-graphics"
     ],
     "description": "Empower Intelligent Systems with Adaptive Learning and Decision Making."
+  },
+  {
+    "subject": "TOOLS",
+    "courses": [
+      "c++",
+      "java",
+      "python",
+      "typescript",
+      "html",
+      "css",
+      "sql",
+      "svg",
+      "react",
+      "next",
+      "design"
+    ],
+    "description": "Speak the Universal Dialect of Technology."
   }
 ]

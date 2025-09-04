@@ -12,7 +12,7 @@ export default function Page(): React.ReactElement {
   const handleSocialLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     const supabase = createClient();
-    setError("hello");
+    setError(null);
     setIsLoading(true);
 
     try {
