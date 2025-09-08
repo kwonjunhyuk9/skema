@@ -10,7 +10,11 @@ export default function Section({ topic_id, topic_name }: Topic): React.ReactEle
 
   useEffect(() => {
     async function getConcepts(): Promise<void> {
-      const { data: conceptsData } = await supabase.from("concepts").select().eq("topic_id", topic_id);
+      const { data: conceptsData } = await supabase
+        .from("concepts")
+        .select()
+        .eq("topic_id", topic_id)
+        .order("concept_order", { ascending: true });
       setConcepts(conceptsData || []);
     }
 

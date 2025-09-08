@@ -13,7 +13,11 @@ export default function Article({ chapter_id, chapter_name }: Chapter): React.Re
 
   useEffect(() => {
     async function getTopics(): Promise<void> {
-      const { data: topicsData } = await supabase.from("topics").select().eq("chapter_id", chapter_id);
+      const { data: topicsData } = await supabase
+        .from("topics")
+        .select()
+        .eq("chapter_id", chapter_id)
+        .order("topic_order", { ascending: true });
       setTopics(topicsData || []);
     }
 

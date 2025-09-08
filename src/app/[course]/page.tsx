@@ -14,7 +14,11 @@ export default function Page({ params }: { params: Promise<{ course: string }> }
     async function getChapters(): Promise<void> {
       const { data: course_id } = await supabase.from("courses").select("course_id").eq("course_name", course);
       if (!course_id?.length) return;
-      const { data: chaptersData } = await supabase.from("chapters").select().eq("course_id", course_id[0].course_id);
+      const { data: chaptersData } = await supabase
+        .from("chapters")
+        .select()
+        .eq("course_id", course_id[0].course_id)
+        .order("chapter_order", { ascending: true });
       setChapters(chaptersData || []);
     }
 
