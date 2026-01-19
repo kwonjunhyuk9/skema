@@ -3,7 +3,6 @@ import styles from "./footer.module.css";
 import React, { Fragment, useEffect, useState } from "react";
 import TypeWriter from "@/components/typewriter";
 import Underliner from "@/components/underliner";
-import { Authentication } from "@/app/auth/authentication";
 
 export default function Footer(): React.ReactElement {
   const [latitude, setLatitude] = useState(0);
@@ -38,7 +37,6 @@ export default function Footer(): React.ReactElement {
   return (
     <footer className={styles.container}>
       <div className={styles.auth}>
-        <Authentication />
       </div>
       <div className={styles.location}>
         {error ? (

@@ -3,7 +3,6 @@ import styles from "./page.module.css";
 import React, { use, useEffect, useState } from "react";
 import Article from "@/app/[course]/article";
 import { Chapter } from "@/types/curriculum";
-import { createClient } from "@/lib/client";
 
 export default function Page({ params }: { params: Promise<{ course: string }> }): React.ReactElement {
   const course = decodeURIComponent(use(params).course).replace(/-/g, " ");

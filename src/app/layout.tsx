@@ -4,8 +4,6 @@ import { LayoutProps } from "@/types/props";
 import React from "react";
 import type { Metadata } from "next";
 import { NextFont } from "next/dist/compiled/@next/font";
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import Header from "@/app/header";
 import Footer from "@/app/footer";
 import styles from "./layout.module.css"
@@ -26,8 +24,6 @@ export default function Layout({ children }: LayoutProps): React.ReactElement {
       <body className={styles.body}>
         <Header />
         {children}
-        <Analytics />
-        <SpeedInsights />
         <Footer />
       </body>
     </html>

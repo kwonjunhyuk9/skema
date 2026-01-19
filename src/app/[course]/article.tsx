@@ -4,7 +4,6 @@ import { Chapter, Topic } from "@/types/curriculum";
 import React, { useEffect, useRef, useState } from "react";
 import Section from "@/app/[course]/section";
 import Scrollbar from "@/components/scrollbar";
-import { createClient } from "@/lib/client";
 
 export default function Article({ chapter_id, chapter_name }: Chapter): React.ReactElement {
   const [topics, setTopics] = useState<Topic[]>([]);

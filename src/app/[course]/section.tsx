@@ -2,7 +2,6 @@
 import styles from "./section.module.css";
 import { Concept, Topic } from "@/types/curriculum";
 import React, { useEffect, useState } from "react";
-import { createClient } from "@/lib/client";
 
 export default function Section({ topic_id, topic_name }: Topic): React.ReactElement {
   const [concepts, setConcepts] = useState<Concept[]>([]);

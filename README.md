@@ -1,60 +1,43 @@
-# Dancing With Life
+# 🌐 Skema
 
-Dancing With Life is a personal blog that contains various topics in Computer Science.
+## 📝 개요
 
----
-
-## 📂 Clone the Repository
-
-To get started, clone the project repository from GitHub.
-
-```bash
-git clone https://github.com/kwonjunhyuk9/dancing-with-life.git
-cd dancing-with-life
-```
+**Skema**는 사용자가 학습 중인 내용을 입력하면 자동으로 **개념 구조도**를 생성하고, 특정 단어를 입력하면 **단어 학습 자료**를 자동 구성해 제공하는 **통합 학습 지원 플랫폼**입니다.
+복잡한 정보를 시각적으로 정리하여 이해를 돕고, 핵심 용어를 체계적으로 관리할 수 있도록 설계되어 학습 효율을 극대화합니다.
 
 ---
 
-## 📦 Install Dependencies
+## 💻 설치
 
-Make sure you have the following dependencies installed.
-
-```bash
-npm install react@^19.0.0
-npm install react-dom@^19.0.0
-npm install next@15.3.5
-npm install @vercel/analytics@^1.5.0
-npm install @vercel/speed-insights@^1.2.0
-npm install @supabase/supabase-js
-npm install @supabase/ssr
-npm install --save-dev typescript@^5
-npm install --save-dev @types/node@^20
-npm install --save-dev @types/react@^19
-npm install --save-dev @types/react-dom@^19
-npm install --save-dev @types/jest,
-npm install --save-dev eslint@^9
-npm install --save-dev @eslint/eslintrc@^3
-npm install --save-dev eslint-config-next@15.3.5
-npm install --save-dev eslint-config-prettier
-npm install --save-dev prettier@^3.6.2
-npm install --save-dev jest
-npm install --save-dev jest-environment-jsdom,
-npm install --save-dev ts-node,
-npm install --save-dev @testing-library/dom,
-npm install --save-dev @testing-library/jest-dom,
-npm install --save-dev @testing-library/react,
-npm install --save-dev playwright
-npm install --save-dev @playwright/test,
-npm install --save-dev lighthouse
-
-```
+Skema는 **웹 기반 플랫폼**으로 별도 설치가 필요 없습니다.
+웹 브라우저에서 서비스 URL에 접속하면 바로 사용할 수 있습니다.
 
 ---
 
-## ✅ Verify Setup
+## 🔧 주요 기능
 
-Run the development server and verify that the app is running at http://localhost:3000.
+1. 📊 사용자가 입력한 **개념·문장·키워드**를 분석하여 관련 개념들의 **연결 관계를 시각적으로 표현한 구조도**를 자동 생성합니다.
+2. 🧠 특정 단어를 입력하면 다음 요소를 포함한 **학습 자료**를 자동 구성합니다.
+3. 📚 자동 생성된 개념 구조도와 단어 목록을 통합 관리할 수 있는 환경을 제공하여 학습 흐름을 **한 곳에서 일관되게 유지**할 수 있습니다.
 
-```bash
-npm run dev
-```
+---
+
+## 🚀 사용 방법
+
+1. 🌐 서비스에 접속 후 학습 중인 내용을 텍스트로 입력합니다.
+2. 🔍 분석 결과를 기반으로 자동 생성된 **개념 구조도**를 확인합니다.
+3. ✏️ 단어가 필요하면 특정 단어를 입력해 단어 학습 자료를 생성합니다.
+4. 📂 제공된 개념도와 단어 자료를 활용해 학습 흐름을 체계적으로 정리합니다.
+
+---
+
+## 📄 관련 문서
+
+- 👓 제품 비전: https://www.notion.so/your-vision-link
+- 📄 요구사항 정의서: https://www.notion.so/your-requirements-link
+- 🏗️ 시스템 아키텍처: https://www.notion.so/your-architecture-link
+
+## 📞 작성자 정보
+
+- 전화번호: 010-5855-1427
+- 이메일: kwonjunhyuk9@icloud.com
