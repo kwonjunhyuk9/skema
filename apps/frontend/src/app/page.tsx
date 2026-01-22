@@ -15,14 +15,6 @@ export default function Page(): React.ReactElement {
       .then((data) => setPages(data));
   }, []);
 
-  // TODO:
-  //  Profile - Animation
-  //  Math - Vector, Matrix, Set, Number, Prob, Differentiation, Integration, Laplace, Fourier
-  //  Science - Animation
-  //  Electronics - Animation
-  //  Frontend - Animation
-  //  Backend - Animation
-  //  AI - Animation
   return (
     <main>
       {pages.map(({ subject, courses, description }, index) => {
