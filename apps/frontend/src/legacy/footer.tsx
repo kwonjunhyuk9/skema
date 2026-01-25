@@ -36,8 +36,7 @@ export default function Footer(): React.ReactElement {
 
   return (
     <footer className={styles.container}>
-      <div className={styles.auth}>
-      </div>
+      <div className={styles.auth} />
       <div className={styles.location}>
         {error ? (
           <TypeWriter text={`${error}`} duration={2} steps={15} delay={0} />
@@ -49,20 +48,6 @@ export default function Footer(): React.ReactElement {
           </Fragment>
         )}
       </div>
-      <address className={styles.contacts}>
-        <a className={styles.link} href="tel:+821058551427">
-          <Underliner text="Phone" />
-        </a>
-        <br />
-        <a className={styles.link} href="mailto:kwonjunhyuk9@icloud.com">
-          <Underliner text="Email" />
-        </a>
-        <br />
-        <a className={styles.link} href="https://www.linkedin.com/in/jun-hyuk-kwon-3a9551355" target="_blank">
-          <Underliner text="LinkedIn" />
-        </a>
-        <br />
-      </address>
     </footer>
   );
 }

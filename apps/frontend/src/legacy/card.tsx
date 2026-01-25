@@ -1,7 +1,7 @@
 import styles from "./card.module.css";
 import * as React from "react";
 
-export function Card({ ...props }: React.ComponentProps<"div">): React.ReactElement {
+export default function Card({ ...props }: React.ComponentProps<"div">): React.ReactElement {
   return <div className={styles.card} {...props} />;
 }
 

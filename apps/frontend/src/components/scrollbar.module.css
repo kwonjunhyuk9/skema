@@ -1,21 +1,16 @@
 .container {
-    --direction: ;
-
-    display: flex;
-
-    flex-direction: var(--direction);
+  --direction: ;
+  display: flex;
+  flex-direction: var(--direction);
 }
 
 .button {
-    --margin: ;
-
-    margin: var(--margin);
-    border: none;
-    padding: 0;
-    width: 24px;
-    height: 24px;
-
-    background: transparent;
-
-    cursor: pointer;
+  --margin: ;
+  margin: var(--margin);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  width: 1.5rem;
+  height: 1.5rem;
 }

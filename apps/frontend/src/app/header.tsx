@@ -48,7 +48,7 @@ export default function Header(): React.ReactElement {
       if (/Windows|Macintosh|Linux/.test(ua)) {
         return "DESKTOP";
       }
-      return "Unknown";
+      return "UNKNOWN";
     })();
 
     const osInfo = (() => {
@@ -78,9 +78,25 @@ export default function Header(): React.ReactElement {
 
   return (
     <header className={styles.container}>
-      <div className={styles.home}>
+      <div className={styles.navigation}>
         <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>
-          <Underliner text="DANCING WITH LIFE" />
+          <Underliner text="HOME" />
+        </Link>
+        <span> / </span>
+        <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>
+          <Underliner text="SETTINGS" />
+        </Link>
+        <br />
+        <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>
+          <Underliner text="USER" />
+        </Link>
+        <span> / </span>
+        <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>
+          <Underliner text="LOGIN" />
+        </Link>
+        <br />
+        <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>
+          <Underliner text="SEARCH" />
         </Link>
       </div>
       <div className={styles.time}>

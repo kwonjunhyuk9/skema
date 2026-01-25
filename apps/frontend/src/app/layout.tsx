@@ -6,11 +6,11 @@ import type { Metadata } from "next";
 import { NextFont } from "next/dist/compiled/@next/font";
 import Header from "@/app/header";
 import Footer from "@/app/footer";
-import styles from "./layout.module.css"
+import styles from "./layout.module.css";
 
 export const metadata: Metadata = {
-  title: "Dancing With Life",
-  description: "A Personal Portfolio Website",
+  title: "Skema",
+  description: "A Unified Learning Support Platform",
 };
 
 const vt323: NextFont = VT323({
@@ -24,7 +24,6 @@ export default function Layout({ children }: LayoutProps): React.ReactElement {
       <body className={styles.body}>
         <Header />
         {children}
-        <Footer />
       </body>
     </html>
   );

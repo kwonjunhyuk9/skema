@@ -1,40 +1,27 @@
 .container {
-    position: relative;
+    padding: 5rem 1rem 0 1rem;
+}
 
-    padding: 80px 20px;
-    height: 100vh;
+.list {
     box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0.5rem;
+    padding-right: 100vw;
+    width: 100vw;
+    overflow: auto;
 }
 
 .title {
     position: relative;
-
     margin: 0;
-
-    font-size: 7rem;
+    font-size: 8rem;
 }
 
-.link {
-    position: relative;
-
-    margin: 1px;
-    border: 1px solid var(--cyber-white);
-    padding: 10px;
-}
-
-.description {
-    position: absolute;
-    bottom: 80px;
-
-    margin: 0;
-
-    font-size: 2rem;
-}
-
-.scrollbar {
-    position: fixed;
-    top: 50%;
-    left: 95%;
-
-    transform: translate(-50%, -50%);
+.box {
+    margin: 0.125rem;
+    border: 0.125rem solid var(--cyber-white);
+    padding: 0.5rem;
+    min-width: 20rem;
+    max-width: 20rem;
 }
