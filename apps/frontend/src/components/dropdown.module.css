@@ -1,0 +1,55 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+}
+
+.selectWrapper {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.selectWrapper::after {
+  position: absolute;
+  top: 50%;
+  right: 0.85rem;
+  transform: translateY(-50%) rotate(45deg);
+  border-right: 0.125rem solid var(--cyber-white);
+  border-bottom: 0.125rem solid var(--cyber-white);
+  width: 0.4rem;
+  height: 0.4rem;
+  content: "";
+  pointer-events: none;
+}
+
+.select {
+  appearance: none;
+  transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease;
+  border: 0.125rem solid var(--cyber-white);
+  background: transparent;
+  padding: 0.65rem 2.5rem 0.65rem 0.85rem;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: inherit;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.select:focus-visible,
+.select:hover {
+  outline: none;
+  background-color: var(--cyber-white);
+  color: var(--cyber-black);
+}
+
+.select option {
+  font-family: inherit;
+}

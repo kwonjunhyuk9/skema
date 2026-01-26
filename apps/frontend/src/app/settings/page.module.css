@@ -1,0 +1,44 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border: 0.125rem solid var(--cyber-white);
+  padding: 2rem;
+  width: min(30rem, 100%);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--cyber-gray);
+}
+
+.group {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.divider {
+  opacity: 0.3;
+  margin: 0;
+  border: 0;
+  border-top: 0.125rem solid var(--cyber-white);
+}
