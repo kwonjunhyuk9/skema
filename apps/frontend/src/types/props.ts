@@ -20,3 +20,8 @@ export interface TypeWriterProps {
 export interface UnderLinerProps {
   text: string;
 }
+
+export interface ButtonProps {
+  children: React.ReactNode;
+  className?: string;
+}

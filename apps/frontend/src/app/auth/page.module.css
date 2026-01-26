@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 0.125rem solid var(--cyber-white);
+    padding: 2rem;
+    width: min(32rem, 100%);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.title {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.subtitle {
+    margin: 0;
+    color: var(--cyber-gray);
+    font-size: 1rem;
+}
+
+.oauthList {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.oauthLink {
+    width: 100%;
+    text-align: center;
+}
+
+.footer {
+    margin: 0;
+    color: var(--cyber-gray);
+    font-size: 0.75rem;
+}

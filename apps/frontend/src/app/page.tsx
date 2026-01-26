@@ -4,29 +4,28 @@ import React, { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Scrollbar from "@/components/scrollbar";
 import Button from "@/components/button";
-import { Schema, Card } from "@/types/curriculum";
+import { Schema, Card } from "@/types/models";
 
 async function mockFetchSchemas(): Promise<Schema[]> {
   return [
-    { schema_id: 1, schema_name: "Next" },
-    { schema_id: 2, schema_name: "Nest" },
+    { schema_id: 1, schema_name: "NEXT" },
+    { schema_id: 2, schema_name: "NEST" },
   ];
 }
 
 async function mockFetchCards(): Promise<Card[]> {
   return [
-    { card_id: 101, card_name: "Ecosystem" },
-    { card_id: 102, card_name: "Habitat" },
-    { card_id: 103, card_name: "Adaptation" },
-    { card_id: 104, card_name: "Predator" },
-    { card_id: 105, card_name: "Prey" },
+    { card_id: 101, card_name: "ECOSYSTEM" },
+    { card_id: 102, card_name: "HABITAT" },
+    { card_id: 103, card_name: "PREDATOR" },
   ];
 }
 
 export default function Page(): React.ReactElement {
   const [schemas, setSchemas] = useState<Schema[]>([]);
   const [cards, setCards] = useState<Card[]>([]);
-  const pageRefs = useRef<(HTMLElement | null)[]>([]);
+  const schemaRefs = useRef<(HTMLElement | null)[]>([]);
+  const cardRefs = useRef<(HTMLElement | null)[]>([]);
 
   useEffect(() => {
     async function getPageData(): Promise<void> {
@@ -48,16 +47,22 @@ export default function Page(): React.ReactElement {
               className={styles.box}
               key={schema_id}
               ref={(el) => {
-                (pageRefs.current as (HTMLElement | null)[])[index] = el;
+                (schemaRefs.current as (HTMLElement | null)[])[index] = el;
               }}
             >
-              <h3>{schema_name}</h3>
-              <Link href={`/schema/view/${schema_name}`}>VIEW</Link>
-              <Link href={`/schema/test/${schema_name}`}>TEST</Link>
+              <h3 className={styles.cardTitle}>{schema_name}</h3>
+              <div className={styles.actions}>
+                <Button>
+                  <Link href={`/schema/${schema_id}/view`}>VIEW</Link>
+                </Button>
+                <Button>
+                  <Link href={`/schema/${schema_id}/test`}>TEST</Link>
+                </Button>
+              </div>
             </div>
           ))}
         </article>
-        <Scrollbar pageRefs={pageRefs} buttonCount={schemas.length} direction="row" />
+        <Scrollbar pageRefs={schemaRefs} buttonCount={schemas.length} direction="row" />
       </section>
 
       <section className={styles.container}>
@@ -68,16 +73,22 @@ export default function Page(): React.ReactElement {
               className={styles.box}
               key={card_id}
               ref={(el) => {
-                (pageRefs.current as (HTMLElement | null)[])[index] = el;
+                (cardRefs.current as (HTMLElement | null)[])[index] = el;
               }}
             >
-              <h3>{card_name}</h3>
-              <Link href={`/card/view/${card_name}`}>VIEW</Link>
-              <Link href={`/card/test/${card_name}`}>TEST</Link>
+              <h3 className={styles.cardTitle}>{card_name}</h3>
+              <div className={styles.actions}>
+                <Button>
+                  <Link href={`/card/${card_id}/view`}>VIEW</Link>
+                </Button>
+                <Button>
+                  <Link href={`/card/${card_id}/test`}>TEST</Link>
+                </Button>
+              </div>
             </div>
           ))}
         </article>
-        <Scrollbar pageRefs={pageRefs} buttonCount={cards.length} direction="row" />
+        <Scrollbar pageRefs={cardRefs} buttonCount={cards.length} direction="row" />
       </section>
     </main>
   );

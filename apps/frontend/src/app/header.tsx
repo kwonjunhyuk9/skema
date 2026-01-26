@@ -83,21 +83,22 @@ export default function Header(): React.ReactElement {
           <Underliner text="HOME" />
         </Link>
         <span> / </span>
-        <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>
+        <Link href="/settings" style={{ color: "inherit", textDecoration: "none" }}>
           <Underliner text="SETTINGS" />
         </Link>
         <br />
-        <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>
-          <Underliner text="USER" />
-        </Link>
-        <span> / </span>
-        <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>
+        <Link href="/auth" style={{ color: "inherit", textDecoration: "none" }}>
           <Underliner text="LOGIN" />
         </Link>
-        <br />
-        <Link href="/" style={{ color: "inherit", textDecoration: "none" }}>
-          <Underliner text="SEARCH" />
+        <span> / </span>
+        <Link href="/user" style={{ color: "inherit", textDecoration: "none" }}>
+          <Underliner text="USER" />
         </Link>
+        <br />
+        <div className={styles.searchRow}>
+          <span className={styles.searchLabel}>SEARCH:</span>
+          <input className={styles.searchInput} type="search" />
+        </div>
       </div>
       <div className={styles.time}>
         <TypeWriter text={`SYSTEM TIME: ${systemTime} UTC`} duration={3} steps={20} delay={0} />

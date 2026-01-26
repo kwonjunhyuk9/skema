@@ -1,0 +1,28 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 120ms ease, background-color 120ms ease, color 120ms ease;
+    border: 0.125rem solid var(--cyber-white);
+    padding: 0.5rem 0.75rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+}
+
+.button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button:hover,
+.button:focus-visible {
+    transform: translateY(-1px);
+    background-color: var(--cyber-white);
+    color: var(--cyber-black);
+}
+
+.button:hover a,
+.button:focus-visible a {
+    color: inherit;
+}
