@@ -1,0 +1,107 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border: 0.125rem solid var(--cyber-white);
+  padding: 2rem;
+  width: min(44rem, 100%);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--cyber-gray);
+}
+
+.divider {
+  opacity: 0.3;
+  margin: 0;
+  border: 0;
+  border-top: 0.125rem solid var(--cyber-white);
+}
+
+.chartGrid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(3rem, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+  min-height: 18rem;
+}
+
+.barGroup {
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  gap: 1rem;
+  align-items: end;
+  height: 100%;
+  min-height: 18rem;
+  text-align: center;
+}
+
+.barTrack {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  border: 0.125rem solid var(--cyber-white);
+  padding: 0.2rem;
+  height: 100%;
+  min-height: 12rem;
+  overflow: hidden;
+}
+
+.bar {
+  transition: height 0.6s ease;
+  background: var(--cyber-white);
+  width: 100%;
+  height: var(--bar-height);
+  min-height: 0.35rem;
+}
+
+.barValue {
+  font-size: 0.95rem;
+}
+
+.barLabel {
+  letter-spacing: 0.1rem;
+  color: var(--cyber-gray);
+  font-size: 0.85rem;
+}
+
+.chartFooter {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  color: var(--cyber-gray);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 720px) {
+  .chartGrid {
+    grid-template-columns: repeat(7, minmax(2.2rem, 1fr));
+    gap: 0.7rem;
+    min-height: 15rem;
+  }
+
+  .chartFooter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
