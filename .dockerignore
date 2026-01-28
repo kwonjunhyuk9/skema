@@ -1,0 +1,14 @@
+.DS_Store
+.git
+.gitignore
+.idea
+node_modules
+apps/*/node_modules
+apps/*/.next
+apps/*/dist
+coverage
+playwright-report
+test-results
+npm-debug.log
+pnpm-debug.log
+yarn-error.log

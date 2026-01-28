@@ -1,6 +1,7 @@
 {
   "name": "skema",
   "private": true,
+  "packageManager": "pnpm@9.12.3",
   "workspaces": [
     "apps/backend",
     "apps/frontend"
@@ -11,11 +12,11 @@
     "stylelint": "stylelint \"**/*.css\" --fix",
     "jest": "jest",
     "playwright": "playwright test",
-    "frontend:build": "pnpm --filter ./apps/frontend build",
     "frontend:dev": "pnpm --filter ./apps/frontend dev",
+    "frontend:build": "pnpm --filter ./apps/frontend build",
     "frontend:start": "pnpm --filter ./apps/frontend start",
-    "backend:build": "pnpm --filter ./apps/backend build",
     "backend:dev": "pnpm --filter ./apps/backend dev",
+    "backend:build": "pnpm --filter ./apps/backend build",
     "backend:start": "pnpm --filter ./apps/backend dev"
   },
   "devDependencies": {
@@ -26,6 +27,7 @@
     "eslint-config-next": "15.3.5",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-unused-imports": "^4.3.0",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
     "prettier": "^3.6.2",

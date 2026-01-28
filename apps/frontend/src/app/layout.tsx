@@ -5,7 +5,6 @@ import React from "react";
 import type { Metadata } from "next";
 import { NextFont } from "next/dist/compiled/@next/font";
 import Header from "@/app/header";
-import Footer from "@/app/footer";
 import styles from "./layout.module.css";
 
 export const metadata: Metadata = {
